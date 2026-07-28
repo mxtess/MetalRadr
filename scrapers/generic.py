@@ -25,6 +25,21 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (compatible; MetalRadr/1.0; personal use, +https://github.com/)"
 }
 
+# Pagination links (e.g. /event/page/2/, /tours/page/) aren't events.
+PAGINATION_RE = re.compile(r"/page(/\d+)?/?(?:$|\?)", re.IGNORECASE)
+
+# Nav/widget link text that sometimes ends up nearest an event link but
+# doesn't name a specific event.
+GENERIC_TITLES = {
+    "more info", "info", "view all events", "events",
+    "what's on", "whats on", "you may also be interested in",
+}
+
+
+def is_pagination_link(href: str) -> bool:
+    """True if href looks like a paginator link rather than a real event."""
+    return bool(PAGINATION_RE.search(href))
+
 
 def slug_to_title(href: str) -> str:
     """Fallback title derived from the URL slug, e.g. /event/lorna-shore/ -> 'Lorna Shore'."""
@@ -33,17 +48,24 @@ def slug_to_title(href: str) -> str:
     return slug.title()
 
 
-def nearest_heading_text(link_tag) -> str | None:
-    """Look near a link tag for a heading (h1-h4) that likely names the event."""
-    # Check preceding siblings first
-    for sib in link_tag.find_all_previous(["h1", "h2", "h3", "h4"], limit=3):
-        text = sib.get_text(strip=True)
-        if text:
-            return text
-    # Check the link's own container for a heading
+def nearest_heading_text(link_tag, event_link_pattern: str) -> str | None:
+    """Look for a heading (h1-h4) inside the link's own event-card container.
+
+    Walks up from the link only while the ancestor still represents a single
+    event, i.e. contains just this one event link. Once an ancestor contains
+    more than one link matching event_link_pattern, we've escaped into the
+    shared listing wrapper — any heading found there could belong to a
+    different card, so stop before that point instead of returning it.
+    """
     parent = link_tag.parent
     depth = 0
     while parent is not None and depth < 4:
+        matching_links = [
+            a for a in parent.find_all("a", href=True)
+            if event_link_pattern in a["href"]
+        ]
+        if len(matching_links) > 1:
+            break
         heading = parent.find(["h1", "h2", "h3", "h4"])
         if heading:
             text = heading.get_text(strip=True)
@@ -70,17 +92,23 @@ def scrape_listing_page(url: str, event_link_pattern: str, source_name: str) -> 
         href = a["href"]
         if event_link_pattern not in href:
             continue
+        if is_pagination_link(href):
+            continue
 
         # Normalize to absolute-ish key for dedup within this page
         if href in seen_urls:
             continue
         seen_urls.add(href)
 
-        title = nearest_heading_text(a) or a.get_text(strip=True) or slug_to_title(href)
+        title = (
+            nearest_heading_text(a, event_link_pattern)
+            or a.get_text(strip=True)
+            or slug_to_title(href)
+        )
 
-        # Skip obvious non-event links (nav items, "view all", etc.)
-        if title.strip().lower() in {"more info", "info", "view all events", "events"}:
-            title = slug_to_title(href)
+        # Skip obvious non-event nav/widget links (nav items, "view all", etc.)
+        if title.strip().lower() in GENERIC_TITLES:
+            continue
 
         events.append({
             "title": title,
