@@ -1,0 +1,59 @@
+# MetalRadr configuration
+# Edit this file to change what you're tracked for. No code changes needed.
+
+venues:
+  - name: "Hordern Pavilion"
+    url: "https://thehordern.com.au/event/"
+    event_link_pattern: "/event/"
+
+  - name: "Metro Theatre"
+    url: "https://www.metrotheatre.com.au/event/"
+    event_link_pattern: "/event/"
+
+  - name: "Enmore Theatre"
+    url: "https://www.enmoretheatre.com.au/event/"
+    event_link_pattern: "/event/"
+
+  - name: "Qudos Bank Arena"
+    url: "https://qudosbankarena.com.au/upcoming-events"
+    event_link_pattern: "/event"
+    # Qudos hosts sports + family shows too, so lean harder on
+    # artist/genre keyword matching for this source specifically.
+    keyword_filter_required: true
+
+promoters:
+  - name: "Destroy All Lines"
+    url: "https://www.destroyalllines.com/tours"
+    event_link_pattern: "/tours/"
+
+  - name: "Handsome Tours"
+    url: "https://www.handsometours.com/tours"
+    event_link_pattern: "/tours/"
+    # Placeholder URL — verify against the live site before enabling;
+    # Handsome Tours' site structure wasn't directly inspected during setup.
+    enabled: false
+
+# Artists you want alerts for regardless of which Sydney venue they play.
+# Matching is case-insensitive substring match against event titles.
+artists:
+  - "Tame Impala"
+  # Add more artists here, one per line.
+
+# Broader genre net — matched against genre tags where the source provides
+# them (Metro Theatre and Enmore Theatre both tag genres like Metal, Rock,
+# Alternative & Indie, Electronic, Punk & Hardcore) and against event title
+# keywords as a fallback for sources without genre tags.
+genres:
+  - "metal"
+  - "hardcore"
+  - "alternative"
+  - "rock"
+  - "indie"
+  - "electronic"
+
+# Dedup: collapse multiple dates from the same artist within this many days
+# into a single alert (e.g. Tame Impala playing 3 nights in November).
+dedup_window_days: 30
+
+# Storage of previously-seen events, so we don't re-alert daily.
+state_file: "state.json"
