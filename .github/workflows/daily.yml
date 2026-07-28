@@ -1,0 +1,34 @@
+name: MetalRadr daily check
+
+on:
+  schedule:
+    # 22:00 UTC = 8am/9am Sydney (depending on DST) — adjust to taste
+    - cron: "0 22 * * *"
+  workflow_dispatch: {}  # allows manual "Run workflow" trigger from the Actions tab
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run MetalRadr
+        env:
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+          THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
+        run: python main.py
+
+      - name: Commit updated state
+        run: |
+          git config user.name "MetalRadr bot"
+          git config user.email "actions@github.com"
+          git add state.json
+          git diff --quiet --cached || git commit -m "Update state.json [skip ci]"
+          git push
