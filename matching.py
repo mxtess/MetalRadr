@@ -82,23 +82,55 @@ def dedup_key(event: dict) -> str:
     return norm
 
 
+def seed_state(events: list[dict], state: dict) -> dict:
+    """
+    Mark every currently-scraped event URL as already-known, without
+    recording any alerts. Used by `--seed` to snapshot "everything on sale
+    today" so that a later run only flags genuinely new announcements
+    (URLs that weren't part of this snapshot).
+    """
+    known_urls = set(state.get("known_urls", []))
+    known_urls.update(e["url"] for e in events)
+    return {
+        "known_urls": sorted(known_urls),
+        "alerts": dict(state.get("alerts", {})),
+    }
+
+
 def filter_new_events(events: list[dict], state: dict, dedup_window_days: int) -> tuple[list[dict], dict]:
     """
-    Given today's scraped+classified events and the persisted state dict,
-    return (events_to_alert, updated_state).
+    Given today's scraped+classified events (matched and unmatched) and the
+    persisted state dict, return (events_to_alert, updated_state).
 
-    state shape: { dedup_key: {"last_alerted": "YYYY-MM-DD", "urls": [...]} }
+    Two layers decide what actually gets alerted:
+      1. Snapshot diff — an event URL already present in
+         state["known_urls"] was already listed as of the last scrape/seed,
+         so it's never "new", regardless of match_reason.
+      2. Same-artist-run collapsing — even a genuinely new URL is skipped
+         if we already alerted for the same dedup_key within
+         dedup_window_days, so a newly announced multi-night run still only
+         triggers one alert.
+
+    state shape:
+      {
+        "known_urls": [...],
+        "alerts": { dedup_key: {"last_alerted": "YYYY-MM-DD", "urls": [...]} }
+      }
     """
     today = datetime.utcnow().date()
+    known_urls = set(state.get("known_urls", []))
+    alerts = {k: {**v, "urls": list(v["urls"])} for k, v in state.get("alerts", {}).items()}
+
     to_alert = []
-    updated_state = dict(state)
 
     for event in events:
+        if event["url"] in known_urls:
+            continue
         if not event.get("match_reason"):
             continue
 
         key = dedup_key(event)
-        prior = updated_state.get(key)
+        prior = alerts.get(key)
 
         if prior:
             last_alerted = datetime.strptime(prior["last_alerted"], "%Y-%m-%d").date()
@@ -110,9 +142,17 @@ def filter_new_events(events: list[dict], state: dict, dedup_window_days: int) -
                 continue
 
         to_alert.append(event)
-        updated_state[key] = {
+        alerts[key] = {
             "last_alerted": today.isoformat(),
             "urls": [event["url"]],
         }
 
+    # Every URL seen today (matched or not) is "known" from here on, so
+    # tomorrow's diff only flags what's genuinely new.
+    known_urls.update(e["url"] for e in events)
+
+    updated_state = {
+        "known_urls": sorted(known_urls),
+        "alerts": alerts,
+    }
     return to_alert, updated_state

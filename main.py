@@ -15,7 +15,7 @@ import sys
 import yaml
 
 from scrapers.generic import scrape_venue, scrape_promoter
-from matching import classify, filter_new_events
+from matching import classify, filter_new_events, seed_state
 from threads_client import ThreadsClient, format_post
 from report import render_report
 
@@ -59,12 +59,22 @@ def scrape_all(config: dict) -> list[dict]:
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument(
+    group = parser.add_mutually_exclusive_group()
+    group.add_argument(
         "--preview",
         action="store_true",
         help="Generate preview.html instead of posting to Threads. "
              "Does not touch state.json, so it's safe to run repeatedly "
-             "while you're checking scrape/match quality.",
+             "while you're checking scrape/match quality. Shows only what "
+             "would alert given the currently saved state.json snapshot.",
+    )
+    group.add_argument(
+        "--seed",
+        action="store_true",
+        help="Scrape everything currently listed and record it in "
+             "state.json as already-known, without alerting on any of it. "
+             "Run this once before your first real daily run so today's "
+             "already-on-sale shows aren't all treated as new announcements.",
     )
     args = parser.parse_args()
 
@@ -74,17 +84,26 @@ def main():
     venue_names = {v["name"] for v in config["venues"]}
     raw_events = scrape_all(config)
 
+    if args.seed:
+        updated_state = seed_state(raw_events, state)
+        save_state(config["state_file"], updated_state)
+        print(f"Seeded state.json with {len(raw_events)} currently-listed events. "
+              f"Nothing was posted or alerted; future runs will only alert on "
+              f"event URLs not in this snapshot.")
+        return
+
     classified = [
         classify(e, config["artists"], config["genres"], venue_names)
         for e in raw_events
     ]
 
     if args.preview:
-        render_report(classified, path="preview.html")
-        matched_count = len([e for e in classified if e.get("match_reason")])
-        print(f"Preview written to preview.html — {matched_count} would-be alerts "
-              f"out of {len(classified)} scraped events. Nothing was posted, "
-              f"nothing was saved to state.json.")
+        to_alert, _ = filter_new_events(classified, state, config["dedup_window_days"])
+        render_report(classified, to_alert, path="preview.html")
+        print(f"Preview written to preview.html — {len(to_alert)} would-be alerts "
+              f"out of {len(classified)} scraped events, compared against the "
+              f"last saved state.json. Nothing was posted, nothing was saved "
+              f"to state.json.")
         return
 
     to_alert, updated_state = filter_new_events(
@@ -104,10 +123,17 @@ def main():
             print(f"Posted ({event['match_reason']}): {event['title']} -> {post_id}")
         except Exception as e:
             print(f"[error] failed to post '{event['title']}': {e}", file=sys.stderr)
-            # Don't record it as alerted if the post failed, so it's retried tomorrow.
-            key_to_remove = [k for k, v in updated_state.items() if event["url"] in v["urls"]]
+            # Don't record it as alerted or already-known if the post failed,
+            # so it's retried tomorrow rather than silently swallowed by the
+            # snapshot diff or the dedup window.
+            updated_state["known_urls"] = [
+                u for u in updated_state["known_urls"] if u != event["url"]
+            ]
+            key_to_remove = [
+                k for k, v in updated_state["alerts"].items() if event["url"] in v["urls"]
+            ]
             for k in key_to_remove:
-                del updated_state[k]
+                del updated_state["alerts"][k]
 
     save_state(config["state_file"], updated_state)
 

@@ -17,8 +17,29 @@ instead of a separate app.
      matched anywhere.
    - **Genre match** — a broader keyword net (`config.yaml`), for
      promoter sources that aren't tied to your 4 venues.
-4. New matches are deduped against `state.json` so the same artist run
-   (multiple nights) only triggers one post, then posted to Threads.
+4. Matches are filtered against `state.json`: only event URLs that
+   weren't already in the last saved snapshot count as "new" (see
+   "Snapshot diffing" below), and those new matches are further deduped
+   so the same artist run (multiple nights) only triggers one post,
+   then posted to Threads.
+
+## Snapshot diffing
+
+`state.json` tracks every event URL MetalRadr has ever seen
+(`known_urls`), not just the ones it alerted on. A run only alerts on
+URLs that are genuinely new since the last saved snapshot — currently
+on-sale shows that were already listed yesterday don't get re-alerted
+just because state.json didn't exist yet or got reset.
+
+Before your first real daily run, seed the state so today's
+already-on-sale shows aren't all treated as new announcements:
+```bash
+python main.py --seed
+```
+This scrapes everything currently listed and records it as
+already-known, without posting or alerting on anything. From then on,
+the daily run (and `--preview`) only surface event URLs that weren't
+part of the last snapshot.
 
 ## One-time setup
 
@@ -56,6 +77,8 @@ In your repo: Settings → Secrets and variables → Actions, add:
 pip install -r requirements.txt
 export THREADS_ACCESS_TOKEN=...
 export THREADS_USER_ID=...
+python main.py --seed   # snapshot everything on sale today, don't alert
+python main.py --preview  # sanity-check what a real run would alert on
 python main.py
 ```
 Check the printed output for scrape warnings — if a site's markup has

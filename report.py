@@ -41,9 +41,10 @@ def _event_row(event: dict) -> str:
     """
 
 
-def render_report(classified_events: list[dict], path: str = "preview.html") -> None:
-    matched = [e for e in classified_events if e.get("match_reason")]
-    unmatched = [e for e in classified_events if not e.get("match_reason")]
+def render_report(classified_events: list[dict], to_alert: list[dict], path: str = "preview.html") -> None:
+    matched = to_alert
+    matched_urls = {e["url"] for e in matched}
+    unmatched = [e for e in classified_events if e["url"] not in matched_urls]
 
     matched_html = "\n".join(_event_row(e) for e in matched) or "<p>No matches found.</p>"
     unmatched_html = "\n".join(_event_row(e) for e in unmatched) or "<p>Nothing filtered out.</p>"
@@ -71,12 +72,12 @@ def render_report(classified_events: list[dict], path: str = "preview.html") -> 
 </head>
 <body>
   <h1>MetalRadr — preview run</h1>
-  <div class="generated">Generated {generated_at} · not posted anywhere, this is a dry run</div>
+  <div class="generated">Generated {generated_at} · not posted anywhere, this is a dry run · compared against the currently saved state.json snapshot</div>
 
   <h2>Would alert on Threads ({len(matched)})</h2>
   {matched_html}
 
-  <h2>Filtered out ({len(unmatched)})</h2>
+  <h2>Filtered out — no match, already known, or recently alerted ({len(unmatched)})</h2>
   {unmatched_html}
 </body>
 </html>
