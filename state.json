@@ -1,5 +1,6 @@
 {
   "alerts": {},
+  "artist_genre_cache": {},
   "known_urls": [
     "https://afterpayarena.com.au/event-calendar",
     "https://afterpayarena.com.au/event/5-seconds-of-summer",
@@ -42,6 +43,16 @@
     "https://afterpayarena.com.au/event/xg",
     "https://afterpayarena.com.au/event/zara-larsson",
     "https://qudosbankarena.com.au/event-calendar",
+    "https://www.arc.unsw.edu.au/roundhouse/events/anastasia-all-ages",
+    "https://www.arc.unsw.edu.au/roundhouse/events/bingo-loco-aug-8",
+    "https://www.arc.unsw.edu.au/roundhouse/events/club-angel-18and",
+    "https://www.arc.unsw.edu.au/roundhouse/events/health-australia-2-0-2-6-18and",
+    "https://www.arc.unsw.edu.au/roundhouse/events/klangkuenstler-18and",
+    "https://www.arc.unsw.edu.au/roundhouse/events/mico-18and",
+    "https://www.arc.unsw.edu.au/roundhouse/events/odd-mob-18and",
+    "https://www.arc.unsw.edu.au/roundhouse/events/paleface-swiss",
+    "https://www.arc.unsw.edu.au/roundhouse/events/sunset-bros-present-dimension-18and",
+    "https://www.arc.unsw.edu.au/roundhouse/events/the-gilsons",
     "https://www.destroyalllines.com/tours/abc",
     "https://www.destroyalllines.com/tours/against-the-current-2027",
     "https://www.destroyalllines.com/tours/ashanti",
