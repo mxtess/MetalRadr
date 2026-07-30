@@ -13,6 +13,9 @@ Runs automatically via .github/workflows/daily.yml
 import argparse
 import json
 import sys
+from datetime import datetime
+from zoneinfo import ZoneInfo
+
 import yaml
 
 from scrapers.generic import scrape_venue, scrape_promoter
@@ -38,6 +41,10 @@ def load_state(path: str) -> dict:
 def save_state(path: str, state: dict) -> None:
     with open(path, "w") as f:
         json.dump(state, f, indent=2, sort_keys=True)
+
+
+def sydney_now() -> datetime:
+    return datetime.now(ZoneInfo("Australia/Sydney"))
 
 
 def forget_event(state: dict, event: dict) -> None:
@@ -99,6 +106,17 @@ def main():
              "switch back once that's ready.",
     )
     args = parser.parse_args()
+
+    if not args.preview:
+        # The workflow fires at both 20:00 and 21:00 UTC to cover 7am Sydney
+        # across AEST/AEDT without needing manual cron changes at DST
+        # transitions — only the one that actually lands at 7am should do
+        # anything.
+        now = sydney_now()
+        if now.hour != 7:
+            print(f"Skipping run — local time in Sydney is {now:%H:%M} "
+                  f"({now.tzname()}), not 7am.")
+            return
 
     config = load_config()
     state = load_state(config["state_file"])

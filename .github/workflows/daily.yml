@@ -2,8 +2,12 @@ name: MetalRadr daily check
 
 on:
   schedule:
-    # 22:00 UTC = 8am/9am Sydney (depending on DST) — adjust to taste
-    - cron: "0 22 * * *"
+    # Fires twice to cover 7am Sydney across both AEST (UTC+10) and AEDT
+    # (UTC+11) without needing manual cron changes at DST transitions.
+    # main.py itself checks the actual Sydney-local hour and no-ops the
+    # run that doesn't land on 7am, so only one of these does anything.
+    - cron: "0 20 * * *"
+    - cron: "0 21 * * *"
   workflow_dispatch: {}  # allows manual "Run workflow" trigger from the Actions tab
 
 jobs:

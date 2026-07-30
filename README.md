@@ -9,7 +9,14 @@ back to once that's sorted (see "Alert channels" below).
 
 ## How it works
 
-1. `main.py` runs once a day (via GitHub Actions cron).
+1. `main.py` runs once a day (via GitHub Actions cron), aiming for
+   7am Sydney time. The workflow actually fires twice — 20:00 and
+   21:00 UTC — to cover 7am across both AEST and AEDT without needing
+   manual cron edits at DST transitions; `main.py` itself checks the
+   real Sydney-local hour with `zoneinfo` and no-ops (no scraping, no
+   sending) on whichever firing doesn't land on 7am. This check only
+   applies to real/seed runs — `--preview` always runs regardless of
+   time of day.
 2. It scrapes each venue/promoter's public listings page (no API, no
    login — just reading the public page, same as a browser would).
 3. Every event is checked against:
