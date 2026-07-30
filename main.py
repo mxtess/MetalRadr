@@ -105,9 +105,16 @@ def main():
              "Threads API setup is on hold; pass --channel threads to "
              "switch back once that's ready.",
     )
+    parser.add_argument(
+        "--force",
+        action="store_true",
+        help="Bypass the Sydney 7am time gate. Useful for manually running "
+             "a real run or --seed on demand without waiting for the "
+             "scheduled window; the daily cron never needs this.",
+    )
     args = parser.parse_args()
 
-    if not args.preview:
+    if not args.preview and not args.force:
         # The workflow fires at both 20:00 and 21:00 UTC to cover 7am Sydney
         # across AEST/AEDT without needing manual cron changes at DST
         # transitions — only the one that actually lands at 7am should do

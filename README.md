@@ -16,7 +16,8 @@ back to once that's sorted (see "Alert channels" below).
    real Sydney-local hour with `zoneinfo` and no-ops (no scraping, no
    sending) on whichever firing doesn't land on 7am. This check only
    applies to real/seed runs — `--preview` always runs regardless of
-   time of day.
+   time of day. Pass `--force` to bypass the time gate for a manual
+   real run or `--seed` on demand (the daily cron never needs this).
 2. It scrapes each venue/promoter's public listings page (no API, no
    login — just reading the public page, same as a browser would).
 3. Every event is checked against:
