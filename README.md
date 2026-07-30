@@ -18,6 +18,8 @@ back to once that's sorted (see "Alert channels" below).
    applies to real/seed runs — `--preview` always runs regardless of
    time of day. Pass `--force` to bypass the time gate for a manual
    real run or `--seed` on demand (the daily cron never needs this).
+   The GitHub Actions "Run workflow" button has a matching `force`
+   checkbox for the same purpose when testing from the Actions tab.
 2. It scrapes each venue/promoter's public listings page (no API, no
    login — just reading the public page, same as a browser would).
 3. Every event is checked against:
