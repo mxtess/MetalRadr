@@ -2,7 +2,8 @@
 MetalRadr — daily entry point.
 
 Scrapes the configured venues + promoters, matches against your artist
-list / genre net, dedups against state.json, posts new hits to Threads,
+list / genre net, dedups against state.json, sends new hits via the
+configured --channel (email by default, threads once that's set up),
 and saves updated state.
 
 Run manually with:  python main.py
@@ -17,6 +18,7 @@ import yaml
 from scrapers.generic import scrape_venue, scrape_promoter
 from matching import classify, filter_new_events, seed_state
 from threads_client import ThreadsClient, format_post
+from email_client import EmailClient
 from report import render_report
 
 
@@ -36,6 +38,18 @@ def load_state(path: str) -> dict:
 def save_state(path: str, state: dict) -> None:
     with open(path, "w") as f:
         json.dump(state, f, indent=2, sort_keys=True)
+
+
+def forget_event(state: dict, event: dict) -> None:
+    """
+    Undo bookkeeping for an event whose alert didn't actually go out, so
+    it's retried on the next run instead of silently swallowed by the
+    snapshot diff or the dedup window.
+    """
+    state["known_urls"] = [u for u in state["known_urls"] if u != event["url"]]
+    key_to_remove = [k for k, v in state["alerts"].items() if event["url"] in v["urls"]]
+    for k in key_to_remove:
+        del state["alerts"][k]
 
 
 def scrape_all(config: dict) -> list[dict]:
@@ -76,6 +90,14 @@ def main():
              "Run this once before your first real daily run so today's "
              "already-on-sale shows aren't all treated as new announcements.",
     )
+    parser.add_argument(
+        "--channel",
+        choices=["threads", "email"],
+        default="email",
+        help="Where to send new-show alerts. Defaults to email while "
+             "Threads API setup is on hold; pass --channel threads to "
+             "switch back once that's ready.",
+    )
     args = parser.parse_args()
 
     config = load_config()
@@ -115,25 +137,28 @@ def main():
         save_state(config["state_file"], updated_state)
         return
 
-    client = ThreadsClient()
-    for event in to_alert:
-        post_body = format_post(event)
+    if args.channel == "threads":
+        client = ThreadsClient()
+        for event in to_alert:
+            post_body = format_post(event)
+            try:
+                post_id = client.post_text(post_body)
+                print(f"Posted ({event['match_reason']}): {event['title']} -> {post_id}")
+            except Exception as e:
+                print(f"[error] failed to post '{event['title']}': {e}", file=sys.stderr)
+                forget_event(updated_state, event)
+    else:
+        client = EmailClient()
         try:
-            post_id = client.post_text(post_body)
-            print(f"Posted ({event['match_reason']}): {event['title']} -> {post_id}")
+            client.send_digest(to_alert)
+            print(f"Emailed digest of {len(to_alert)} new show(s) to {client.to_addr}")
         except Exception as e:
-            print(f"[error] failed to post '{event['title']}': {e}", file=sys.stderr)
-            # Don't record it as alerted or already-known if the post failed,
-            # so it's retried tomorrow rather than silently swallowed by the
-            # snapshot diff or the dedup window.
-            updated_state["known_urls"] = [
-                u for u in updated_state["known_urls"] if u != event["url"]
-            ]
-            key_to_remove = [
-                k for k, v in updated_state["alerts"].items() if event["url"] in v["urls"]
-            ]
-            for k in key_to_remove:
-                del updated_state["alerts"][k]
+            print(f"[error] failed to send alert email: {e}", file=sys.stderr)
+            # The digest is a single send, so if it failed nothing in it
+            # actually reached anyone — forget all of them so they're
+            # retried tomorrow instead of silently dropped.
+            for event in to_alert:
+                forget_event(updated_state, event)
 
     save_state(config["state_file"], updated_state)
 
