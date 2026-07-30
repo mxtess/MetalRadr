@@ -158,18 +158,27 @@ GitHub API, or just calendar-remind yourself every ~45 days.
   URL pattern and grabs the nearest heading as the title. This is
   robust to most WordPress/Webflow event listing layouts but hasn't
   been tested against live HTML — sanity-check the first day's output.
-- **Qudos/Afterpay Arena**: this page mixes concerts with sports and
-  family shows, so `keyword_filter_required` is set for it — you may
-  want stricter matching here than for the music-dedicated venues.
+- **Afterpay Arena** (rebranded from Qudos Bank Arena —
+  `qudosbankarena.com.au` now 301-redirects to `afterpayarena.com.au`):
+  this page mixes concerts with sports and family shows, so
+  `keyword_filter_required` is set for it — but note that flag isn't
+  actually read by `matching.classify()` yet, so today every Afterpay
+  Arena event still counts as a venue match like the music-only
+  venues. Tighten `classify()` if you want it enforced.
 - **Handsome Tours**: disabled by default until you confirm its actual
   tours page URL and that the generic scraper picks up titles cleanly.
-- **Date extraction**: `extract_event_date()` reads the schema.org
-  Event JSON-LD (`startDate`) that the Century Venues WordPress sites
-  (Metro/Enmore Theatre) embed on each event's own page — reliable
-  where present. Sources without that structured data (Destroy All
-  Lines' free-text tour pages, and Qudos/Afterpay's `/event-calendar`
-  matches, which are the calendar page itself rather than a single
-  event — see above) fall back to no date rather than guessing; the
-  alert still goes out, just without a date. Check `--preview` output
+- **Date extraction**: `extract_event_date()` tries, in order: (1) the
+  schema.org Event JSON-LD `startDate` that the Century Venues
+  WordPress sites (Metro/Enmore Theatre) embed on each event's own
+  page, (2) a `<time datetime>` tag, (3) a "DATE" label followed by a
+  "Weekday D Month YYYY" string (Afterpay Arena's event pages — a
+  multi-night run compresses into one string there too, e.g. "Monday
+  19, Tuesday 20 & Wednesday 21 October 2026", and only the first day
+  is kept). A handful of Afterpay events don't fit even that — a
+  relocated show with "Relocated" instead of a date, one missing its
+  year, a season pass listing "2026/2027 Season" — these fall back to
+  no date rather than guessing wrong. Destroy All Lines' free-text
+  tour pages have no structured date at all. Either way the alert
+  still goes out, just without a date — check `--preview` output
   ("date not found" in the meta line) if a source you expect to have
   dates doesn't.

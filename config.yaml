@@ -14,11 +14,15 @@ venues:
     url: "https://www.enmoretheatre.com.au/event/"
     event_link_pattern: "/event/"
 
-  - name: "Qudos Bank Arena"
-    url: "https://qudosbankarena.com.au/upcoming-events"
-    event_link_pattern: "/event"
-    # Qudos hosts sports + family shows too, so lean harder on
-    # artist/genre keyword matching for this source specifically.
+  - name: "Afterpay Arena"
+    # Rebranded from Qudos Bank Arena — qudosbankarena.com.au now
+    # 301-redirects here. The venue's own "/upcoming-events" page is a
+    # news/blog listing, not the real event list; "/event-calendar" is
+    # the actual events page, with clean /event/<slug> links per show.
+    url: "https://afterpayarena.com.au/event-calendar"
+    event_link_pattern: "/event/"
+    # Hosts sports + family shows too, so lean harder on artist/genre
+    # keyword matching for this source specifically.
     keyword_filter_required: true
 
 promoters:

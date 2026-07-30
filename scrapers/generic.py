@@ -3,18 +3,21 @@ Generic scraper for venue / promoter "what's on" listing pages.
 
 Design note: these sites are built on a handful of different platforms
 (WordPress event plugins for the Century Venues / Playbill venues,
-Webflow for Destroy All Lines, something custom for Qudos/Afterpay).
-Rather than hand-write a brittle CSS selector per site, this scraper
-looks for the one thing they all reliably have in common: a link whose
-href matches the source's event_link_pattern (e.g. "/event/" or
-"/tours/"). It then walks up/backwards through the DOM to find the
-nearest heading-like text to use as the event title.
+Webflow for Destroy All Lines, a WordPress theme with a custom event
+template for Afterpay Arena). Rather than hand-write a brittle CSS
+selector per site, this scraper looks for the one thing they all
+reliably have in common: a link whose href matches the source's
+event_link_pattern (e.g. "/event/" or "/tours/"). It then walks
+up/backwards through the DOM to find the nearest heading-like text to
+use as the event title.
 
 This is deliberately resilient-but-approximate. The first time you run
 this against a real source, sanity-check a few titles against the live
 page — if a site's markup doesn't put a heading near the event link,
-you'll need to add a small custom parser for that one source (see
-qudos_arena() below for an example of a source-specific override).
+or its event_link_pattern turns out to also match a nav/listing page
+(see GENERIC_SLUGS below), you'll need to adjust that source's config
+or, if the site is structured too differently, write a small
+source-specific parser instead of forcing it through this one.
 """
 
 import json
@@ -101,16 +104,49 @@ def _parse_iso_date(value: str) -> str | None:
     return f"{dt:%b} {dt.day}, {dt.year}"
 
 
+_MONTH_NAMES = (
+    "January|February|March|April|May|June|"
+    "July|August|September|October|November|December"
+)
+_TRAILING_MONTH_YEAR_RE = re.compile(rf"({_MONTH_NAMES})\s+(\d{{4}})\s*$")
+_DAY_NUMBER_RE = re.compile(r"\b(\d{1,2})\b")
+
+
+def _parse_display_date(text: str) -> str | None:
+    """
+    Parse "Weekday D Month YYYY" style display dates, e.g. Afterpay Arena's
+    "Thursday 10 September 2026". Multi-night runs are compressed into one
+    string there, e.g. "Monday 19, Tuesday 20 & Wednesday 21 October 2026"
+    — only the first day is kept, matching the "one alert per run" rule
+    applied to multi-listing runs elsewhere.
+    """
+    month_year_match = _TRAILING_MONTH_YEAR_RE.search(text)
+    if not month_year_match:
+        return None
+    day_match = _DAY_NUMBER_RE.search(text)
+    if not day_match:
+        return None
+    month_name, year = month_year_match.groups()
+    try:
+        dt = datetime.strptime(f"{day_match.group(1)} {month_name} {year}", "%d %B %Y")
+    except ValueError:
+        return None
+    return f"{dt:%b} {dt.day}, {dt.year}"
+
+
 def extract_event_date(url: str) -> str | None:
     """
     Fetch a single event's own page and pull its date. Listing pages don't
     reliably show a date next to each event card, but individual event
-    pages on these sites (the WordPress event plugin used by the Century
-    Venues) embed a schema.org Event JSON-LD block with a startDate — that's
-    checked first as the reliable source. Falls back to a <time datetime>
-    tag for sites that expose one. Returns None if neither is found (e.g.
-    Destroy All Lines' tour pages are free-text prose with no structured
-    date), so callers should treat a missing date as expected, not an error.
+    pages usually do, via one of (checked in order):
+      1. A schema.org Event JSON-LD block with startDate (Century Venues'
+         WordPress sites — Metro/Enmore Theatre).
+      2. A <time datetime> tag.
+      3. A "DATE" label (any heading tag) followed by a sibling holding a
+         "Weekday D Month YYYY" string (Afterpay Arena).
+    Returns None if none of these are found (e.g. Destroy All Lines' tour
+    pages are free-text prose with no structured date), so callers should
+    treat a missing date as expected, not an error.
     """
     try:
         resp = requests.get(url, headers=HEADERS, timeout=20)
@@ -137,6 +173,26 @@ def extract_event_date(url: str) -> str | None:
         parsed = _parse_iso_date(time_tag["datetime"])
         if parsed:
             return parsed
+
+    date_label = soup.find(
+        ["h1", "h2", "h3", "h4", "h5", "h6", "strong", "span", "dt"],
+        string=lambda s: s and s.strip().upper() == "DATE",
+    )
+    if date_label:
+        # The label itself may be wrapped in an inline tag (e.g. <h4><strong>
+        # DATE</strong></h4>) — find_next_sibling on the label's own tag
+        # would look inside <h4>, not after it, so walk up to the block-level
+        # container the label's text actually belongs to first.
+        container = date_label
+        while container.parent is not None and container.name not in (
+            "h1", "h2", "h3", "h4", "h5", "h6", "dt", "li", "div",
+        ):
+            container = container.parent
+        value_tag = container.find_next_sibling()
+        if value_tag:
+            parsed = _parse_display_date(value_tag.get_text(" ", strip=True))
+            if parsed:
+                return parsed
 
     return None
 
