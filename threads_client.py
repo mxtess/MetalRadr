@@ -71,7 +71,12 @@ def format_post(event: dict) -> str:
     }
     label = reason_labels.get(event["match_reason"])
 
-    lines = [event["title"].strip(), f"via {event['source']}"]
+    headline = event["title"].strip()
+    if event.get("date"):
+        headline += f" — {event['date']}"
+    headline += f" — via {event['source']}"
+
+    lines = [headline]
     if label:
         lines.append(label)
     lines.append(event["url"])

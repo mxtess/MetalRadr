@@ -51,8 +51,11 @@ def format_subject(events: list[dict]) -> str:
 
 def format_digest(events: list[dict]) -> str:
     """Build the plaintext email body listing each new event."""
-    blocks = [
-        f"{event['title'].strip()}\n{event['source']}\n{event['url']}"
-        for event in events
-    ]
+    blocks = []
+    for event in events:
+        headline = event["title"].strip()
+        if event.get("date"):
+            headline += f" — {event['date']}"
+        headline += f" — via {event['source']}"
+        blocks.append(f"{headline}\n{event['url']}")
     return "\n\n".join(blocks)

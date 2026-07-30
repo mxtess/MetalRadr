@@ -28,11 +28,16 @@ back to once that's sorted (see "Alert channels" below).
      matched anywhere.
    - **Genre match** — a broader keyword net (`config.yaml`), for
      promoter sources that aren't tied to your 4 venues.
-4. Matches are filtered against `state.json`: only event URLs that
+4. Each event that passes the match filter gets one extra request to
+   its own event page to pull the show's date (listing pages don't
+   reliably show one) — see "Known rough edges" below for where this
+   can come up empty.
+5. Matches are filtered against `state.json`: only event URLs that
    weren't already in the last saved snapshot count as "new" (see
    "Snapshot diffing" below), and those new matches are further deduped
-   so the same artist run (multiple nights) only triggers one alert,
-   then sent via the configured alert channel (see "Alert channels").
+   so the same artist run (multiple nights) only triggers one alert
+   (using the first night's date), then sent via the configured alert
+   channel (see "Alert channels").
 
 ## Alert channels
 
@@ -40,8 +45,8 @@ back to once that's sorted (see "Alert channels" below).
 `--channel`:
 
 - `email` (default) — sends **one digest email per run** listing every
-  new match (title, venue/source, link) via Gmail SMTP. This is the
-  active default while Threads API setup is on hold.
+  new match (title, date, venue/source, link) via Gmail SMTP. This is
+  the active default while Threads API setup is on hold.
 - `threads` — posts **one Threads post per new match** via the Threads
   API. Fully implemented, just needs the Meta app setup below before
   it'll work — pass `--channel threads` (or update `daily.yml`) once
@@ -158,3 +163,13 @@ GitHub API, or just calendar-remind yourself every ~45 days.
   want stricter matching here than for the music-dedicated venues.
 - **Handsome Tours**: disabled by default until you confirm its actual
   tours page URL and that the generic scraper picks up titles cleanly.
+- **Date extraction**: `extract_event_date()` reads the schema.org
+  Event JSON-LD (`startDate`) that the Century Venues WordPress sites
+  (Metro/Enmore Theatre) embed on each event's own page — reliable
+  where present. Sources without that structured data (Destroy All
+  Lines' free-text tour pages, and Qudos/Afterpay's `/event-calendar`
+  matches, which are the calendar page itself rather than a single
+  event — see above) fall back to no date rather than guessing; the
+  alert still goes out, just without a date. Check `--preview` output
+  ("date not found" in the meta line) if a source you expect to have
+  dates doesn't.

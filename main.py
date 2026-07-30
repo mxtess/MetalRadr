@@ -18,7 +18,7 @@ from zoneinfo import ZoneInfo
 
 import yaml
 
-from scrapers.generic import scrape_venue, scrape_promoter
+from scrapers.generic import scrape_venue, scrape_promoter, extract_event_date
 from matching import classify, filter_new_events, seed_state
 from threads_client import ThreadsClient, format_post
 from email_client import EmailClient
@@ -57,6 +57,18 @@ def forget_event(state: dict, event: dict) -> None:
     key_to_remove = [k for k, v in state["alerts"].items() if event["url"] in v["urls"]]
     for k in key_to_remove:
         del state["alerts"][k]
+
+
+def attach_dates(classified_events: list[dict]) -> None:
+    """
+    Fetch each matched event's own page for its date (listing pages don't
+    show one). Only called for events that passed the venue/artist/genre
+    match filter, so this is one extra request per match rather than one
+    per scraped event.
+    """
+    for event in classified_events:
+        if event.get("match_reason"):
+            event["date"] = extract_event_date(event["url"])
 
 
 def scrape_all(config: dict) -> list[dict]:
@@ -143,6 +155,7 @@ def main():
         classify(e, config["artists"], config["genres"], venue_names)
         for e in raw_events
     ]
+    attach_dates(classified)
 
     if args.preview:
         to_alert, _ = filter_new_events(classified, state, config["dedup_window_days"])

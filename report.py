@@ -32,11 +32,19 @@ def _event_row(event: dict) -> str:
     elif event.get("matched_genre"):
         extra = f" — matched genre: {html.escape(event['matched_genre'])}"
 
+    meta = html.escape(event["source"])
+    if event.get("date"):
+        meta += f" · {html.escape(event['date'])}"
+    elif reason:
+        # Date was attempted (this event passed the match filter) but not found.
+        meta += " · date not found"
+    meta += extra
+
     return f"""
     <div class="event">
       <span class="tag" style="background:{color}">{html.escape(label)}</span>
       <a href="{html.escape(event['url'])}" target="_blank">{html.escape(event['title'])}</a>
-      <div class="meta">{html.escape(event['source'])}{extra}</div>
+      <div class="meta">{meta}</div>
     </div>
     """
 

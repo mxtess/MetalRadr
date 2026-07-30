@@ -17,7 +17,10 @@ you'll need to add a small custom parser for that one source (see
 qudos_arena() below for an example of a source-specific override).
 """
 
+import json
 import re
+from datetime import datetime
+
 import requests
 from bs4 import BeautifulSoup
 
@@ -73,6 +76,55 @@ def nearest_heading_text(link_tag, event_link_pattern: str) -> str | None:
                 return text
         parent = parent.parent
         depth += 1
+    return None
+
+
+def _parse_iso_date(value: str) -> str | None:
+    """Parse an ISO 8601 datetime string into a short display date, e.g. 'Feb 14, 2027'."""
+    try:
+        dt = datetime.fromisoformat(value)
+    except (TypeError, ValueError):
+        return None
+    return f"{dt:%b} {dt.day}, {dt.year}"
+
+
+def extract_event_date(url: str) -> str | None:
+    """
+    Fetch a single event's own page and pull its date. Listing pages don't
+    reliably show a date next to each event card, but individual event
+    pages on these sites (the WordPress event plugin used by the Century
+    Venues) embed a schema.org Event JSON-LD block with a startDate — that's
+    checked first as the reliable source. Falls back to a <time datetime>
+    tag for sites that expose one. Returns None if neither is found (e.g.
+    Destroy All Lines' tour pages are free-text prose with no structured
+    date), so callers should treat a missing date as expected, not an error.
+    """
+    try:
+        resp = requests.get(url, headers=HEADERS, timeout=20)
+        resp.raise_for_status()
+    except requests.RequestException:
+        return None
+
+    soup = BeautifulSoup(resp.text, "html.parser")
+
+    for script in soup.find_all("script", type="application/ld+json"):
+        try:
+            data = json.loads(script.string or "")
+        except (TypeError, ValueError):
+            continue
+        entries = data if isinstance(data, list) else [data]
+        for entry in entries:
+            if isinstance(entry, dict) and entry.get("@type") == "Event" and entry.get("startDate"):
+                parsed = _parse_iso_date(entry["startDate"])
+                if parsed:
+                    return parsed
+
+    time_tag = soup.find("time", datetime=True)
+    if time_tag:
+        parsed = _parse_iso_date(time_tag["datetime"])
+        if parsed:
+            return parsed
+
     return None
 
 
