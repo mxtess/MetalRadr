@@ -19,7 +19,7 @@ from zoneinfo import ZoneInfo
 import yaml
 
 from scrapers.generic import scrape_venue, scrape_promoter, extract_event_date
-from matching import classify, filter_new_events, seed_state
+from matching import classify, filter_new_events, seed_state, matches_genre_via_musicbrainz
 from threads_client import ThreadsClient, format_post
 from email_client import EmailClient
 from report import render_report
@@ -57,6 +57,23 @@ def forget_event(state: dict, event: dict) -> None:
     key_to_remove = [k for k, v in state["alerts"].items() if event["url"] in v["urls"]]
     for k in key_to_remove:
         del state["alerts"][k]
+
+
+def attach_genre_matches(classified_events: list[dict], genres: list[str], genre_cache: dict) -> None:
+    """
+    Fallback for events that still have no match_reason after classify()'s
+    venue/artist/title-keyword checks: look up the artist via MusicBrainz
+    (rate-limited, cached in genre_cache) and match its tags against the
+    genre net. Only called for events that still need it, so this doesn't
+    slow down anything that already matched via the cheap checks.
+    """
+    for event in classified_events:
+        if event.get("match_reason"):
+            continue
+        matched = matches_genre_via_musicbrainz(event, genres, genre_cache)
+        if matched:
+            event["match_reason"] = "genre"
+            event["matched_genre"] = matched
 
 
 def attach_dates(classified_events: list[dict]) -> None:
@@ -144,10 +161,12 @@ def main():
     keyword_filter_venues = {
         v["name"] for v in config["venues"] if v.get("keyword_filter_required")
     }
+    genre_cache = dict(state.get("artist_genre_cache", {}))
     raw_events = scrape_all(config)
 
     if args.seed:
         updated_state = seed_state(raw_events, state)
+        updated_state["artist_genre_cache"] = genre_cache
         save_state(config["state_file"], updated_state)
         print(f"Seeded state.json with {len(raw_events)} currently-listed events. "
               f"Nothing was posted or alerted; future runs will only alert on "
@@ -158,6 +177,7 @@ def main():
         classify(e, config["artists"], config["genres"], venue_names, keyword_filter_venues)
         for e in raw_events
     ]
+    attach_genre_matches(classified, config["genres"], genre_cache)
     attach_dates(classified)
 
     if args.preview:
@@ -172,6 +192,7 @@ def main():
     to_alert, updated_state = filter_new_events(
         classified, state, config["dedup_window_days"]
     )
+    updated_state["artist_genre_cache"] = genre_cache
 
     if not to_alert:
         print("No new matches today.")

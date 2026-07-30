@@ -43,17 +43,48 @@ artists:
   - "Tame Impala"
   # Add more artists here, one per line.
 
-# Broader genre net — matched against genre tags where the source provides
-# them (Metro Theatre and Enmore Theatre both tag genres like Metal, Rock,
-# Alternative & Indie, Electronic, Punk & Hardcore) and against event title
-# keywords as a fallback for sources without genre tags.
+# Broader genre net. Checked two ways for any event that doesn't already
+# match via venue/artist: first as a literal keyword in the event title
+# (fast, but misses acts whose name doesn't contain a genre word, e.g.
+# "Avenged Sevenfold"), then — only if that misses — via a MusicBrainz
+# artist lookup matched against this same list (see musicbrainz_client.py
+# / matching.matches_genre_via_musicbrainz).
 genres:
   - "metal"
-  - "hardcore"
-  - "alternative"
+  - "heavy metal"
+  - "alternative metal"
+  - "metalcore"
+  - "deathcore"
+  - "groove metal"
+  - "progressive metal"
+  - "gothic metal"
+  - "industrial metal"
   - "rock"
-  - "indie"
+  - "alternative rock"
+  - "hard rock"
+  - "indie rock"
+  - "garage rock"
+  - "grunge"
+  - "punk rock"
+  - "hardcore punk"
+  - "post-punk"
+  - "indie pop"
+  - "indietronica"
+  - "electropop"
+  - "synth-pop"
+  - "dream pop"
+  - "shoegaze"
   - "electronic"
+  - "electro house"
+  - "house"
+  - "french house"
+  - "nu-disco"
+  - "electroclash"
+  - "electronic rock"
+  - "emo"
+  - "math rock"
+  - "industrial"
+  - "gothic rock"
 
 # Dedup: collapse multiple dates from the same artist within this many days
 # into a single alert (e.g. Tame Impala playing 3 nights in November).

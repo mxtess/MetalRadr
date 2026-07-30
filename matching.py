@@ -6,6 +6,8 @@ back-to-back dates for the same artist into one alert) logic.
 import re
 from datetime import datetime, timedelta
 
+import musicbrainz_client
+
 NOISE_WORDS = {
     "tickets", "ticket", "sold out", "soldout", "on sale", "onsale",
     "presale", "cancelled", "postponed", "rescheduled", "new date",
@@ -41,6 +43,36 @@ def matches_genre(event: dict, genres: list[str]) -> str | None:
     for genre in genres:
         if genre.lower() in norm_title:
             return genre
+    return None
+
+
+def matches_genre_via_musicbrainz(event: dict, genres: list[str], genre_cache: dict) -> str | None:
+    """
+    Fallback for events matches_genre() (title-keyword matching) couldn't
+    classify: look up the event's artist via MusicBrainz and check its
+    tags against the configured genre net. This catches acts whose title
+    is just their name with no genre word in it at all (e.g. "Avenged
+    Sevenfold" doesn't contain "metal"), which title-keyword matching can
+    never catch no matter how the genre list is tuned.
+
+    genre_cache maps a lowercase artist name to its previously-fetched
+    tag list and is mutated in place, so the same artist is only queried
+    once across runs rather than every day — callers are responsible for
+    persisting genre_cache back to state.json.
+    """
+    artist_name = event["title"].strip()
+    cache_key = artist_name.lower()
+
+    if cache_key in genre_cache:
+        tags = genre_cache[cache_key]
+    else:
+        tags = musicbrainz_client.lookup_artist_tags(artist_name)
+        genre_cache[cache_key] = tags
+
+    normalized_genres = {g.strip().lower() for g in genres}
+    for tag in tags:
+        if tag in normalized_genres:
+            return tag
     return None
 
 

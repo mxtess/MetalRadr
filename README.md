@@ -23,11 +23,18 @@ back to once that's sorted (see "Alert channels" below).
 2. It scrapes each venue/promoter's public listings page (no API, no
    login — just reading the public page, same as a browser would).
 3. Every event is checked against:
-   - **Venue match** — anything at your 4 venues counts, no filter needed.
+   - **Venue match** — anything at your 4 venues counts, no filter
+     needed, except venues with `keyword_filter_required: true` set
+     (Afterpay Arena, which mixes in sports/family shows) — those need
+     an artist or genre match just like promoter sources do.
    - **Artist match** — your named "must-see" list (`config.yaml`),
      matched anywhere.
    - **Genre match** — a broader keyword net (`config.yaml`), for
-     promoter sources that aren't tied to your 4 venues.
+     promoter sources and keyword-filtered venues. Checked first as a
+     literal keyword in the title (instant), then — only if that
+     misses — via a MusicBrainz artist lookup (see "Genre matching via
+     MusicBrainz" below), since most event titles are just an artist's
+     name with no genre word in it at all (e.g. "Avenged Sevenfold").
 4. Each event that passes the match filter gets one extra request to
    its own event page to pull the show's date (listing pages don't
    reliably show one) — see "Known rough edges" below for where this
@@ -38,6 +45,39 @@ back to once that's sorted (see "Alert channels" below).
    so the same artist run (multiple nights) only triggers one alert
    (using the first night's date), then sent via the configured alert
    channel (see "Alert channels").
+
+## Genre matching via MusicBrainz
+
+Title-keyword genre matching only works when a genre word literally
+appears in the event title — which almost never happens for listings
+that are just an artist's name (e.g. "Evanescence" doesn't contain
+"rock"). For any event that still has no match after venue/artist/
+title-keyword checks, `matching.matches_genre_via_musicbrainz()`
+looks the artist up via MusicBrainz's artist search
+(`musicbrainz_client.lookup_artist_tags()`) and checks its tags
+against the same `genres:` list in `config.yaml`.
+
+- **No API key needed**, but MusicBrainz requires a descriptive
+  User-Agent (set in `musicbrainz_client.py`) and enforces a strict
+  **1 request/second** rate limit, both handled client-side.
+- **Cached in `state.json`** under `artist_genre_cache` (lowercase
+  artist name → its tag list, including an empty list for "no tags
+  found" so that's cached too), so the same artist is only ever
+  queried once, not re-queried every day. This cache is only persisted
+  by real runs and `--seed` — `--preview` never touches `state.json`,
+  so repeatedly previewing re-queries MusicBrainz for the same batch
+  each time (this can take a couple of minutes, since a full scrape
+  can have 100+ artists needing a lookup on a cold cache).
+- The search endpoint's `inc=genres` param doesn't actually return a
+  curated `genres` field (only a direct MBID lookup does) — it always
+  returns `tags` instead, a broader community-tagged set that
+  includes non-genre noise (e.g. "usa", "anthemic"). That's fine here:
+  we only check membership against our own curated `genres:` list, so
+  noise tags simply never match anything.
+- Some real artists come back with no tags at all (MusicBrainz's tag
+  data is crowdsourced and incomplete) — that's a genuine data gap,
+  not a bug, and the event correctly falls back to no match rather
+  than guessing.
 
 ## Alert channels
 
@@ -158,6 +198,16 @@ GitHub API, or just calendar-remind yourself every ~45 days.
   URL pattern and grabs the nearest heading as the title. This is
   robust to most WordPress/Webflow event listing layouts but hasn't
   been tested against live HTML — sanity-check the first day's output.
+- **Destroy All Lines title extraction**: currently pulls junk text
+  (something like "touring nowpresale on nowsold out") instead of the
+  actual artist name for every event on this source — a pre-existing
+  bug, not something introduced by genre matching. Since the
+  MusicBrainz lookup (and the title-keyword check before it) both key
+  off `event["title"]`, neither can work correctly for this source
+  until that extraction is fixed separately. In practice this means
+  one wasted MusicBrainz query for that junk string (cached after the
+  first, since it's identical across all Destroy All Lines events),
+  and zero real genre matches from this source until it's fixed.
 - **Afterpay Arena** (rebranded from Qudos Bank Arena —
   `qudosbankarena.com.au` now 301-redirects to `afterpayarena.com.au`):
   this page mixes concerts with sports and family shows, so
