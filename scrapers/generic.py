@@ -134,6 +134,34 @@ def _parse_display_date(text: str) -> str | None:
     return f"{dt:%b} {dt.day}, {dt.year}"
 
 
+_WEEKDAY_DAY_MONTH_RE = re.compile(
+    r"^(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun)\s+(\d{1,2})\s+([A-Za-z]+)$"
+)
+
+
+def _parse_display_date_no_year(text: str) -> str | None:
+    """
+    Parse "Weekday DD Mon" style dates with no year at all, e.g.
+    Roundhouse's "Sat 03 Oct". Infers the year as the nearest future
+    occurrence of that month/day relative to today — these are always
+    upcoming event listings, never past ones — so "05 Feb" seen in July
+    resolves to next February, not the one that already passed.
+    """
+    match = _WEEKDAY_DAY_MONTH_RE.match(text.strip())
+    if not match:
+        return None
+    day, month_abbr = match.groups()
+    today = datetime.utcnow().date()
+    for year_guess in (today.year, today.year + 1):
+        try:
+            candidate = datetime.strptime(f"{day} {month_abbr} {year_guess}", "%d %b %Y")
+        except ValueError:
+            continue
+        if candidate.date() >= today:
+            return f"{candidate:%b} {candidate.day}, {candidate.year}"
+    return None
+
+
 def extract_event_date(url: str) -> str | None:
     """
     Fetch a single event's own page and pull its date. Listing pages don't
@@ -144,6 +172,9 @@ def extract_event_date(url: str) -> str | None:
       2. A <time datetime> tag.
       3. A "DATE" label (any heading tag) followed by a sibling holding a
          "Weekday D Month YYYY" string (Afterpay Arena).
+      4. A <p class="event-subtitle"> holding a "Weekday DD Mon" string
+         with no year at all (Roundhouse) — the year is inferred as the
+         nearest future occurrence of that month/day.
     Returns None if none of these are found (e.g. Destroy All Lines' tour
     pages are free-text prose with no structured date), so callers should
     treat a missing date as expected, not an error.
@@ -194,6 +225,12 @@ def extract_event_date(url: str) -> str | None:
             if parsed:
                 return parsed
 
+    subtitle = soup.find(class_="event-subtitle")
+    if subtitle:
+        parsed = _parse_display_date_no_year(subtitle.get_text(" ", strip=True))
+        if parsed:
+            return parsed
+
     return None
 
 
@@ -206,9 +243,12 @@ def scrape_listing_page(url: str, event_link_pattern: str, source_name: str) -> 
     resp.raise_for_status()
     soup = BeautifulSoup(resp.text, "html.parser")
 
-    seen_urls = set()
-    events = []
-
+    # Group all matching <a> tags by href (in document order) rather than
+    # just keeping the first one seen — some sites wrap the same event in
+    # multiple links (e.g. an image-only link before the text link), and
+    # picking only the first would lose a perfectly good title/heading
+    # available on a later occurrence of the same href.
+    tags_by_href: dict[str, list] = {}
     for a in soup.find_all("a", href=True):
         href = a["href"]
         if event_link_pattern not in href:
@@ -217,17 +257,22 @@ def scrape_listing_page(url: str, event_link_pattern: str, source_name: str) -> 
             continue
         if is_generic_nav_link(href):
             continue
+        tags_by_href.setdefault(href, []).append(a)
 
-        # Normalize to absolute-ish key for dedup within this page
-        if href in seen_urls:
-            continue
-        seen_urls.add(href)
-
-        title = (
-            nearest_heading_text(a, event_link_pattern)
-            or a.get_text(strip=True)
-            or slug_to_title(href)
-        )
+    events = []
+    for href, tags in tags_by_href.items():
+        title = None
+        for a in tags:
+            title = nearest_heading_text(a, event_link_pattern)
+            if title:
+                break
+        if not title:
+            for a in tags:
+                text = a.get_text(strip=True)
+                if text:
+                    title = text
+                    break
+        title = title or slug_to_title(href)
 
         # Skip obvious non-event nav/widget links (nav items, "view all", etc.)
         if title.strip().lower() in GENERIC_TITLES:

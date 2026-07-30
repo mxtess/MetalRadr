@@ -1,6 +1,6 @@
 # MetalRadr
 
-Personal alert system: watches 4 Sydney venues plus a couple of
+Personal alert system: watches 5 Sydney venues plus a couple of
 rock/metal-leaning promoters, matches against your artist list and
 genre net, and sends new show announcements your way. Threads API
 setup is currently on hold, so alerts default to a summary email; a
@@ -23,10 +23,11 @@ back to once that's sorted (see "Alert channels" below).
 2. It scrapes each venue/promoter's public listings page (no API, no
    login — just reading the public page, same as a browser would).
 3. Every event is checked against:
-   - **Venue match** — anything at your 4 venues counts, no filter
+   - **Venue match** — anything at your 5 venues counts, no filter
      needed, except venues with `keyword_filter_required: true` set
-     (Afterpay Arena, which mixes in sports/family shows) — those need
-     an artist or genre match just like promoter sources do.
+     (Afterpay Arena and Roundhouse, both of which mix in non-music
+     content) — those need an artist or genre match just like
+     promoter sources do.
    - **Artist match** — your named "must-see" list (`config.yaml`),
      matched anywhere.
    - **Genre match** — a broader keyword net (`config.yaml`), for
@@ -139,7 +140,7 @@ In your repo: Settings → Secrets and variables → Actions, add:
 ### 3. Edit `config.yaml`
 - Add your must-see artists under `artists:`
 - Adjust `genres:` if you want to broaden/narrow the net
-- The 4 venues and Destroy All Lines are pre-filled; Handsome Tours is
+- The 5 venues and Destroy All Lines are pre-filled; Handsome Tours is
   present but disabled (`enabled: false`) until its URL/structure is
   verified — flip it on once checked.
 
@@ -198,6 +199,11 @@ GitHub API, or just calendar-remind yourself every ~45 days.
   URL pattern and grabs the nearest heading as the title. This is
   robust to most WordPress/Webflow event listing layouts but hasn't
   been tested against live HTML — sanity-check the first day's output.
+  When a site wraps the same event in more than one link (e.g. an
+  image-only link before the text link — Roundhouse does this),
+  `scrape_listing_page()` checks every occurrence of that href for a
+  heading or non-empty link text before falling back to a slug-derived
+  title, rather than giving up after the first (often empty) match.
 - **Destroy All Lines title extraction**: currently pulls junk text
   (something like "touring nowpresale on nowsold out") instead of the
   actual artist name for every event on this source — a pre-existing
@@ -215,6 +221,18 @@ GitHub API, or just calendar-remind yourself every ~45 days.
   an artist or genre match for this venue specifically, same as
   promoter sources — a "venue match" alone isn't enough here like it
   is for the music-only venues.
+- **Roundhouse** (UNSW/Arc's student union venue, not a Century Venues
+  site — real event links are `/roundhouse/events/<slug>`, not
+  `/event/`): a multi-purpose venue whose listing mixes gigs and DJ
+  nights with non-music events like "Bingo Loco" (a party bingo game
+  night), so `keyword_filter_required: true` is set here too, same as
+  Afterpay Arena. Titles come through with age-restriction suffixes
+  intact (e.g. "ODD MOB | 18+") since that's the site's actual link
+  text — this occasionally affects MusicBrainz lookup accuracy (a
+  fuzzy search can return a different "top result" for slightly
+  different query strings), but stripping the suffix didn't reliably
+  improve matches in testing, so it's left as-is rather than adding
+  brittle title-cleanup heuristics.
 - **Handsome Tours**: disabled by default until you confirm its actual
   tours page URL and that the generic scraper picks up titles cleanly.
 - **Date extraction**: `extract_event_date()` tries, in order: (1) the
@@ -224,7 +242,10 @@ GitHub API, or just calendar-remind yourself every ~45 days.
   "Weekday D Month YYYY" string (Afterpay Arena's event pages — a
   multi-night run compresses into one string there too, e.g. "Monday
   19, Tuesday 20 & Wednesday 21 October 2026", and only the first day
-  is kept). A handful of Afterpay events don't fit even that — a
+  is kept), (4) a `<p class="event-subtitle">` holding a "Weekday DD
+  Mon" string with no year at all (Roundhouse) — the year is inferred
+  as the nearest future occurrence of that month/day relative to
+  today. A handful of Afterpay events don't fit even that — a
   relocated show with "Relocated" instead of a date, one missing its
   year, a season pass listing "2026/2027 Season" — these fall back to
   no date rather than guessing wrong. Destroy All Lines' free-text

@@ -25,6 +25,17 @@ venues:
     # keyword matching for this source specifically.
     keyword_filter_required: true
 
+  - name: "Roundhouse"
+    # UNSW/Arc site, not one of the Century Venues Group ones — its real
+    # event links are /roundhouse/events/<slug>, not /event/.
+    url: "https://www.arc.unsw.edu.au/roundhouse/whats-on"
+    event_link_pattern: "/roundhouse/events/"
+    # Multi-purpose student union venue — the listing itself mixes gigs
+    # and DJ nights with non-music events like "Bingo Loco" (a party
+    # bingo game night), so lean harder on artist/genre keyword matching
+    # for this source specifically, same as Afterpay Arena.
+    keyword_filter_required: true
+
 promoters:
   - name: "Destroy All Lines"
     url: "https://www.destroyalllines.com/tours"
