@@ -44,14 +44,22 @@ def matches_genre(event: dict, genres: list[str]) -> str | None:
     return None
 
 
-def classify(event: dict, artists: list[str], genres: list[str], venue_names: set[str]) -> dict:
+def classify(
+    event: dict,
+    artists: list[str],
+    genres: list[str],
+    venue_names: set[str],
+    keyword_filter_venues: set[str] = frozenset(),
+) -> dict:
     """
     Decide why (if at all) this event is worth alerting on.
-    Venue-sourced events always count (any event at one of your 4 venues).
-    Promoter-sourced events need an artist or genre match.
+    Venue-sourced events always count (any event at one of your 4 venues),
+    except venues in keyword_filter_venues (config's keyword_filter_required)
+    which mix in sports/family shows alongside gigs — those need an artist
+    or genre match just like promoter sources do.
     """
     reason = None
-    if event["source"] in venue_names:
+    if event["source"] in venue_names and event["source"] not in keyword_filter_venues:
         reason = "venue"
     artist_hit = matches_artist_list(event, artists)
     if artist_hit:

@@ -161,10 +161,10 @@ GitHub API, or just calendar-remind yourself every ~45 days.
 - **Afterpay Arena** (rebranded from Qudos Bank Arena —
   `qudosbankarena.com.au` now 301-redirects to `afterpayarena.com.au`):
   this page mixes concerts with sports and family shows, so
-  `keyword_filter_required` is set for it — but note that flag isn't
-  actually read by `matching.classify()` yet, so today every Afterpay
-  Arena event still counts as a venue match like the music-only
-  venues. Tighten `classify()` if you want it enforced.
+  `keyword_filter_required: true` makes `matching.classify()` require
+  an artist or genre match for this venue specifically, same as
+  promoter sources — a "venue match" alone isn't enough here like it
+  is for the music-only venues.
 - **Handsome Tours**: disabled by default until you confirm its actual
   tours page URL and that the generic scraper picks up titles cleanly.
 - **Date extraction**: `extract_event_date()` tries, in order: (1) the

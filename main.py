@@ -141,6 +141,9 @@ def main():
     state = load_state(config["state_file"])
 
     venue_names = {v["name"] for v in config["venues"]}
+    keyword_filter_venues = {
+        v["name"] for v in config["venues"] if v.get("keyword_filter_required")
+    }
     raw_events = scrape_all(config)
 
     if args.seed:
@@ -152,7 +155,7 @@ def main():
         return
 
     classified = [
-        classify(e, config["artists"], config["genres"], venue_names)
+        classify(e, config["artists"], config["genres"], venue_names, keyword_filter_venues)
         for e in raw_events
     ]
     attach_dates(classified)
