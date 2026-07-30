@@ -38,10 +38,23 @@ GENERIC_TITLES = {
     "what's on", "whats on", "you may also be interested in",
 }
 
+# URL slugs that are nav/listing pages rather than a specific event, even
+# when they happen to satisfy a source's event_link_pattern — e.g. Qudos's
+# event_link_pattern "/event" also matches "/event-calendar", which is the
+# calendar landing page, not a show.
+GENERIC_SLUGS = {"event", "events", "event-calendar", "calendar", "upcoming-events"}
+
 
 def is_pagination_link(href: str) -> bool:
     """True if href looks like a paginator link rather than a real event."""
     return bool(PAGINATION_RE.search(href))
+
+
+def is_generic_nav_link(href: str) -> bool:
+    """True if href's last path segment is a generic nav/listing slug, not a specific event."""
+    path = href.split("?")[0].split("#")[0]
+    slug = path.rstrip("/").split("/")[-1]
+    return slug.lower() in GENERIC_SLUGS
 
 
 def slug_to_title(href: str) -> str:
@@ -145,6 +158,8 @@ def scrape_listing_page(url: str, event_link_pattern: str, source_name: str) -> 
         if event_link_pattern not in href:
             continue
         if is_pagination_link(href):
+            continue
+        if is_generic_nav_link(href):
             continue
 
         # Normalize to absolute-ish key for dedup within this page
