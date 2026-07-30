@@ -15,6 +15,9 @@ on:
         type: boolean
         default: false
 
+permissions:
+  contents: write  # required so the "Commit updated state" step can push
+
 jobs:
   check:
     runs-on: ubuntu-latest
