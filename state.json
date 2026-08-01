@@ -1,5 +1,12 @@
 {
-  "alerts": {},
+  "alerts": {
+    "fool nelson": {
+      "last_alerted": "2026-08-01",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/fool-nelson/"
+      ]
+    }
+  },
   "artist_genre_cache": {
     "5 seconds of summer": [
       "pop",
@@ -519,6 +526,7 @@
     "https://www.arc.unsw.edu.au/roundhouse/events/the-gilsons",
     "https://www.destroyalllines.com/tours/abc",
     "https://www.destroyalllines.com/tours/against-the-current-2027",
+    "https://www.destroyalllines.com/tours/anamanaguchi",
     "https://www.destroyalllines.com/tours/ashanti",
     "https://www.destroyalllines.com/tours/august-burns-red",
     "https://www.destroyalllines.com/tours/beartooth",
@@ -601,6 +609,7 @@
     "https://www.metrotheatre.com.au/event/crasher-x-metro-air-5/",
     "https://www.metrotheatre.com.au/event/crasher-x-metro-air/",
     "https://www.metrotheatre.com.au/event/daine/",
+    "https://www.metrotheatre.com.au/event/fool-nelson/",
     "https://www.metrotheatre.com.au/event/sarkodie/",
     "https://www.metrotheatre.com.au/event/sleep-theory/",
     "https://www.metrotheatre.com.au/event/the-belair-lip-bombs/"
