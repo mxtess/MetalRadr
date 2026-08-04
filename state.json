@@ -1,9 +1,57 @@
 {
   "alerts": {
+    "19 twenty": {
+      "last_alerted": "2026-08-04",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/19-twenty/"
+      ]
+    },
+    "domi jd beck": {
+      "last_alerted": "2026-08-04",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/domi-jd-beck-2/"
+      ]
+    },
     "fool nelson": {
       "last_alerted": "2026-08-01",
       "urls": [
         "https://www.metrotheatre.com.au/event/fool-nelson/"
+      ]
+    },
+    "michelle buteau": {
+      "last_alerted": "2026-08-04",
+      "urls": [
+        "https://www.enmoretheatre.com.au/event/michelle-buteau/"
+      ]
+    },
+    "northlane": {
+      "last_alerted": "2026-08-04",
+      "urls": [
+        "https://www.enmoretheatre.com.au/event/northlane-2/"
+      ]
+    },
+    "propagandhi": {
+      "last_alerted": "2026-08-04",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/propagandhi/"
+      ]
+    },
+    "rachel chinouriri": {
+      "last_alerted": "2026-08-04",
+      "urls": [
+        "https://www.enmoretheatre.com.au/event/rachel-chinouriri/"
+      ]
+    },
+    "teenage bottlerocket brendan kelly": {
+      "last_alerted": "2026-08-04",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/teenage-bottlerocket-brendan-kelly/"
+      ]
+    },
+    "tekno": {
+      "last_alerted": "2026-08-04",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/tekno/"
       ]
     }
   },
@@ -109,6 +157,15 @@
       "added for google code-in 2017",
       "2020s",
       "gen z"
+    ],
+    "daniel caesar": [
+      "toronto",
+      "r&b",
+      "contemporary r&b",
+      "r&b/soul",
+      "alternative r&b",
+      "daniel",
+      "caesar"
     ],
     "electric callboy": [
       "electronic",
@@ -483,6 +540,7 @@
     "https://afterpayarena.com.au/event/bryson-tiller",
     "https://afterpayarena.com.au/event/charlie-puth",
     "https://afterpayarena.com.au/event/conan-gray",
+    "https://afterpayarena.com.au/event/daniel-caesar",
     "https://afterpayarena.com.au/event/electric-callboy",
     "https://afterpayarena.com.au/event/evanescence",
     "https://afterpayarena.com.au/event/fortuna-one-summit",
@@ -569,6 +627,7 @@
     "https://www.destroyalllines.com/tours/masood-boomgaard",
     "https://www.destroyalllines.com/tours/midge-ure",
     "https://www.destroyalllines.com/tours/nathan-evans",
+    "https://www.destroyalllines.com/tours/northlane-album-tour-2026",
     "https://www.destroyalllines.com/tours/ocean-grove-2026",
     "https://www.destroyalllines.com/tours/orthodox",
     "https://www.destroyalllines.com/tours/psycroptic-rivers",
@@ -582,6 +641,7 @@
     "https://www.destroyalllines.com/tours/slenderbodies---postponed",
     "https://www.destroyalllines.com/tours/south-arcade-2026",
     "https://www.destroyalllines.com/tours/squeeze",
+    "https://www.destroyalllines.com/tours/the-butterfly-effect",
     "https://www.destroyalllines.com/tours/the-cribs",
     "https://www.destroyalllines.com/tours/the-reytons",
     "https://www.destroyalllines.com/tours/the-vaccines",
@@ -590,6 +650,7 @@
     "https://www.destroyalllines.com/tours/to-the-grave-2026",
     "https://www.destroyalllines.com/tours/touche-amore-2026",
     "https://www.destroyalllines.com/tours/two-door-cinema-club",
+    "https://www.destroyalllines.com/tours/ub40",
     "https://www.destroyalllines.com/tours/uncle-acid-and-the-deadbeats",
     "https://www.destroyalllines.com/tours/wage-war",
     "https://www.destroyalllines.com/tours/windwaker-2026",
@@ -599,10 +660,14 @@
     "https://www.enmoretheatre.com.au/event/greentea-peng-2/",
     "https://www.enmoretheatre.com.au/event/jonah-marais/",
     "https://www.enmoretheatre.com.au/event/loudon-wainwright-iii/",
+    "https://www.enmoretheatre.com.au/event/michelle-buteau/",
+    "https://www.enmoretheatre.com.au/event/northlane-2/",
     "https://www.enmoretheatre.com.au/event/old-mervs-3/",
+    "https://www.enmoretheatre.com.au/event/rachel-chinouriri/",
     "https://www.enmoretheatre.com.au/event/squeeze/",
     "https://www.enmoretheatre.com.au/event/stayc/",
     "https://www.enmoretheatre.com.au/event/viva-la-dirt-league-moved-to-factory-theatre/",
+    "https://www.metrotheatre.com.au/event/19-twenty/",
     "https://www.metrotheatre.com.au/event/chiodos/",
     "https://www.metrotheatre.com.au/event/crasher-x-metro-air-2/",
     "https://www.metrotheatre.com.au/event/crasher-x-metro-air-3/",
@@ -610,9 +675,13 @@
     "https://www.metrotheatre.com.au/event/crasher-x-metro-air-5/",
     "https://www.metrotheatre.com.au/event/crasher-x-metro-air/",
     "https://www.metrotheatre.com.au/event/daine/",
+    "https://www.metrotheatre.com.au/event/domi-jd-beck-2/",
     "https://www.metrotheatre.com.au/event/fool-nelson/",
+    "https://www.metrotheatre.com.au/event/propagandhi/",
     "https://www.metrotheatre.com.au/event/sarkodie/",
     "https://www.metrotheatre.com.au/event/sleep-theory/",
+    "https://www.metrotheatre.com.au/event/teenage-bottlerocket-brendan-kelly/",
+    "https://www.metrotheatre.com.au/event/tekno/",
     "https://www.metrotheatre.com.au/event/the-belair-lip-bombs/"
   ]
 }
