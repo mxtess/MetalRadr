@@ -6,6 +6,12 @@
         "https://www.metrotheatre.com.au/event/19-twenty/"
       ]
     },
+    "airline": {
+      "last_alerted": "2026-08-07",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/airline/"
+      ]
+    },
     "domi jd beck": {
       "last_alerted": "2026-08-04",
       "urls": [
@@ -40,6 +46,12 @@
       "last_alerted": "2026-08-04",
       "urls": [
         "https://www.enmoretheatre.com.au/event/rachel-chinouriri/"
+      ]
+    },
+    "swimming paul": {
+      "last_alerted": "2026-08-07",
+      "urls": [
+        "https://www.enmoretheatre.com.au/event/swimming-paul/"
       ]
     },
     "teenage bottlerocket brendan kelly": {
@@ -653,6 +665,7 @@
     "https://www.destroyalllines.com/tours/two-door-cinema-club",
     "https://www.destroyalllines.com/tours/ub40",
     "https://www.destroyalllines.com/tours/uncle-acid-and-the-deadbeats",
+    "https://www.destroyalllines.com/tours/vana-2026",
     "https://www.destroyalllines.com/tours/wage-war",
     "https://www.destroyalllines.com/tours/windwaker-2026",
     "https://www.enmoretheatre.com.au/event/abc/",
@@ -667,8 +680,10 @@
     "https://www.enmoretheatre.com.au/event/rachel-chinouriri/",
     "https://www.enmoretheatre.com.au/event/squeeze/",
     "https://www.enmoretheatre.com.au/event/stayc/",
+    "https://www.enmoretheatre.com.au/event/swimming-paul/",
     "https://www.enmoretheatre.com.au/event/viva-la-dirt-league-moved-to-factory-theatre/",
     "https://www.metrotheatre.com.au/event/19-twenty/",
+    "https://www.metrotheatre.com.au/event/airline/",
     "https://www.metrotheatre.com.au/event/chiodos/",
     "https://www.metrotheatre.com.au/event/crasher-x-metro-air-2/",
     "https://www.metrotheatre.com.au/event/crasher-x-metro-air-3/",
