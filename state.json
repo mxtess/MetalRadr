@@ -42,6 +42,18 @@
         "https://www.enmoretheatre.com.au/event/northlane-2/"
       ]
     },
+    "patrick watson": {
+      "last_alerted": "2026-08-10",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/patrick-watson/"
+      ]
+    },
+    "peking duk 18": {
+      "last_alerted": "2026-08-10",
+      "urls": [
+        "https://www.arc.unsw.edu.au/roundhouse/events/peking-duk-18and"
+      ]
+    },
     "propagandhi": {
       "last_alerted": "2026-08-04",
       "urls": [
@@ -71,6 +83,12 @@
       "urls": [
         "https://www.metrotheatre.com.au/event/tekno/"
       ]
+    },
+    "the psychology of cults": {
+      "last_alerted": "2026-08-10",
+      "urls": [
+        "https://www.enmoretheatre.com.au/event/the-psychology-of-cults/"
+      ]
     }
   },
   "artist_genre_cache": {
@@ -83,6 +101,7 @@
       "teen pop",
       "2010s"
     ],
+    "albatross \u201cibtidaa\u201d | 18+": [],
     "alex warren": [
       "pop",
       "indie pop",
@@ -122,7 +141,19 @@
       "2020s",
       "gen z"
     ],
+    "bingo loco | 18+": [],
     "bingo loco | 18+ | aug": [],
+    "boyz ii men": [
+      "pop",
+      "soul",
+      "quiet storm",
+      "new jack swing",
+      "soul and reggae",
+      "pop soul",
+      "smooth soul",
+      "r&b",
+      "contemporary r&b"
+    ],
     "bryan adams": [
       "rock",
       "british",
@@ -185,6 +216,7 @@
       "daniel",
       "caesar"
     ],
+    "dior\u5927\u7a4e | 18+": [],
     "electric callboy": [
       "electronic",
       "metalcore",
@@ -402,6 +434,11 @@
       "beatdown"
     ],
     "paul smith": [],
+    "peking duk | 18+": [
+      "house",
+      "alternative dance",
+      "electro house"
+    ],
     "queens of the stone age": [
       "rock",
       "alternative rock",
@@ -554,6 +591,7 @@
     "https://afterpayarena.com.au/event/avenged-sevenfold",
     "https://afterpayarena.com.au/event/babymonster",
     "https://afterpayarena.com.au/event/benson-boone",
+    "https://afterpayarena.com.au/event/boyz-ii-men",
     "https://afterpayarena.com.au/event/bryan-adams",
     "https://afterpayarena.com.au/event/bryson-tiller",
     "https://afterpayarena.com.au/event/charlie-puth",
@@ -590,14 +628,18 @@
     "https://afterpayarena.com.au/event/xg",
     "https://afterpayarena.com.au/event/zara-larsson",
     "https://qudosbankarena.com.au/event-calendar",
+    "https://www.arc.unsw.edu.au/roundhouse/events/albatross-ibtidaa-18and",
     "https://www.arc.unsw.edu.au/roundhouse/events/anastasia-all-ages",
+    "https://www.arc.unsw.edu.au/roundhouse/events/bingo-loco-18and-10",
     "https://www.arc.unsw.edu.au/roundhouse/events/bingo-loco-aug-8",
     "https://www.arc.unsw.edu.au/roundhouse/events/club-angel-18and",
+    "https://www.arc.unsw.edu.au/roundhouse/events/dior-da-ying-18and",
     "https://www.arc.unsw.edu.au/roundhouse/events/health-australia-2-0-2-6-18and",
     "https://www.arc.unsw.edu.au/roundhouse/events/klangkuenstler-18and",
     "https://www.arc.unsw.edu.au/roundhouse/events/mico-18and",
     "https://www.arc.unsw.edu.au/roundhouse/events/odd-mob-18and",
     "https://www.arc.unsw.edu.au/roundhouse/events/paleface-swiss",
+    "https://www.arc.unsw.edu.au/roundhouse/events/peking-duk-18and",
     "https://www.arc.unsw.edu.au/roundhouse/events/sunset-bros-present-dimension-18and",
     "https://www.arc.unsw.edu.au/roundhouse/events/the-gilsons",
     "https://www.destroyalllines.com/tours/abc",
@@ -644,6 +686,7 @@
     "https://www.destroyalllines.com/tours/luke-severeid-2026",
     "https://www.destroyalllines.com/tours/masood-boomgaard",
     "https://www.destroyalllines.com/tours/midge-ure",
+    "https://www.destroyalllines.com/tours/mike-e-winfield",
     "https://www.destroyalllines.com/tours/nathan-evans",
     "https://www.destroyalllines.com/tours/northlane-album-tour-2026",
     "https://www.destroyalllines.com/tours/ocean-grove-2026",
@@ -688,6 +731,7 @@
     "https://www.enmoretheatre.com.au/event/squeeze/",
     "https://www.enmoretheatre.com.au/event/stayc/",
     "https://www.enmoretheatre.com.au/event/swimming-paul/",
+    "https://www.enmoretheatre.com.au/event/the-psychology-of-cults/",
     "https://www.enmoretheatre.com.au/event/viva-la-dirt-league-moved-to-factory-theatre/",
     "https://www.metrotheatre.com.au/event/19-twenty/",
     "https://www.metrotheatre.com.au/event/airline/",
@@ -700,6 +744,7 @@
     "https://www.metrotheatre.com.au/event/daine/",
     "https://www.metrotheatre.com.au/event/domi-jd-beck-2/",
     "https://www.metrotheatre.com.au/event/fool-nelson/",
+    "https://www.metrotheatre.com.au/event/patrick-watson/",
     "https://www.metrotheatre.com.au/event/propagandhi/",
     "https://www.metrotheatre.com.au/event/sarkodie/",
     "https://www.metrotheatre.com.au/event/sleep-theory/",
