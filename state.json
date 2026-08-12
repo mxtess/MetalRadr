@@ -18,6 +18,12 @@
         "https://www.enmoretheatre.com.au/event/benjamin-clementine/"
       ]
     },
+    "d a d": {
+      "last_alerted": "2026-08-12",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/d-a-d/"
+      ]
+    },
     "domi jd beck": {
       "last_alerted": "2026-08-04",
       "urls": [
@@ -28,6 +34,18 @@
       "last_alerted": "2026-08-01",
       "urls": [
         "https://www.metrotheatre.com.au/event/fool-nelson/"
+      ]
+    },
+    "ghetto kumb": {
+      "last_alerted": "2026-08-12",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/ghetto-kumbe/"
+      ]
+    },
+    "marcus miller": {
+      "last_alerted": "2026-08-12",
+      "urls": [
+        "https://www.enmoretheatre.com.au/event/marcus-miller/"
       ]
     },
     "metro aaa x axekick": {
@@ -88,6 +106,12 @@
       "last_alerted": "2026-08-04",
       "urls": [
         "https://www.metrotheatre.com.au/event/tekno/"
+      ]
+    },
+    "the dollop live podcast": {
+      "last_alerted": "2026-08-12",
+      "urls": [
+        "https://www.enmoretheatre.com.au/event/the-dollop-live-podcast/"
       ]
     },
     "the psychology of cults": {
@@ -731,6 +755,7 @@
     "https://www.enmoretheatre.com.au/event/greentea-peng-2/",
     "https://www.enmoretheatre.com.au/event/jonah-marais/",
     "https://www.enmoretheatre.com.au/event/loudon-wainwright-iii/",
+    "https://www.enmoretheatre.com.au/event/marcus-miller/",
     "https://www.enmoretheatre.com.au/event/michelle-buteau/",
     "https://www.enmoretheatre.com.au/event/northlane-2/",
     "https://www.enmoretheatre.com.au/event/old-mervs-3/",
@@ -738,6 +763,7 @@
     "https://www.enmoretheatre.com.au/event/squeeze/",
     "https://www.enmoretheatre.com.au/event/stayc/",
     "https://www.enmoretheatre.com.au/event/swimming-paul/",
+    "https://www.enmoretheatre.com.au/event/the-dollop-live-podcast/",
     "https://www.enmoretheatre.com.au/event/the-psychology-of-cults/",
     "https://www.enmoretheatre.com.au/event/viva-la-dirt-league-moved-to-factory-theatre/",
     "https://www.metrotheatre.com.au/event/19-twenty/",
@@ -748,9 +774,11 @@
     "https://www.metrotheatre.com.au/event/crasher-x-metro-air-4/",
     "https://www.metrotheatre.com.au/event/crasher-x-metro-air-5/",
     "https://www.metrotheatre.com.au/event/crasher-x-metro-air/",
+    "https://www.metrotheatre.com.au/event/d-a-d/",
     "https://www.metrotheatre.com.au/event/daine/",
     "https://www.metrotheatre.com.au/event/domi-jd-beck-2/",
     "https://www.metrotheatre.com.au/event/fool-nelson/",
+    "https://www.metrotheatre.com.au/event/ghetto-kumbe/",
     "https://www.metrotheatre.com.au/event/metro-aaa-x-axekick/",
     "https://www.metrotheatre.com.au/event/patrick-watson/",
     "https://www.metrotheatre.com.au/event/propagandhi/",
