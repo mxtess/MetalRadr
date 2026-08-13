@@ -6,6 +6,18 @@
         "https://www.metrotheatre.com.au/event/19-twenty/"
       ]
     },
+    "a very furnace christmas": {
+      "last_alerted": "2026-08-13",
+      "urls": [
+        "https://www.enmoretheatre.com.au/event/a-very-furnace-christmas-3/"
+      ]
+    },
+    "aaradhna": {
+      "last_alerted": "2026-08-13",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/aaradhna/"
+      ]
+    },
     "airline": {
       "last_alerted": "2026-08-07",
       "urls": [
@@ -118,6 +130,12 @@
       "last_alerted": "2026-08-10",
       "urls": [
         "https://www.enmoretheatre.com.au/event/the-psychology-of-cults/"
+      ]
+    },
+    "the saints 73 78": {
+      "last_alerted": "2026-08-13",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/the-saints-73-78/"
       ]
     }
   },
@@ -700,6 +718,7 @@
     "https://www.destroyalllines.com/tours/from-ashes-to-new-2026",
     "https://www.destroyalllines.com/tours/geordie-kieffer",
     "https://www.destroyalllines.com/tours/go-west",
+    "https://www.destroyalllines.com/tours/good-things-festival-2026",
     "https://www.destroyalllines.com/tours/happymondays",
     "https://www.destroyalllines.com/tours/health-2026",
     "https://www.destroyalllines.com/tours/heartline-2026",
@@ -748,6 +767,7 @@
     "https://www.destroyalllines.com/tours/vana-2026",
     "https://www.destroyalllines.com/tours/wage-war",
     "https://www.destroyalllines.com/tours/windwaker-2026",
+    "https://www.enmoretheatre.com.au/event/a-very-furnace-christmas-3/",
     "https://www.enmoretheatre.com.au/event/abc/",
     "https://www.enmoretheatre.com.au/event/benjamin-clementine/",
     "https://www.enmoretheatre.com.au/event/clutch/",
@@ -767,6 +787,7 @@
     "https://www.enmoretheatre.com.au/event/the-psychology-of-cults/",
     "https://www.enmoretheatre.com.au/event/viva-la-dirt-league-moved-to-factory-theatre/",
     "https://www.metrotheatre.com.au/event/19-twenty/",
+    "https://www.metrotheatre.com.au/event/aaradhna/",
     "https://www.metrotheatre.com.au/event/airline/",
     "https://www.metrotheatre.com.au/event/chiodos/",
     "https://www.metrotheatre.com.au/event/crasher-x-metro-air-2/",
@@ -786,6 +807,7 @@
     "https://www.metrotheatre.com.au/event/sleep-theory/",
     "https://www.metrotheatre.com.au/event/teenage-bottlerocket-brendan-kelly/",
     "https://www.metrotheatre.com.au/event/tekno/",
-    "https://www.metrotheatre.com.au/event/the-belair-lip-bombs/"
+    "https://www.metrotheatre.com.au/event/the-belair-lip-bombs/",
+    "https://www.metrotheatre.com.au/event/the-saints-73-78/"
   ]
 }
