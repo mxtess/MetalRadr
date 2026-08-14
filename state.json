@@ -54,6 +54,12 @@
         "https://www.metrotheatre.com.au/event/ghetto-kumbe/"
       ]
     },
+    "liberti concert": {
+      "last_alerted": "2026-08-14",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/liberti-concert/"
+      ]
+    },
     "marcus miller": {
       "last_alerted": "2026-08-12",
       "urls": [
@@ -102,6 +108,12 @@
         "https://www.enmoretheatre.com.au/event/rachel-chinouriri/"
       ]
     },
+    "stand atlantic": {
+      "last_alerted": "2026-08-14",
+      "urls": [
+        "https://www.enmoretheatre.com.au/event/stand-atlantic/"
+      ]
+    },
     "swimming paul": {
       "last_alerted": "2026-08-07",
       "urls": [
@@ -136,6 +148,12 @@
       "last_alerted": "2026-08-13",
       "urls": [
         "https://www.metrotheatre.com.au/event/the-saints-73-78/"
+      ]
+    },
+    "vlads": {
+      "last_alerted": "2026-08-14",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/vlads/"
       ]
     }
   },
@@ -753,6 +771,7 @@
     "https://www.destroyalllines.com/tours/slenderbodies---postponed",
     "https://www.destroyalllines.com/tours/south-arcade-2026",
     "https://www.destroyalllines.com/tours/squeeze",
+    "https://www.destroyalllines.com/tours/stand-atlantic-2026",
     "https://www.destroyalllines.com/tours/the-butterfly-effect",
     "https://www.destroyalllines.com/tours/the-cribs",
     "https://www.destroyalllines.com/tours/the-reytons",
@@ -781,6 +800,7 @@
     "https://www.enmoretheatre.com.au/event/old-mervs-3/",
     "https://www.enmoretheatre.com.au/event/rachel-chinouriri/",
     "https://www.enmoretheatre.com.au/event/squeeze/",
+    "https://www.enmoretheatre.com.au/event/stand-atlantic/",
     "https://www.enmoretheatre.com.au/event/stayc/",
     "https://www.enmoretheatre.com.au/event/swimming-paul/",
     "https://www.enmoretheatre.com.au/event/the-dollop-live-podcast/",
@@ -800,6 +820,7 @@
     "https://www.metrotheatre.com.au/event/domi-jd-beck-2/",
     "https://www.metrotheatre.com.au/event/fool-nelson/",
     "https://www.metrotheatre.com.au/event/ghetto-kumbe/",
+    "https://www.metrotheatre.com.au/event/liberti-concert/",
     "https://www.metrotheatre.com.au/event/metro-aaa-x-axekick/",
     "https://www.metrotheatre.com.au/event/patrick-watson/",
     "https://www.metrotheatre.com.au/event/propagandhi/",
@@ -808,6 +829,7 @@
     "https://www.metrotheatre.com.au/event/teenage-bottlerocket-brendan-kelly/",
     "https://www.metrotheatre.com.au/event/tekno/",
     "https://www.metrotheatre.com.au/event/the-belair-lip-bombs/",
-    "https://www.metrotheatre.com.au/event/the-saints-73-78/"
+    "https://www.metrotheatre.com.au/event/the-saints-73-78/",
+    "https://www.metrotheatre.com.au/event/vlads/"
   ]
 }
