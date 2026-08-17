@@ -102,6 +102,12 @@
         "https://www.arc.unsw.edu.au/roundhouse/events/peking-duk-18and"
       ]
     },
+    "portugal the man 18": {
+      "last_alerted": "2026-08-17",
+      "urls": [
+        "https://www.arc.unsw.edu.au/roundhouse/events/portugal-the-man-18and"
+      ]
+    },
     "propagandhi": {
       "last_alerted": "2026-08-04",
       "urls": [
@@ -112,6 +118,12 @@
       "last_alerted": "2026-08-04",
       "urls": [
         "https://www.enmoretheatre.com.au/event/rachel-chinouriri/"
+      ]
+    },
+    "realyungphil gud woesum stacey": {
+      "last_alerted": "2026-08-17",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/realyungphil-gud-woesum-stacey/"
       ]
     },
     "stand atlantic": {
@@ -154,6 +166,12 @@
       "last_alerted": "2026-08-13",
       "urls": [
         "https://www.metrotheatre.com.au/event/the-saints-73-78/"
+      ]
+    },
+    "trophy eyes": {
+      "last_alerted": "2026-08-17",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/trophy-eyes-3/"
       ]
     },
     "vlads": {
@@ -511,6 +529,18 @@
       "alternative dance",
       "electro house"
     ],
+    "portugal. the man | 18+": [
+      "pop",
+      "experimental",
+      "math rock",
+      "indie rock",
+      "progressive",
+      "alternative",
+      "indie pop",
+      "neo-psychedelia",
+      "indie electronic",
+      "alternative/indie rock"
+    ],
     "queens of the stone age": [
       "rock",
       "alternative rock",
@@ -712,6 +742,7 @@
     "https://www.arc.unsw.edu.au/roundhouse/events/odd-mob-18and",
     "https://www.arc.unsw.edu.au/roundhouse/events/paleface-swiss",
     "https://www.arc.unsw.edu.au/roundhouse/events/peking-duk-18and",
+    "https://www.arc.unsw.edu.au/roundhouse/events/portugal-the-man-18and",
     "https://www.arc.unsw.edu.au/roundhouse/events/sunset-bros-present-dimension-18and",
     "https://www.arc.unsw.edu.au/roundhouse/events/the-gilsons",
     "https://www.destroyalllines.com/tours/abc",
@@ -832,12 +863,14 @@
     "https://www.metrotheatre.com.au/event/metro-aaa-x-axekick/",
     "https://www.metrotheatre.com.au/event/patrick-watson/",
     "https://www.metrotheatre.com.au/event/propagandhi/",
+    "https://www.metrotheatre.com.au/event/realyungphil-gud-woesum-stacey/",
     "https://www.metrotheatre.com.au/event/sarkodie/",
     "https://www.metrotheatre.com.au/event/sleep-theory/",
     "https://www.metrotheatre.com.au/event/teenage-bottlerocket-brendan-kelly/",
     "https://www.metrotheatre.com.au/event/tekno/",
     "https://www.metrotheatre.com.au/event/the-belair-lip-bombs/",
     "https://www.metrotheatre.com.au/event/the-saints-73-78/",
+    "https://www.metrotheatre.com.au/event/trophy-eyes-3/",
     "https://www.metrotheatre.com.au/event/vlads/"
   ]
 }
