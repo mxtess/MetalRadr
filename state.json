@@ -54,6 +54,25 @@
         "https://www.metrotheatre.com.au/event/domi-jd-beck-2/"
       ]
     },
+    "enmore comedy club 2026": {
+      "last_alerted": "2026-08-20",
+      "urls": [
+        "https://www.enmoretheatre.com.au/event/enmore-comedy-club-2026-4/",
+        "https://www.enmoretheatre.com.au/event/enmore-comedy-club-2026-5/"
+      ]
+    },
+    "fat dog": {
+      "last_alerted": "2026-08-20",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/fat-dog/"
+      ]
+    },
+    "fcukers": {
+      "last_alerted": "2026-08-20",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/fcukers/"
+      ]
+    },
     "fool nelson": {
       "last_alerted": "2026-08-01",
       "urls": [
@@ -82,6 +101,12 @@
       "last_alerted": "2026-08-12",
       "urls": [
         "https://www.enmoretheatre.com.au/event/marcus-miller/"
+      ]
+    },
+    "mass of the fermenting dregs": {
+      "last_alerted": "2026-08-20",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/mass-of-the-fermenting-dregs-crowbar-upgrade/"
       ]
     },
     "metro aaa x axekick": {
@@ -144,6 +169,12 @@
         "https://www.enmoretheatre.com.au/event/rodrigo-y-gabriela-2/"
       ]
     },
+    "sleep theory": {
+      "last_alerted": "2026-08-20",
+      "urls": [
+        "https://www.enmoretheatre.com.au/event/sleep-theory-2/"
+      ]
+    },
     "stand atlantic": {
       "last_alerted": "2026-08-14",
       "urls": [
@@ -166,6 +197,12 @@
       "last_alerted": "2026-08-04",
       "urls": [
         "https://www.metrotheatre.com.au/event/tekno/"
+      ]
+    },
+    "the dandy warhols": {
+      "last_alerted": "2026-08-20",
+      "urls": [
+        "https://www.enmoretheatre.com.au/event/the-dandy-warhols-2/"
       ]
     },
     "the dollop live podcast": {
@@ -856,6 +893,8 @@
     "https://www.enmoretheatre.com.au/event/clutch/",
     "https://www.enmoretheatre.com.au/event/countess-luann-cabaret-love-tour/",
     "https://www.enmoretheatre.com.au/event/del-amitri/",
+    "https://www.enmoretheatre.com.au/event/enmore-comedy-club-2026-4/",
+    "https://www.enmoretheatre.com.au/event/enmore-comedy-club-2026-5/",
     "https://www.enmoretheatre.com.au/event/greentea-peng-2/",
     "https://www.enmoretheatre.com.au/event/jonah-marais/",
     "https://www.enmoretheatre.com.au/event/loudon-wainwright-iii/",
@@ -865,10 +904,12 @@
     "https://www.enmoretheatre.com.au/event/old-mervs-3/",
     "https://www.enmoretheatre.com.au/event/rachel-chinouriri/",
     "https://www.enmoretheatre.com.au/event/rodrigo-y-gabriela-2/",
+    "https://www.enmoretheatre.com.au/event/sleep-theory-2/",
     "https://www.enmoretheatre.com.au/event/squeeze/",
     "https://www.enmoretheatre.com.au/event/stand-atlantic/",
     "https://www.enmoretheatre.com.au/event/stayc/",
     "https://www.enmoretheatre.com.au/event/swimming-paul/",
+    "https://www.enmoretheatre.com.au/event/the-dandy-warhols-2/",
     "https://www.enmoretheatre.com.au/event/the-dollop-live-podcast/",
     "https://www.enmoretheatre.com.au/event/the-psychology-of-cults/",
     "https://www.enmoretheatre.com.au/event/tom-gleeson/",
@@ -886,10 +927,13 @@
     "https://www.metrotheatre.com.au/event/d-a-d/",
     "https://www.metrotheatre.com.au/event/daine/",
     "https://www.metrotheatre.com.au/event/domi-jd-beck-2/",
+    "https://www.metrotheatre.com.au/event/fat-dog/",
+    "https://www.metrotheatre.com.au/event/fcukers/",
     "https://www.metrotheatre.com.au/event/fool-nelson/",
     "https://www.metrotheatre.com.au/event/ghetto-kumbe/",
     "https://www.metrotheatre.com.au/event/jarahn-young-davie-more/",
     "https://www.metrotheatre.com.au/event/liberti-concert/",
+    "https://www.metrotheatre.com.au/event/mass-of-the-fermenting-dregs-crowbar-upgrade/",
     "https://www.metrotheatre.com.au/event/metro-aaa-x-axekick/",
     "https://www.metrotheatre.com.au/event/patrick-watson/",
     "https://www.metrotheatre.com.au/event/propagandhi/",
