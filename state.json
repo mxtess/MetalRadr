@@ -85,6 +85,18 @@
         "https://www.metrotheatre.com.au/event/ghetto-kumbe/"
       ]
     },
+    "glare": {
+      "last_alerted": "2026-08-21",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/glare/"
+      ]
+    },
+    "holly humberstone": {
+      "last_alerted": "2026-08-21",
+      "urls": [
+        "https://www.enmoretheatre.com.au/event/holly-humberstone-2/"
+      ]
+    },
     "jarahn young davie more": {
       "last_alerted": "2026-08-18",
       "urls": [
@@ -602,6 +614,7 @@
       "indie electronic",
       "alternative/indie rock"
     ],
+    "president | all ages": [],
     "queens of the stone age": [
       "rock",
       "alternative rock",
@@ -804,6 +817,7 @@
     "https://www.arc.unsw.edu.au/roundhouse/events/paleface-swiss",
     "https://www.arc.unsw.edu.au/roundhouse/events/peking-duk-18and",
     "https://www.arc.unsw.edu.au/roundhouse/events/portugal-the-man-18and",
+    "https://www.arc.unsw.edu.au/roundhouse/events/president-18and",
     "https://www.arc.unsw.edu.au/roundhouse/events/sunset-bros-present-dimension-18and",
     "https://www.arc.unsw.edu.au/roundhouse/events/the-gilsons",
     "https://www.destroyalllines.com/tours/abc",
@@ -865,6 +879,7 @@
     "https://www.destroyalllines.com/tours/rodrigo-y-gabriela",
     "https://www.destroyalllines.com/tours/saint-etienne",
     "https://www.destroyalllines.com/tours/seahaven-2026",
+    "https://www.destroyalllines.com/tours/selfish-sons",
     "https://www.destroyalllines.com/tours/silversun-pickups",
     "https://www.destroyalllines.com/tours/simple-minds",
     "https://www.destroyalllines.com/tours/skindred-2026",
@@ -896,6 +911,7 @@
     "https://www.enmoretheatre.com.au/event/enmore-comedy-club-2026-4/",
     "https://www.enmoretheatre.com.au/event/enmore-comedy-club-2026-5/",
     "https://www.enmoretheatre.com.au/event/greentea-peng-2/",
+    "https://www.enmoretheatre.com.au/event/holly-humberstone-2/",
     "https://www.enmoretheatre.com.au/event/jonah-marais/",
     "https://www.enmoretheatre.com.au/event/loudon-wainwright-iii/",
     "https://www.enmoretheatre.com.au/event/marcus-miller/",
@@ -931,6 +947,7 @@
     "https://www.metrotheatre.com.au/event/fcukers/",
     "https://www.metrotheatre.com.au/event/fool-nelson/",
     "https://www.metrotheatre.com.au/event/ghetto-kumbe/",
+    "https://www.metrotheatre.com.au/event/glare/",
     "https://www.metrotheatre.com.au/event/jarahn-young-davie-more/",
     "https://www.metrotheatre.com.au/event/liberti-concert/",
     "https://www.metrotheatre.com.au/event/mass-of-the-fermenting-dregs-crowbar-upgrade/",
