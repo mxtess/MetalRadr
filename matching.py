@@ -46,6 +46,22 @@ def matches_genre(event: dict, genres: list[str]) -> str | None:
     return None
 
 
+_AGE_RESTRICTION_SUFFIX_RE = re.compile(r"\s*\|\s*(18\+|all ages)\s*$", re.IGNORECASE)
+
+
+def _artist_name_for_lookup(title: str) -> str:
+    """
+    Strip a trailing age-restriction suffix some venues append to the
+    title (e.g. "PRESIDENT | ALL AGES", "ODD MOB | 18+") before using it
+    as a MusicBrainz search query. This is venue metadata, not part of
+    the artist's name, and leaving it in can throw off the search badly:
+    "PRESIDENT | ALL AGES" top-matches a literal artist named "All Ages"
+    and doesn't even return the real "PRESIDENT" band anywhere in the
+    results, whereas the clean "PRESIDENT" query does.
+    """
+    return _AGE_RESTRICTION_SUFFIX_RE.sub("", title).strip()
+
+
 def matches_genre_via_musicbrainz(event: dict, genres: list[str], genre_cache: dict) -> str | None:
     """
     Fallback for events matches_genre() (title-keyword matching) couldn't
@@ -60,13 +76,20 @@ def matches_genre_via_musicbrainz(event: dict, genres: list[str], genre_cache: d
     once across runs rather than every day — callers are responsible for
     persisting genre_cache back to state.json.
     """
-    artist_name = event["title"].strip()
+    artist_name = _artist_name_for_lookup(event["title"].strip())
     cache_key = artist_name.lower()
 
     if cache_key in genre_cache:
         tags = genre_cache[cache_key]
     else:
         tags = musicbrainz_client.lookup_artist_tags(artist_name)
+        if tags is None:
+            # The request itself failed (network error) after retries —
+            # don't cache that as "no genre info", or a transient blip
+            # would permanently blacklist a real artist from ever
+            # matching. Just skip a match this run; the next run will
+            # retry the lookup fresh since nothing was cached.
+            return None
         genre_cache[cache_key] = tags
 
     normalized_genres = {g.strip().lower() for g in genres}
