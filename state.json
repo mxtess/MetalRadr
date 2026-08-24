@@ -133,6 +133,12 @@
         "https://www.enmoretheatre.com.au/event/michelle-buteau/"
       ]
     },
+    "nia archives": {
+      "last_alerted": "2026-08-24",
+      "urls": [
+        "https://www.enmoretheatre.com.au/event/nia-archives-2/"
+      ]
+    },
     "northlane": {
       "last_alerted": "2026-08-04",
       "urls": [
@@ -264,12 +270,14 @@
       "teen pop",
       "2010s"
     ],
+    "albatross \u201cibtidaa\u201d": [],
     "albatross \u201cibtidaa\u201d | 18+": [],
     "alex warren": [
       "pop",
       "indie pop",
       "2020s"
     ],
+    "anastasia": [],
     "anastasia | all ages": [],
     "avenged sevenfold": [
       "heavy metal",
@@ -303,6 +311,14 @@
       "contemporary singer/songwriter",
       "2020s",
       "gen z"
+    ],
+    "bingo loco": [
+      "house",
+      "progressive house",
+      "electronic dance",
+      "electro house",
+      "edm",
+      "dutch house"
     ],
     "bingo loco | 18+": [],
     "bingo loco | 18+ | aug": [],
@@ -356,6 +372,7 @@
       "soft pop",
       "social media pop"
     ],
+    "club angel": [],
     "club angel | 18+": [],
     "conan gray": [
       "pop",
@@ -451,6 +468,16 @@
       "academy award winner",
       "television music",
       "cinematic classical"
+    ],
+    "health australia 2.0.2.6.": [
+      "electronic",
+      "electropop",
+      "experimental rock",
+      "electro-industrial",
+      "neo-psychedelia",
+      "post-industrial",
+      "noise rock",
+      "electronic rock"
     ],
     "health australia 2.0.2.6. | 18+": [
       "electronic",
@@ -567,6 +594,11 @@
       "the lost generation",
       "spotify boycott"
     ],
+    "mico": [
+      "indie pop",
+      "pop rock",
+      "pop punk"
+    ],
     "mico | all ages": [],
     "niall horan": [
       "pop",
@@ -576,6 +608,10 @@
       "pop",
       "folk",
       "folk pop"
+    ],
+    "odd mob": [
+      "electronic",
+      "house"
     ],
     "odd mob | 18+": [
       "electronic",
@@ -598,10 +634,27 @@
       "beatdown"
     ],
     "paul smith": [],
+    "peking duk": [
+      "house",
+      "alternative dance",
+      "electro house"
+    ],
     "peking duk | 18+": [
       "house",
       "alternative dance",
       "electro house"
+    ],
+    "portugal. the man": [
+      "pop",
+      "experimental",
+      "math rock",
+      "indie rock",
+      "progressive",
+      "alternative",
+      "indie pop",
+      "neo-psychedelia",
+      "indie electronic",
+      "alternative/indie rock"
     ],
     "portugal. the man | 18+": [
       "pop",
@@ -614,6 +667,25 @@
       "neo-psychedelia",
       "indie electronic",
       "alternative/indie rock"
+    ],
+    "president": [
+      "synth-pop",
+      "europop",
+      "euro house",
+      "electro",
+      "bubblegum dance",
+      "hip hop",
+      "schlager",
+      "techno",
+      "german pop",
+      "germany",
+      "pop",
+      "german",
+      "eurodance",
+      "thrash metal",
+      "metalcore",
+      "nu metal",
+      "alternative metal"
     ],
     "queens of the stone age": [
       "rock",
@@ -711,6 +783,7 @@
       "rumba flamenca",
       "gypsy music"
     ],
+    "the gilsons": [],
     "the gilsons | 18+": [],
     "the script": [
       "rock",
@@ -920,6 +993,7 @@
     "https://www.enmoretheatre.com.au/event/loudon-wainwright-iii/",
     "https://www.enmoretheatre.com.au/event/marcus-miller/",
     "https://www.enmoretheatre.com.au/event/michelle-buteau/",
+    "https://www.enmoretheatre.com.au/event/nia-archives-2/",
     "https://www.enmoretheatre.com.au/event/northlane-2/",
     "https://www.enmoretheatre.com.au/event/old-mervs-3/",
     "https://www.enmoretheatre.com.au/event/rachel-chinouriri/",
