@@ -136,7 +136,8 @@
     "nia archives": {
       "last_alerted": "2026-08-24",
       "urls": [
-        "https://www.enmoretheatre.com.au/event/nia-archives-2/"
+        "https://www.enmoretheatre.com.au/event/nia-archives-2/",
+        "https://www.metrotheatre.com.au/event/nia-archives-2/"
       ]
     },
     "northlane": {
@@ -187,10 +188,22 @@
         "https://www.enmoretheatre.com.au/event/rodrigo-y-gabriela-2/"
       ]
     },
+    "shred fest sydney moved from manning bar feat obscura ger fallujah guests": {
+      "last_alerted": "2026-08-25",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/shred-fest-sydney-moved-from-manning-bar-feat-obscura-ger-fallujah-guests/"
+      ]
+    },
     "sleep theory": {
       "last_alerted": "2026-08-20",
       "urls": [
         "https://www.enmoretheatre.com.au/event/sleep-theory-2/"
+      ]
+    },
+    "soul asylum ugly kid joe": {
+      "last_alerted": "2026-08-25",
+      "urls": [
+        "https://www.arc.unsw.edu.au/roundhouse/events/soul-asylum-and-ugly-kid-joe"
       ]
     },
     "stand atlantic": {
@@ -247,10 +260,22 @@
         "https://www.enmoretheatre.com.au/event/tom-gleeson/"
       ]
     },
+    "toni and ryan live podcast recording": {
+      "last_alerted": "2026-08-25",
+      "urls": [
+        "https://www.enmoretheatre.com.au/event/toni-and-ryan-live-podcast-recording/"
+      ]
+    },
     "trophy eyes": {
       "last_alerted": "2026-08-17",
       "urls": [
         "https://www.metrotheatre.com.au/event/trophy-eyes-3/"
+      ]
+    },
+    "vince staples": {
+      "last_alerted": "2026-08-25",
+      "urls": [
+        "https://www.enmoretheatre.com.au/event/vince-staples/"
       ]
     },
     "vlads": {
@@ -757,6 +782,15 @@
       "new pop",
       "big music"
     ],
+    "soul asylum & ugly kid joe": [
+      "alternative rock",
+      "grunge",
+      "hard rock",
+      "acoustic rock",
+      "alternative metal",
+      "funk metal",
+      "glam metal"
+    ],
     "sunset bros present: dimension | 18+": [],
     "sydney kings 26/27 season": [
       "electronic",
@@ -892,6 +926,7 @@
     "https://www.arc.unsw.edu.au/roundhouse/events/peking-duk-18and",
     "https://www.arc.unsw.edu.au/roundhouse/events/portugal-the-man-18and",
     "https://www.arc.unsw.edu.au/roundhouse/events/president-18and",
+    "https://www.arc.unsw.edu.au/roundhouse/events/soul-asylum-and-ugly-kid-joe",
     "https://www.arc.unsw.edu.au/roundhouse/events/sunset-bros-present-dimension-18and",
     "https://www.arc.unsw.edu.au/roundhouse/events/the-gilsons",
     "https://www.destroyalllines.com/tours/abc",
@@ -1007,6 +1042,8 @@
     "https://www.enmoretheatre.com.au/event/the-dollop-live-podcast/",
     "https://www.enmoretheatre.com.au/event/the-psychology-of-cults/",
     "https://www.enmoretheatre.com.au/event/tom-gleeson/",
+    "https://www.enmoretheatre.com.au/event/toni-and-ryan-live-podcast-recording/",
+    "https://www.enmoretheatre.com.au/event/vince-staples/",
     "https://www.enmoretheatre.com.au/event/viva-la-dirt-league-moved-to-factory-theatre/",
     "https://www.metrotheatre.com.au/event/19-twenty/",
     "https://www.metrotheatre.com.au/event/aaradhna/",
@@ -1030,10 +1067,12 @@
     "https://www.metrotheatre.com.au/event/liberti-concert/",
     "https://www.metrotheatre.com.au/event/mass-of-the-fermenting-dregs-crowbar-upgrade/",
     "https://www.metrotheatre.com.au/event/metro-aaa-x-axekick/",
+    "https://www.metrotheatre.com.au/event/nia-archives-2/",
     "https://www.metrotheatre.com.au/event/patrick-watson/",
     "https://www.metrotheatre.com.au/event/propagandhi/",
     "https://www.metrotheatre.com.au/event/realyungphil-gud-woesum-stacey/",
     "https://www.metrotheatre.com.au/event/sarkodie/",
+    "https://www.metrotheatre.com.au/event/shred-fest-sydney-moved-from-manning-bar-feat-obscura-ger-fallujah-guests/",
     "https://www.metrotheatre.com.au/event/sleep-theory/",
     "https://www.metrotheatre.com.au/event/teenage-bottlerocket-brendan-kelly/",
     "https://www.metrotheatre.com.au/event/tekno/",
