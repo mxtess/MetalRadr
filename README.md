@@ -128,14 +128,18 @@ This is the active default (`--channel email`) while Threads is on hold.
   password it gives you (spaces don't matter). This is
   `GMAIL_APP_PASSWORD` — it's not your normal Gmail password and
   can't be used to log in anywhere else.
-- Decide where alerts should land (`ALERT_EMAIL`) — can be the same
-  Gmail address, or any other inbox you actually check.
+- Decide where alerts should land (`ALERT_EMAIL`) — one address, or
+  several comma-separated (e.g. `you@example.com, someone-else@example.com`)
+  if more than one person wants alerts. Can be the same Gmail address
+  you're sending from, or any other inbox(es) you actually check.
 
 ### 2. Add GitHub repo secrets
 In your repo: Settings → Secrets and variables → Actions, add:
 - `GMAIL_ADDRESS` — the Gmail address you're sending from
 - `GMAIL_APP_PASSWORD` — the app password from step 1
-- `ALERT_EMAIL` — the address alerts should be sent to
+- `ALERT_EMAIL` — where alerts should be sent; comma-separate multiple
+  addresses in the same secret to add more recipients later (no code
+  changes needed, just edit the secret)
 
 ### 3. Edit `config.yaml`
 - Add your must-see artists under `artists:`
@@ -149,7 +153,7 @@ In your repo: Settings → Secrets and variables → Actions, add:
 pip install -r requirements.txt
 export GMAIL_ADDRESS=...
 export GMAIL_APP_PASSWORD=...
-export ALERT_EMAIL=...
+export ALERT_EMAIL="you@example.com, someone-else@example.com"  # comma-separate for multiple recipients
 python main.py --seed   # snapshot everything on sale today, don't alert
 python main.py --preview  # sanity-check what a real run would alert on
 python main.py

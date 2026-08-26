@@ -8,8 +8,10 @@ Setup required before this works (one-time, see README.md):
   2. Create an App Password for "Mail" and store it as the
      GMAIL_APP_PASSWORD secret.
   3. Store the sending Gmail address as GMAIL_ADDRESS.
-  4. Store the address alerts should land in as ALERT_EMAIL (can be the
-     same address, or a different inbox you actually check).
+  4. Store where alerts should land as ALERT_EMAIL — one address, or
+     several comma-separated (e.g. "a@example.com, b@example.com").
+     Can be the same address you're sending from, or different inboxes
+     you actually check.
 """
 
 import os
@@ -29,14 +31,15 @@ class EmailClient:
     ):
         self.address = address or os.environ["GMAIL_ADDRESS"]
         self.app_password = app_password or os.environ["GMAIL_APP_PASSWORD"]
-        self.to_addr = to_addr or os.environ["ALERT_EMAIL"]
+        to_addr_raw = to_addr or os.environ["ALERT_EMAIL"]
+        self.to_addrs = [a.strip() for a in to_addr_raw.split(",") if a.strip()]
 
     def send_digest(self, events: list[dict]) -> None:
-        """Send a single email listing every newly-matched event."""
+        """Send a single email listing every newly-matched event to every recipient."""
         msg = EmailMessage()
         msg["Subject"] = format_subject(events)
         msg["From"] = self.address
-        msg["To"] = self.to_addr
+        msg["To"] = ", ".join(self.to_addrs)
         msg.set_content(format_digest(events))
 
         with smtplib.SMTP_SSL(SMTP_HOST, SMTP_PORT) as smtp:

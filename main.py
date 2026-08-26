@@ -213,7 +213,7 @@ def main():
         client = EmailClient()
         try:
             client.send_digest(to_alert)
-            print(f"Emailed digest of {len(to_alert)} new show(s) to {client.to_addr}")
+            print(f"Emailed digest of {len(to_alert)} new show(s) to {', '.join(client.to_addrs)}")
         except Exception as e:
             print(f"[error] failed to send alert email: {e}", file=sys.stderr)
             # The digest is a single send, so if it failed nothing in it
