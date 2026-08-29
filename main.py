@@ -137,25 +137,30 @@ def main():
     parser.add_argument(
         "--force",
         action="store_true",
-        help="Bypass the Sydney 7am time gate. Useful for manually running "
-             "a real run or --seed on demand without waiting for the "
-             "scheduled window; the daily cron never needs this.",
+        help="Bypass the once-per-Sydney-day gate. Useful for manually "
+             "running a real run or --seed on demand rather than waiting "
+             "for the next scheduled firing; the daily cron never needs "
+             "this.",
     )
     args = parser.parse_args()
 
-    if not args.preview and not args.force:
-        # The workflow fires at both 20:00 and 21:00 UTC to cover 7am Sydney
-        # across AEST/AEDT without needing manual cron changes at DST
-        # transitions — only the one that actually lands at 7am should do
-        # anything.
-        now = sydney_now()
-        if now.hour != 7:
-            print(f"Skipping run — local time in Sydney is {now:%H:%M} "
-                  f"({now.tzname()}), not 7am.")
-            return
-
     config = load_config()
     state = load_state(config["state_file"])
+    today_sydney = sydney_now().date().isoformat()
+
+    if not args.preview and not args.force:
+        # The workflow fires at both 20:00 and 21:00 UTC aiming for 7am
+        # Sydney, but GitHub Actions schedules are best-effort and can
+        # drift by hours under queue load — this has been observed to
+        # push every firing on a given day outside any fixed hour window,
+        # silently skipping the check entirely for days at a time. So
+        # instead of requiring a specific hour, this just tracks whether
+        # a real check has already happened today (Sydney date): the
+        # first firing that actually runs — whenever in the day that
+        # is — does the work, and any later firing that same day no-ops.
+        if state.get("last_real_run_date") == today_sydney:
+            print(f"Skipping run — already ran for real today ({today_sydney}, Sydney date).")
+            return
 
     venue_names = {v["name"] for v in config["venues"]}
     keyword_filter_venues = {
@@ -167,6 +172,7 @@ def main():
     if args.seed:
         updated_state = seed_state(raw_events, state)
         updated_state["artist_genre_cache"] = genre_cache
+        updated_state["last_real_run_date"] = today_sydney
         save_state(config["state_file"], updated_state)
         print(f"Seeded state.json with {len(raw_events)} currently-listed events. "
               f"Nothing was posted or alerted; future runs will only alert on "
@@ -193,6 +199,7 @@ def main():
         classified, state, config["dedup_window_days"]
     )
     updated_state["artist_genre_cache"] = genre_cache
+    updated_state["last_real_run_date"] = today_sydney
 
     if not to_alert:
         print("No new matches today.")

@@ -10,16 +10,21 @@ back to once that's sorted (see "Alert channels" below).
 ## How it works
 
 1. `main.py` runs once a day (via GitHub Actions cron), aiming for
-   7am Sydney time. The workflow actually fires twice — 20:00 and
-   21:00 UTC — to cover 7am across both AEST and AEDT without needing
-   manual cron edits at DST transitions; `main.py` itself checks the
-   real Sydney-local hour with `zoneinfo` and no-ops (no scraping, no
-   sending) on whichever firing doesn't land on 7am. This check only
-   applies to real/seed runs — `--preview` always runs regardless of
-   time of day. Pass `--force` to bypass the time gate for a manual
-   real run or `--seed` on demand (the daily cron never needs this).
-   The GitHub Actions "Run workflow" button has a matching `force`
-   checkbox for the same purpose when testing from the Actions tab.
+   7am Sydney time. The workflow fires twice — 20:00 and 21:00 UTC —
+   to cover 7am across both AEST and AEDT without needing manual cron
+   edits at DST transitions. GitHub's scheduled firing is best-effort
+   and can drift by hours under queue load (observed drifting from
+   ~20min late up to ~8h late over a few consecutive days), so rather
+   than gating on a fixed hour, `main.py` tracks whether a real check
+   has already happened today (`last_real_run_date` in `state.json`,
+   compared against the current Sydney date via `zoneinfo`) and
+   no-ops any firing after the first one that actually runs that day
+   — however late it ends up landing. This check only applies to
+   real/seed runs — `--preview` always runs regardless of time of
+   day. Pass `--force` to bypass the gate for a manual real run or
+   `--seed` on demand (the daily cron never needs this). The GitHub
+   Actions "Run workflow" button has a matching `force` checkbox for
+   the same purpose when testing from the Actions tab.
 2. It scrapes each venue/promoter's public listings page (no API, no
    login — just reading the public page, same as a browser would).
 3. Every event is checked against:
