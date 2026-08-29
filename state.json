@@ -30,10 +30,34 @@
         "https://www.enmoretheatre.com.au/event/benjamin-clementine/"
       ]
     },
+    "bingo loco 18": {
+      "last_alerted": "2026-08-29",
+      "urls": [
+        "https://www.arc.unsw.edu.au/roundhouse/events/bingo-loco-18and-11"
+      ]
+    },
     "blacken festival fundraiser": {
       "last_alerted": "2026-08-18",
       "urls": [
         "https://www.metrotheatre.com.au/event/blacken-festival-fundraiser/"
+      ]
+    },
+    "blue whale band": {
+      "last_alerted": "2026-08-29",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/blue-whale-band/"
+      ]
+    },
+    "carlos vives la provincia tribute": {
+      "last_alerted": "2026-08-29",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/carlos-vives-la-provincia-tribute/"
+      ]
+    },
+    "civic video": {
+      "last_alerted": "2026-08-29",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/civic-video/"
       ]
     },
     "countess luann cabaret love tour": {
@@ -103,10 +127,22 @@
         "https://www.metrotheatre.com.au/event/jarahn-young-davie-more/"
       ]
     },
+    "john achkar": {
+      "last_alerted": "2026-08-29",
+      "urls": [
+        "https://www.enmoretheatre.com.au/event/john-achkar-2/"
+      ]
+    },
     "liberti concert": {
       "last_alerted": "2026-08-14",
       "urls": [
         "https://www.metrotheatre.com.au/event/liberti-concert/"
+      ]
+    },
+    "lookout 2027": {
+      "last_alerted": "2026-08-29",
+      "urls": [
+        "https://afterpayarena.com.au/event/lookout-2027"
       ]
     },
     "marcus miller": {
@@ -168,6 +204,12 @@
       "last_alerted": "2026-08-04",
       "urls": [
         "https://www.metrotheatre.com.au/event/propagandhi/"
+      ]
+    },
+    "pun": {
+      "last_alerted": "2026-08-29",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/pun/"
       ]
     },
     "rachel chinouriri": {
@@ -240,6 +282,12 @@
       "last_alerted": "2026-08-12",
       "urls": [
         "https://www.enmoretheatre.com.au/event/the-dollop-live-podcast/"
+      ]
+    },
+    "the lost backpackers": {
+      "last_alerted": "2026-08-29",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/the-lost-backpackers-2/"
       ]
     },
     "the psychology of cults": {
@@ -590,6 +638,13 @@
       "2020s",
       "gen z"
     ],
+    "lookout 2027": [
+      "alternative rock",
+      "canadian",
+      "indie rock",
+      "pop rock",
+      "progressive pop"
+    ],
     "louis tomlinson": [],
     "massive attack": [
       "trip-hop",
@@ -894,6 +949,7 @@
     "https://afterpayarena.com.au/event/kehlani",
     "https://afterpayarena.com.au/event/khalid",
     "https://afterpayarena.com.au/event/laufey",
+    "https://afterpayarena.com.au/event/lookout-2027",
     "https://afterpayarena.com.au/event/louis-tomlinson",
     "https://afterpayarena.com.au/event/massive-attack",
     "https://afterpayarena.com.au/event/niall-horan",
@@ -915,6 +971,7 @@
     "https://www.arc.unsw.edu.au/roundhouse/events/albatross-ibtidaa-18and",
     "https://www.arc.unsw.edu.au/roundhouse/events/anastasia-all-ages",
     "https://www.arc.unsw.edu.au/roundhouse/events/bingo-loco-18and-10",
+    "https://www.arc.unsw.edu.au/roundhouse/events/bingo-loco-18and-11",
     "https://www.arc.unsw.edu.au/roundhouse/events/bingo-loco-aug-8",
     "https://www.arc.unsw.edu.au/roundhouse/events/club-angel-18and",
     "https://www.arc.unsw.edu.au/roundhouse/events/dior-da-ying-18and",
@@ -966,6 +1023,7 @@
     "https://www.destroyalllines.com/tours/inertia-2026",
     "https://www.destroyalllines.com/tours/james",
     "https://www.destroyalllines.com/tours/joe-jackson",
+    "https://www.destroyalllines.com/tours/king-yosef",
     "https://www.destroyalllines.com/tours/knox-2027",
     "https://www.destroyalllines.com/tours/lamb-of-god-and-trivium",
     "https://www.destroyalllines.com/tours/larry-fleet",
@@ -1024,6 +1082,7 @@
     "https://www.enmoretheatre.com.au/event/enmore-comedy-club-2026-5/",
     "https://www.enmoretheatre.com.au/event/greentea-peng-2/",
     "https://www.enmoretheatre.com.au/event/holly-humberstone-2/",
+    "https://www.enmoretheatre.com.au/event/john-achkar-2/",
     "https://www.enmoretheatre.com.au/event/jonah-marais/",
     "https://www.enmoretheatre.com.au/event/loudon-wainwright-iii/",
     "https://www.enmoretheatre.com.au/event/marcus-miller/",
@@ -1049,7 +1108,10 @@
     "https://www.metrotheatre.com.au/event/aaradhna/",
     "https://www.metrotheatre.com.au/event/airline/",
     "https://www.metrotheatre.com.au/event/blacken-festival-fundraiser/",
+    "https://www.metrotheatre.com.au/event/blue-whale-band/",
+    "https://www.metrotheatre.com.au/event/carlos-vives-la-provincia-tribute/",
     "https://www.metrotheatre.com.au/event/chiodos/",
+    "https://www.metrotheatre.com.au/event/civic-video/",
     "https://www.metrotheatre.com.au/event/crasher-x-metro-air-2/",
     "https://www.metrotheatre.com.au/event/crasher-x-metro-air-3/",
     "https://www.metrotheatre.com.au/event/crasher-x-metro-air-4/",
@@ -1070,6 +1132,7 @@
     "https://www.metrotheatre.com.au/event/nia-archives-2/",
     "https://www.metrotheatre.com.au/event/patrick-watson/",
     "https://www.metrotheatre.com.au/event/propagandhi/",
+    "https://www.metrotheatre.com.au/event/pun/",
     "https://www.metrotheatre.com.au/event/realyungphil-gud-woesum-stacey/",
     "https://www.metrotheatre.com.au/event/sarkodie/",
     "https://www.metrotheatre.com.au/event/shred-fest-sydney-moved-from-manning-bar-feat-obscura-ger-fallujah-guests/",
@@ -1077,9 +1140,11 @@
     "https://www.metrotheatre.com.au/event/teenage-bottlerocket-brendan-kelly/",
     "https://www.metrotheatre.com.au/event/tekno/",
     "https://www.metrotheatre.com.au/event/the-belair-lip-bombs/",
+    "https://www.metrotheatre.com.au/event/the-lost-backpackers-2/",
     "https://www.metrotheatre.com.au/event/the-saints-73-78/",
     "https://www.metrotheatre.com.au/event/trophy-eyes-3/",
     "https://www.metrotheatre.com.au/event/underscores-gg2333/",
     "https://www.metrotheatre.com.au/event/vlads/"
-  ]
+  ],
+  "last_real_run_date": "2026-08-29"
 }
