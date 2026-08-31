@@ -24,6 +24,18 @@
         "https://www.metrotheatre.com.au/event/airline/"
       ]
     },
+    "arthur hill": {
+      "last_alerted": "2026-08-31",
+      "urls": [
+        "https://www.enmoretheatre.com.au/event/arthur-hill/"
+      ]
+    },
+    "bayker blankenship": {
+      "last_alerted": "2026-08-31",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/bayker-blankenship/"
+      ]
+    },
     "benjamin clementine": {
       "last_alerted": "2026-08-09",
       "urls": [
@@ -54,6 +66,12 @@
         "https://www.metrotheatre.com.au/event/carlos-vives-la-provincia-tribute/"
       ]
     },
+    "che durena": {
+      "last_alerted": "2026-08-31",
+      "urls": [
+        "https://www.enmoretheatre.com.au/event/che-durena/"
+      ]
+    },
     "civic video": {
       "last_alerted": "2026-08-29",
       "urls": [
@@ -82,6 +100,12 @@
       "last_alerted": "2026-08-04",
       "urls": [
         "https://www.metrotheatre.com.au/event/domi-jd-beck-2/"
+      ]
+    },
+    "drain": {
+      "last_alerted": "2026-08-31",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/drain/"
       ]
     },
     "enmore comedy club 2026": {
@@ -306,6 +330,12 @@
       "last_alerted": "2026-08-13",
       "urls": [
         "https://www.metrotheatre.com.au/event/the-saints-73-78/"
+      ]
+    },
+    "the smyths": {
+      "last_alerted": "2026-08-31",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/the-smyths-2/"
       ]
     },
     "tom gleeson": {
@@ -1014,6 +1044,7 @@
     "https://www.destroyalllines.com/tours/del-amitri",
     "https://www.destroyalllines.com/tours/delilahbon",
     "https://www.destroyalllines.com/tours/dice",
+    "https://www.destroyalllines.com/tours/drain-2027",
     "https://www.destroyalllines.com/tours/electric-callboy-2026",
     "https://www.destroyalllines.com/tours/evening-elephants",
     "https://www.destroyalllines.com/tours/fishbone",
@@ -1025,6 +1056,7 @@
     "https://www.destroyalllines.com/tours/happymondays",
     "https://www.destroyalllines.com/tours/health-2026",
     "https://www.destroyalllines.com/tours/heartline-2026",
+    "https://www.destroyalllines.com/tours/heavensgate-2026",
     "https://www.destroyalllines.com/tours/holding-absence",
     "https://www.destroyalllines.com/tours/inertia-2026",
     "https://www.destroyalllines.com/tours/james",
@@ -1079,7 +1111,9 @@
     "https://www.enmoretheatre.com.au/event/a-very-furnace-christmas-3/",
     "https://www.enmoretheatre.com.au/event/abc/",
     "https://www.enmoretheatre.com.au/event/annandale-public-2026/",
+    "https://www.enmoretheatre.com.au/event/arthur-hill/",
     "https://www.enmoretheatre.com.au/event/benjamin-clementine/",
+    "https://www.enmoretheatre.com.au/event/che-durena/",
     "https://www.enmoretheatre.com.au/event/clutch/",
     "https://www.enmoretheatre.com.au/event/countess-luann-cabaret-love-tour/",
     "https://www.enmoretheatre.com.au/event/crash-test-dummies/",
@@ -1113,6 +1147,7 @@
     "https://www.metrotheatre.com.au/event/19-twenty/",
     "https://www.metrotheatre.com.au/event/aaradhna/",
     "https://www.metrotheatre.com.au/event/airline/",
+    "https://www.metrotheatre.com.au/event/bayker-blankenship/",
     "https://www.metrotheatre.com.au/event/blacken-festival-fundraiser/",
     "https://www.metrotheatre.com.au/event/blue-whale-band/",
     "https://www.metrotheatre.com.au/event/carlos-vives-la-provincia-tribute/",
@@ -1126,6 +1161,7 @@
     "https://www.metrotheatre.com.au/event/d-a-d/",
     "https://www.metrotheatre.com.au/event/daine/",
     "https://www.metrotheatre.com.au/event/domi-jd-beck-2/",
+    "https://www.metrotheatre.com.au/event/drain/",
     "https://www.metrotheatre.com.au/event/fat-dog/",
     "https://www.metrotheatre.com.au/event/fcukers/",
     "https://www.metrotheatre.com.au/event/fool-nelson/",
@@ -1148,9 +1184,10 @@
     "https://www.metrotheatre.com.au/event/the-belair-lip-bombs/",
     "https://www.metrotheatre.com.au/event/the-lost-backpackers-2/",
     "https://www.metrotheatre.com.au/event/the-saints-73-78/",
+    "https://www.metrotheatre.com.au/event/the-smyths-2/",
     "https://www.metrotheatre.com.au/event/trophy-eyes-3/",
     "https://www.metrotheatre.com.au/event/underscores-gg2333/",
     "https://www.metrotheatre.com.au/event/vlads/"
   ],
-  "last_real_run_date": "2026-08-31"
+  "last_real_run_date": "2026-09-01"
 }
