@@ -212,6 +212,12 @@
         "https://www.enmoretheatre.com.au/event/northlane-2/"
       ]
     },
+    "oskar med k": {
+      "last_alerted": "2026-09-01",
+      "urls": [
+        "https://www.enmoretheatre.com.au/event/oskar-med-k/"
+      ]
+    },
     "patrick watson": {
       "last_alerted": "2026-08-10",
       "urls": [
@@ -270,6 +276,12 @@
       "last_alerted": "2026-08-20",
       "urls": [
         "https://www.enmoretheatre.com.au/event/sleep-theory-2/"
+      ]
+    },
+    "sombr": {
+      "last_alerted": "2026-09-01",
+      "urls": [
+        "https://afterpayarena.com.au/event/sombr"
       ]
     },
     "soul asylum ugly kid joe": {
@@ -873,6 +885,12 @@
       "new pop",
       "big music"
     ],
+    "sombr": [
+      "indie pop",
+      "pop rock",
+      "2020s",
+      "gen z"
+    ],
     "soul asylum & ugly kid joe": [
       "alternative rock",
       "grunge",
@@ -996,6 +1014,7 @@
     "https://afterpayarena.com.au/event/robyn",
     "https://afterpayarena.com.au/event/schools-specatcular",
     "https://afterpayarena.com.au/event/simple-minds",
+    "https://afterpayarena.com.au/event/sombr",
     "https://afterpayarena.com.au/event/sydney-kings-26-27-season",
     "https://afterpayarena.com.au/event/tame-impala",
     "https://afterpayarena.com.au/event/the-script",
@@ -1130,6 +1149,7 @@
     "https://www.enmoretheatre.com.au/event/nia-archives-2/",
     "https://www.enmoretheatre.com.au/event/northlane-2/",
     "https://www.enmoretheatre.com.au/event/old-mervs-3/",
+    "https://www.enmoretheatre.com.au/event/oskar-med-k/",
     "https://www.enmoretheatre.com.au/event/rachel-chinouriri/",
     "https://www.enmoretheatre.com.au/event/rodrigo-y-gabriela-2/",
     "https://www.enmoretheatre.com.au/event/sleep-theory-2/",
@@ -1189,5 +1209,5 @@
     "https://www.metrotheatre.com.au/event/underscores-gg2333/",
     "https://www.metrotheatre.com.au/event/vlads/"
   ],
-  "last_real_run_date": "2026-09-01"
+  "last_real_run_date": "2026-09-02"
 }
