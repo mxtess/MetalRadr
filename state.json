@@ -36,6 +36,12 @@
         "https://www.metrotheatre.com.au/event/bayker-blankenship/"
       ]
     },
+    "beabadoobee": {
+      "last_alerted": "2026-09-02",
+      "urls": [
+        "https://afterpayarena.com.au/event/beabadoobee"
+      ]
+    },
     "benjamin clementine": {
       "last_alerted": "2026-08-09",
       "urls": [
@@ -139,6 +145,12 @@
         "https://www.metrotheatre.com.au/event/ghetto-kumbe/"
       ]
     },
+    "gilsons": {
+      "last_alerted": "2026-09-02",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/gilsons/"
+      ]
+    },
     "glare": {
       "last_alerted": "2026-08-21",
       "urls": [
@@ -161,6 +173,12 @@
       "last_alerted": "2026-08-29",
       "urls": [
         "https://www.enmoretheatre.com.au/event/john-achkar-2/"
+      ]
+    },
+    "knockout afterparty": {
+      "last_alerted": "2026-09-02",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/knockout-afterparty/"
       ]
     },
     "liberti concert": {
@@ -228,6 +246,12 @@
       "last_alerted": "2026-08-10",
       "urls": [
         "https://www.arc.unsw.edu.au/roundhouse/events/peking-duk-18and"
+      ]
+    },
+    "periphery": {
+      "last_alerted": "2026-09-02",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/periphery/"
       ]
     },
     "portugal the man 18": {
@@ -424,6 +448,20 @@
       "5th gen k-pop",
       "girl group",
       "kpop"
+    ],
+    "beabadoobee": [
+      "rock",
+      "pop",
+      "indie rock",
+      "indie",
+      "lo-fi",
+      "indie pop",
+      "space rock",
+      "dream pop",
+      "pop folk",
+      "bedroom pop",
+      "2020s",
+      "gen z"
     ],
     "benson boone": [
       "pop",
@@ -722,6 +760,10 @@
       "the lost generation",
       "spotify boycott"
     ],
+    "megan moroney": [
+      "country",
+      "contemporary country"
+    ],
     "mico": [
       "indie pop",
       "pop rock",
@@ -982,6 +1024,7 @@
     "https://afterpayarena.com.au/event/alex-warren",
     "https://afterpayarena.com.au/event/avenged-sevenfold",
     "https://afterpayarena.com.au/event/babymonster",
+    "https://afterpayarena.com.au/event/beabadoobee",
     "https://afterpayarena.com.au/event/benson-boone",
     "https://afterpayarena.com.au/event/boyz-ii-men",
     "https://afterpayarena.com.au/event/bryan-adams",
@@ -1006,6 +1049,7 @@
     "https://afterpayarena.com.au/event/lookout-2027",
     "https://afterpayarena.com.au/event/louis-tomlinson",
     "https://afterpayarena.com.au/event/massive-attack",
+    "https://afterpayarena.com.au/event/megan-moroney",
     "https://afterpayarena.com.au/event/niall-horan",
     "https://afterpayarena.com.au/event/noah-kahan",
     "https://afterpayarena.com.au/event/olivia-dean",
@@ -1186,13 +1230,16 @@
     "https://www.metrotheatre.com.au/event/fcukers/",
     "https://www.metrotheatre.com.au/event/fool-nelson/",
     "https://www.metrotheatre.com.au/event/ghetto-kumbe/",
+    "https://www.metrotheatre.com.au/event/gilsons/",
     "https://www.metrotheatre.com.au/event/glare/",
     "https://www.metrotheatre.com.au/event/jarahn-young-davie-more/",
+    "https://www.metrotheatre.com.au/event/knockout-afterparty/",
     "https://www.metrotheatre.com.au/event/liberti-concert/",
     "https://www.metrotheatre.com.au/event/mass-of-the-fermenting-dregs-crowbar-upgrade/",
     "https://www.metrotheatre.com.au/event/metro-aaa-x-axekick/",
     "https://www.metrotheatre.com.au/event/nia-archives-2/",
     "https://www.metrotheatre.com.au/event/patrick-watson/",
+    "https://www.metrotheatre.com.au/event/periphery/",
     "https://www.metrotheatre.com.au/event/propagandhi/",
     "https://www.metrotheatre.com.au/event/pun/",
     "https://www.metrotheatre.com.au/event/realyungphil-gud-woesum-stacey/",
@@ -1209,5 +1256,5 @@
     "https://www.metrotheatre.com.au/event/underscores-gg2333/",
     "https://www.metrotheatre.com.au/event/vlads/"
   ],
-  "last_real_run_date": "2026-09-02"
+  "last_real_run_date": "2026-09-03"
 }
