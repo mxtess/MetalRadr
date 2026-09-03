@@ -181,6 +181,12 @@
         "https://www.metrotheatre.com.au/event/knockout-afterparty/"
       ]
     },
+    "kukaramakara": {
+      "last_alerted": "2026-09-03",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/kukaramakara/"
+      ]
+    },
     "liberti concert": {
       "last_alerted": "2026-08-14",
       "urls": [
@@ -1140,6 +1146,7 @@
     "https://www.destroyalllines.com/tours/northlane-album-tour-2026",
     "https://www.destroyalllines.com/tours/ocean-grove-2026",
     "https://www.destroyalllines.com/tours/orthodox",
+    "https://www.destroyalllines.com/tours/periphery",
     "https://www.destroyalllines.com/tours/psycroptic-rivers",
     "https://www.destroyalllines.com/tours/razorlight",
     "https://www.destroyalllines.com/tours/renegades-of-wrestling",
@@ -1234,6 +1241,7 @@
     "https://www.metrotheatre.com.au/event/glare/",
     "https://www.metrotheatre.com.au/event/jarahn-young-davie-more/",
     "https://www.metrotheatre.com.au/event/knockout-afterparty/",
+    "https://www.metrotheatre.com.au/event/kukaramakara/",
     "https://www.metrotheatre.com.au/event/liberti-concert/",
     "https://www.metrotheatre.com.au/event/mass-of-the-fermenting-dregs-crowbar-upgrade/",
     "https://www.metrotheatre.com.au/event/metro-aaa-x-axekick/",
@@ -1256,5 +1264,5 @@
     "https://www.metrotheatre.com.au/event/underscores-gg2333/",
     "https://www.metrotheatre.com.au/event/vlads/"
   ],
-  "last_real_run_date": "2026-09-03"
+  "last_real_run_date": "2026-09-04"
 }
