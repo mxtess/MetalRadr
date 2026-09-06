@@ -6,6 +6,12 @@
         "https://www.metrotheatre.com.au/event/19-twenty/"
       ]
     },
+    "a nostalgic night with macaulay culkin": {
+      "last_alerted": "2026-09-06",
+      "urls": [
+        "https://www.enmoretheatre.com.au/event/a-nostalgic-night-with-macaulay-culkin/"
+      ]
+    },
     "a very furnace christmas": {
       "last_alerted": "2026-08-13",
       "urls": [
@@ -1178,6 +1184,7 @@
     "https://www.destroyalllines.com/tours/vana-2026",
     "https://www.destroyalllines.com/tours/wage-war",
     "https://www.destroyalllines.com/tours/windwaker-2026",
+    "https://www.enmoretheatre.com.au/event/a-nostalgic-night-with-macaulay-culkin/",
     "https://www.enmoretheatre.com.au/event/a-very-furnace-christmas-3/",
     "https://www.enmoretheatre.com.au/event/abc/",
     "https://www.enmoretheatre.com.au/event/annandale-public-2026/",
@@ -1264,5 +1271,5 @@
     "https://www.metrotheatre.com.au/event/underscores-gg2333/",
     "https://www.metrotheatre.com.au/event/vlads/"
   ],
-  "last_real_run_date": "2026-09-06"
+  "last_real_run_date": "2026-09-07"
 }
