@@ -205,6 +205,12 @@
         "https://afterpayarena.com.au/event/lookout-2027"
       ]
     },
+    "luka uli": {
+      "last_alerted": "2026-09-07",
+      "urls": [
+        "https://www.enmoretheatre.com.au/event/luka-sulic/"
+      ]
+    },
     "marcus miller": {
       "last_alerted": "2026-08-12",
       "urls": [
@@ -290,6 +296,12 @@
         "https://www.enmoretheatre.com.au/event/rachel-chinouriri/"
       ]
     },
+    "radiohead": {
+      "last_alerted": "2026-09-07",
+      "urls": [
+        "https://afterpayarena.com.au/event/radiohead"
+      ]
+    },
     "realyungphil gud woesum stacey": {
       "last_alerted": "2026-08-17",
       "urls": [
@@ -300,6 +312,12 @@
       "last_alerted": "2026-08-19",
       "urls": [
         "https://www.enmoretheatre.com.au/event/rodrigo-y-gabriela-2/"
+      ]
+    },
+    "sarah kinsley": {
+      "last_alerted": "2026-09-07",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/sarah-kinsley/"
       ]
     },
     "shred fest sydney moved from manning bar feat obscura ger fallujah guests": {
@@ -885,6 +903,50 @@
       "alternative/stoner-rock",
       "nuno"
     ],
+    "radiohead": [
+      "rock",
+      "electronic",
+      "post-rock",
+      "alternative rock",
+      "experimental",
+      "british",
+      "grunge",
+      "idm",
+      "uk",
+      "britannique",
+      "indie rock",
+      "electronica",
+      "alternative",
+      "britpop",
+      "art rock",
+      "post-grunge",
+      "experimental rock",
+      "english",
+      "chamber pop",
+      "parlophone",
+      "england",
+      "indietronica",
+      "melancholic",
+      "oxford",
+      "crossover prog",
+      "bootleg",
+      "rock and indie",
+      "britrock",
+      "electronic rock",
+      "ambient pop",
+      "c\u2019\u00e9tait mieux avant",
+      "art pop",
+      "nude",
+      "trap edm",
+      "sacred cows",
+      "alternative rock music",
+      "lolicore",
+      "post-britpop",
+      "progressive rock music",
+      "1992-1998",
+      "new grave",
+      "vyrzukhisuc-artiest"
+    ],
     "robyn": [
       "trance",
       "pop",
@@ -1067,6 +1129,7 @@
     "https://afterpayarena.com.au/event/olivia-dean",
     "https://afterpayarena.com.au/event/paul-smith",
     "https://afterpayarena.com.au/event/queens-of-the-stone-age",
+    "https://afterpayarena.com.au/event/radiohead",
     "https://afterpayarena.com.au/event/robyn",
     "https://afterpayarena.com.au/event/schools-specatcular",
     "https://afterpayarena.com.au/event/simple-minds",
@@ -1202,6 +1265,7 @@
     "https://www.enmoretheatre.com.au/event/john-achkar-2/",
     "https://www.enmoretheatre.com.au/event/jonah-marais/",
     "https://www.enmoretheatre.com.au/event/loudon-wainwright-iii/",
+    "https://www.enmoretheatre.com.au/event/luka-sulic/",
     "https://www.enmoretheatre.com.au/event/marcus-miller/",
     "https://www.enmoretheatre.com.au/event/michelle-buteau/",
     "https://www.enmoretheatre.com.au/event/nia-archives-2/",
@@ -1258,6 +1322,7 @@
     "https://www.metrotheatre.com.au/event/propagandhi/",
     "https://www.metrotheatre.com.au/event/pun/",
     "https://www.metrotheatre.com.au/event/realyungphil-gud-woesum-stacey/",
+    "https://www.metrotheatre.com.au/event/sarah-kinsley/",
     "https://www.metrotheatre.com.au/event/sarkodie/",
     "https://www.metrotheatre.com.au/event/shred-fest-sydney-moved-from-manning-bar-feat-obscura-ger-fallujah-guests/",
     "https://www.metrotheatre.com.au/event/sleep-theory/",
@@ -1271,5 +1336,5 @@
     "https://www.metrotheatre.com.au/event/underscores-gg2333/",
     "https://www.metrotheatre.com.au/event/vlads/"
   ],
-  "last_real_run_date": "2026-09-07"
+  "last_real_run_date": "2026-09-08"
 }
