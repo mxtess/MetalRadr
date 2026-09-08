@@ -10,10 +10,12 @@ back to once that's sorted (see "Alert channels" below).
 ## How it works
 
 1. `main.py` runs once a day (via GitHub Actions cron), aiming for
-   6am Sydney time. The workflow fires twice — 19:00 and 20:00 UTC —
-   to cover 6am across both AEST and AEDT without needing manual cron
-   edits at DST transitions. GitHub's scheduled firing is best-effort
-   and can drift by hours under queue load (observed drifting from
+   4am Sydney time — 2 hours ahead of the actual 6am wake-up goal, to
+   absorb GitHub's observed scheduling drift. The workflow fires
+   twice — 17:00 and 18:00 UTC — to cover 4am across both AEST and
+   AEDT without needing manual cron edits at DST transitions. GitHub's
+   scheduled firing is best-effort and can drift by hours under queue
+   load (observed drifting from
    ~20min late up to ~8h late over a few consecutive days), so rather
    than gating on a fixed hour, `main.py` tracks whether a real check
    has already happened today (`last_real_run_date` in `state.json`,
