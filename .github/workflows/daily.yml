@@ -2,15 +2,15 @@ name: MetalRadr daily check
 
 on:
   schedule:
-    # Fires twice, aiming for 7am Sydney across both AEST (UTC+10) and
+    # Fires twice, aiming for 6am Sydney across both AEST (UTC+10) and
     # AEDT (UTC+11) without needing manual cron changes at DST
     # transitions. GitHub's scheduled firing is best-effort and can
     # drift by hours under queue load, so main.py doesn't gate on a
     # fixed hour — it tracks whether a real check has already happened
     # today (Sydney date) and no-ops any firing after the first one
     # that actually runs, however late in the day that turns out to be.
+    - cron: "0 19 * * *"
     - cron: "0 20 * * *"
-    - cron: "0 21 * * *"
   workflow_dispatch:  # allows manual "Run workflow" trigger from the Actions tab
     inputs:
       force:

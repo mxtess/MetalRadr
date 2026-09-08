@@ -149,7 +149,7 @@ def main():
     today_sydney = sydney_now().date().isoformat()
 
     if not args.preview and not args.force:
-        # The workflow fires at both 20:00 and 21:00 UTC aiming for 7am
+        # The workflow fires at both 19:00 and 20:00 UTC aiming for 6am
         # Sydney, but GitHub Actions schedules are best-effort and can
         # drift by hours under queue load — this has been observed to
         # push every firing on a given day outside any fixed hour window,
