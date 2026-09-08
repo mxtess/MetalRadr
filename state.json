@@ -169,6 +169,12 @@
         "https://www.enmoretheatre.com.au/event/holly-humberstone-2/"
       ]
     },
+    "isaiah rashad": {
+      "last_alerted": "2026-09-08",
+      "urls": [
+        "https://www.enmoretheatre.com.au/event/isaiah-rashad/"
+      ]
+    },
     "jarahn young davie more": {
       "last_alerted": "2026-08-18",
       "urls": [
@@ -378,6 +384,12 @@
       "last_alerted": "2026-08-12",
       "urls": [
         "https://www.enmoretheatre.com.au/event/the-dollop-live-podcast/"
+      ]
+    },
+    "the longest johns uk": {
+      "last_alerted": "2026-09-08",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/the-longest-johns-uk/"
       ]
     },
     "the lost backpackers": {
@@ -1229,6 +1241,7 @@
     "https://www.destroyalllines.com/tours/skindred-2026",
     "https://www.destroyalllines.com/tours/sleep-theory",
     "https://www.destroyalllines.com/tours/slenderbodies---postponed",
+    "https://www.destroyalllines.com/tours/soul-asylum-ugly-kid-joe",
     "https://www.destroyalllines.com/tours/south-arcade-2026",
     "https://www.destroyalllines.com/tours/squeeze",
     "https://www.destroyalllines.com/tours/stand-atlantic-2026",
@@ -1262,6 +1275,7 @@
     "https://www.enmoretheatre.com.au/event/enmore-comedy-club-2026-5/",
     "https://www.enmoretheatre.com.au/event/greentea-peng-2/",
     "https://www.enmoretheatre.com.au/event/holly-humberstone-2/",
+    "https://www.enmoretheatre.com.au/event/isaiah-rashad/",
     "https://www.enmoretheatre.com.au/event/john-achkar-2/",
     "https://www.enmoretheatre.com.au/event/jonah-marais/",
     "https://www.enmoretheatre.com.au/event/loudon-wainwright-iii/",
@@ -1329,6 +1343,7 @@
     "https://www.metrotheatre.com.au/event/teenage-bottlerocket-brendan-kelly/",
     "https://www.metrotheatre.com.au/event/tekno/",
     "https://www.metrotheatre.com.au/event/the-belair-lip-bombs/",
+    "https://www.metrotheatre.com.au/event/the-longest-johns-uk/",
     "https://www.metrotheatre.com.au/event/the-lost-backpackers-2/",
     "https://www.metrotheatre.com.au/event/the-saints-73-78/",
     "https://www.metrotheatre.com.au/event/the-smyths-2/",
@@ -1336,5 +1351,5 @@
     "https://www.metrotheatre.com.au/event/underscores-gg2333/",
     "https://www.metrotheatre.com.au/event/vlads/"
   ],
-  "last_real_run_date": "2026-09-08"
+  "last_real_run_date": "2026-09-09"
 }
