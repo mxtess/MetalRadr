@@ -265,6 +265,12 @@
         "https://www.enmoretheatre.com.au/event/michelle-buteau/"
       ]
     },
+    "miss pole dance australia 2026": {
+      "last_alerted": "2026-09-10",
+      "urls": [
+        "https://www.enmoretheatre.com.au/event/miss-pole-dance-australia-2026/"
+      ]
+    },
     "nia archives": {
       "last_alerted": "2026-08-24",
       "urls": [
@@ -276,6 +282,12 @@
       "last_alerted": "2026-08-04",
       "urls": [
         "https://www.enmoretheatre.com.au/event/northlane-2/"
+      ]
+    },
+    "not one dollar short": {
+      "last_alerted": "2026-09-10",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/not-one-dollar-short/"
       ]
     },
     "oskar med k": {
@@ -1266,6 +1278,7 @@
     "https://www.destroyalllines.com/tours/sleep-theory",
     "https://www.destroyalllines.com/tours/slenderbodies---postponed",
     "https://www.destroyalllines.com/tours/soul-asylum-ugly-kid-joe",
+    "https://www.destroyalllines.com/tours/sound-collective",
     "https://www.destroyalllines.com/tours/south-arcade-2026",
     "https://www.destroyalllines.com/tours/squeeze",
     "https://www.destroyalllines.com/tours/stand-atlantic-2026",
@@ -1308,6 +1321,7 @@
     "https://www.enmoretheatre.com.au/event/luka-sulic/",
     "https://www.enmoretheatre.com.au/event/marcus-miller/",
     "https://www.enmoretheatre.com.au/event/michelle-buteau/",
+    "https://www.enmoretheatre.com.au/event/miss-pole-dance-australia-2026/",
     "https://www.enmoretheatre.com.au/event/nia-archives-2/",
     "https://www.enmoretheatre.com.au/event/northlane-2/",
     "https://www.enmoretheatre.com.au/event/old-mervs-3/",
@@ -1361,6 +1375,7 @@
     "https://www.metrotheatre.com.au/event/metro-a-i-r-x-friends-of-friends-san-cisco-djs-sesame-girl-jade-yee-smith/",
     "https://www.metrotheatre.com.au/event/metro-aaa-x-axekick/",
     "https://www.metrotheatre.com.au/event/nia-archives-2/",
+    "https://www.metrotheatre.com.au/event/not-one-dollar-short/",
     "https://www.metrotheatre.com.au/event/patrick-watson/",
     "https://www.metrotheatre.com.au/event/periphery/",
     "https://www.metrotheatre.com.au/event/propagandhi/",
@@ -1381,5 +1396,5 @@
     "https://www.metrotheatre.com.au/event/underscores-gg2333/",
     "https://www.metrotheatre.com.au/event/vlads/"
   ],
-  "last_real_run_date": "2026-09-10"
+  "last_real_run_date": "2026-09-11"
 }
