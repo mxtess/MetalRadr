@@ -120,6 +120,12 @@
         "https://www.metrotheatre.com.au/event/drain/"
       ]
     },
+    "empire of the sun": {
+      "last_alerted": "2026-09-14",
+      "urls": [
+        "https://afterpayarena.com.au/event/empire-of-the-sun"
+      ]
+    },
     "enmore comedy club 2026": {
       "last_alerted": "2026-08-20",
       "urls": [
@@ -161,6 +167,12 @@
       "last_alerted": "2026-08-21",
       "urls": [
         "https://www.metrotheatre.com.au/event/glare/"
+      ]
+    },
+    "harrykirby": {
+      "last_alerted": "2026-09-14",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/harrykirby/"
       ]
     },
     "holly humberstone": {
@@ -481,6 +493,12 @@
       "urls": [
         "https://www.metrotheatre.com.au/event/vlads/"
       ]
+    },
+    "yeahmad unhinged": {
+      "last_alerted": "2026-09-14",
+      "urls": [
+        "https://www.enmoretheatre.com.au/event/yeahmad-unhinged/"
+      ]
     }
   },
   "artist_genre_cache": {
@@ -642,6 +660,17 @@
       "alternative hardcore",
       "trancecore",
       "electronicore"
+    ],
+    "empire of the sun": [
+      "electronic",
+      "synthpop",
+      "australian",
+      "electropop",
+      "dance-pop",
+      "australia",
+      "indietronica",
+      "australie",
+      "australien"
     ],
     "evanescence": [
       "rock",
@@ -1155,6 +1184,7 @@
     "https://afterpayarena.com.au/event/conan-gray",
     "https://afterpayarena.com.au/event/daniel-caesar",
     "https://afterpayarena.com.au/event/electric-callboy",
+    "https://afterpayarena.com.au/event/empire-of-the-sun",
     "https://afterpayarena.com.au/event/evanescence",
     "https://afterpayarena.com.au/event/fortuna-one-summit",
     "https://afterpayarena.com.au/event/gabriel-iglesias",
@@ -1340,6 +1370,7 @@
     "https://www.enmoretheatre.com.au/event/toni-and-ryan-live-podcast-recording/",
     "https://www.enmoretheatre.com.au/event/vince-staples/",
     "https://www.enmoretheatre.com.au/event/viva-la-dirt-league-moved-to-factory-theatre/",
+    "https://www.enmoretheatre.com.au/event/yeahmad-unhinged/",
     "https://www.metrotheatre.com.au/event/19-twenty/",
     "https://www.metrotheatre.com.au/event/aaradhna/",
     "https://www.metrotheatre.com.au/event/airline/",
@@ -1364,6 +1395,7 @@
     "https://www.metrotheatre.com.au/event/ghetto-kumbe/",
     "https://www.metrotheatre.com.au/event/gilsons/",
     "https://www.metrotheatre.com.au/event/glare/",
+    "https://www.metrotheatre.com.au/event/harrykirby/",
     "https://www.metrotheatre.com.au/event/jarahn-young-davie-more/",
     "https://www.metrotheatre.com.au/event/knockout-afterparty/",
     "https://www.metrotheatre.com.au/event/kukaramakara/",
@@ -1396,5 +1428,5 @@
     "https://www.metrotheatre.com.au/event/underscores-gg2333/",
     "https://www.metrotheatre.com.au/event/vlads/"
   ],
-  "last_real_run_date": "2026-09-14"
+  "last_real_run_date": "2026-09-15"
 }
