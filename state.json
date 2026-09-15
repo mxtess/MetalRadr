@@ -241,6 +241,12 @@
         "https://www.metrotheatre.com.au/event/mass-of-the-fermenting-dregs-crowbar-upgrade/"
       ]
     },
+    "medium build": {
+      "last_alerted": "2026-09-15",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/medium-build/"
+      ]
+    },
     "metro a i r x friends of friends chick scatter light djs": {
       "last_alerted": "2026-09-09",
       "urls": [
@@ -1269,6 +1275,7 @@
     "https://www.destroyalllines.com/tours/geordie-kieffer",
     "https://www.destroyalllines.com/tours/go-west",
     "https://www.destroyalllines.com/tours/good-things-festival-2026",
+    "https://www.destroyalllines.com/tours/good-things-festival-sideshows",
     "https://www.destroyalllines.com/tours/happymondays",
     "https://www.destroyalllines.com/tours/health-2026",
     "https://www.destroyalllines.com/tours/heartline-2026",
@@ -1401,6 +1408,7 @@
     "https://www.metrotheatre.com.au/event/kukaramakara/",
     "https://www.metrotheatre.com.au/event/liberti-concert/",
     "https://www.metrotheatre.com.au/event/mass-of-the-fermenting-dregs-crowbar-upgrade/",
+    "https://www.metrotheatre.com.au/event/medium-build/",
     "https://www.metrotheatre.com.au/event/metro-a-i-r-x-friends-of-friends-chick-scatter-light-djs/",
     "https://www.metrotheatre.com.au/event/metro-a-i-r-x-friends-of-friends-fathers-favourite-chuck-sics-ali-kerr-djs/",
     "https://www.metrotheatre.com.au/event/metro-a-i-r-x-friends-of-friends-lara-buchanan-tilly-fenton-the-favourite/",
@@ -1428,5 +1436,5 @@
     "https://www.metrotheatre.com.au/event/underscores-gg2333/",
     "https://www.metrotheatre.com.au/event/vlads/"
   ],
-  "last_real_run_date": "2026-09-15"
+  "last_real_run_date": "2026-09-16"
 }
