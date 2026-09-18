@@ -452,6 +452,12 @@
         "https://www.enmoretheatre.com.au/event/the-dollop-live-podcast/"
       ]
     },
+    "the hayley williams show": {
+      "last_alerted": "2026-09-18",
+      "urls": [
+        "https://www.enmoretheatre.com.au/event/the-hayley-williams-show/"
+      ]
+    },
     "the longest johns uk": {
       "last_alerted": "2026-09-08",
       "urls": [
@@ -1396,6 +1402,7 @@
     "https://www.enmoretheatre.com.au/event/swimming-paul/",
     "https://www.enmoretheatre.com.au/event/the-dandy-warhols-2/",
     "https://www.enmoretheatre.com.au/event/the-dollop-live-podcast/",
+    "https://www.enmoretheatre.com.au/event/the-hayley-williams-show/",
     "https://www.enmoretheatre.com.au/event/the-psychology-of-cults/",
     "https://www.enmoretheatre.com.au/event/tom-gleeson/",
     "https://www.enmoretheatre.com.au/event/toni-and-ryan-live-podcast-recording/",
@@ -1460,5 +1467,5 @@
     "https://www.metrotheatre.com.au/event/underscores-gg2333/",
     "https://www.metrotheatre.com.au/event/vlads/"
   ],
-  "last_real_run_date": "2026-09-18"
+  "last_real_run_date": "2026-09-19"
 }
