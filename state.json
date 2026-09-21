@@ -30,6 +30,12 @@
         "https://www.metrotheatre.com.au/event/airline/"
       ]
     },
+    "apollo the party 2027": {
+      "last_alerted": "2026-09-21",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/apollo-the-party-2027/"
+      ]
+    },
     "arthur hill": {
       "last_alerted": "2026-08-31",
       "urls": [
@@ -130,6 +136,12 @@
       "last_alerted": "2026-08-31",
       "urls": [
         "https://www.metrotheatre.com.au/event/drain/"
+      ]
+    },
+    "edge band laure vyoma 18": {
+      "last_alerted": "2026-09-21",
+      "urls": [
+        "https://www.arc.unsw.edu.au/roundhouse/events/edge-band-laure-and-vyoma-18and"
       ]
     },
     "empire of the sun": {
@@ -683,6 +695,12 @@
       "caesar"
     ],
     "dior\u5927\u7a4e | 18+": [],
+    "edge band, laure & vyoma": [
+      "rock",
+      "singer-songwriter",
+      "pop rock",
+      "heartland rock"
+    ],
     "electric callboy": [
       "electronic",
       "metalcore",
@@ -1259,6 +1277,7 @@
     "https://www.arc.unsw.edu.au/roundhouse/events/bingo-loco-aug-8",
     "https://www.arc.unsw.edu.au/roundhouse/events/club-angel-18and",
     "https://www.arc.unsw.edu.au/roundhouse/events/dior-da-ying-18and",
+    "https://www.arc.unsw.edu.au/roundhouse/events/edge-band-laure-and-vyoma-18and",
     "https://www.arc.unsw.edu.au/roundhouse/events/health-australia-2-0-2-6-18and",
     "https://www.arc.unsw.edu.au/roundhouse/events/klangkuenstler-18and",
     "https://www.arc.unsw.edu.au/roundhouse/events/mico-18and",
@@ -1412,6 +1431,7 @@
     "https://www.metrotheatre.com.au/event/19-twenty/",
     "https://www.metrotheatre.com.au/event/aaradhna/",
     "https://www.metrotheatre.com.au/event/airline/",
+    "https://www.metrotheatre.com.au/event/apollo-the-party-2027/",
     "https://www.metrotheatre.com.au/event/bayker-blankenship/",
     "https://www.metrotheatre.com.au/event/blacken-festival-fundraiser/",
     "https://www.metrotheatre.com.au/event/blue-whale-band/",
@@ -1467,5 +1487,5 @@
     "https://www.metrotheatre.com.au/event/underscores-gg2333/",
     "https://www.metrotheatre.com.au/event/vlads/"
   ],
-  "last_real_run_date": "2026-09-21"
+  "last_real_run_date": "2026-09-22"
 }
