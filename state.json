@@ -313,6 +313,12 @@
         "https://www.enmoretheatre.com.au/event/miss-pole-dance-australia-2026/"
       ]
     },
+    "nemzzz": {
+      "last_alerted": "2026-09-22",
+      "urls": [
+        "https://www.enmoretheatre.com.au/event/nemzzz/"
+      ]
+    },
     "nia archives": {
       "last_alerted": "2026-08-24",
       "urls": [
@@ -438,6 +444,12 @@
       "last_alerted": "2026-08-07",
       "urls": [
         "https://www.enmoretheatre.com.au/event/swimming-paul/"
+      ]
+    },
+    "tash sultana": {
+      "last_alerted": "2026-09-22",
+      "urls": [
+        "https://www.enmoretheatre.com.au/event/tash-sultana/"
       ]
     },
     "teenage bottlerocket brendan kelly": {
@@ -1142,6 +1154,7 @@
       "funk metal",
       "glam metal"
     ],
+    "subversion 21": [],
     "sunset bros present: dimension | 18+": [],
     "sydney kings 26/27 season": [
       "electronic",
@@ -1287,6 +1300,7 @@
     "https://www.arc.unsw.edu.au/roundhouse/events/portugal-the-man-18and",
     "https://www.arc.unsw.edu.au/roundhouse/events/president-18and",
     "https://www.arc.unsw.edu.au/roundhouse/events/soul-asylum-and-ugly-kid-joe",
+    "https://www.arc.unsw.edu.au/roundhouse/events/subversion-21-18and",
     "https://www.arc.unsw.edu.au/roundhouse/events/sunset-bros-present-dimension-18and",
     "https://www.arc.unsw.edu.au/roundhouse/events/the-gilsons",
     "https://www.destroyalllines.com/tours/abc",
@@ -1328,6 +1342,7 @@
     "https://www.destroyalllines.com/tours/heavensgate-2026",
     "https://www.destroyalllines.com/tours/holding-absence",
     "https://www.destroyalllines.com/tours/inertia-2026",
+    "https://www.destroyalllines.com/tours/istream",
     "https://www.destroyalllines.com/tours/james",
     "https://www.destroyalllines.com/tours/joe-jackson",
     "https://www.destroyalllines.com/tours/king-yosef",
@@ -1408,6 +1423,7 @@
     "https://www.enmoretheatre.com.au/event/marcus-miller/",
     "https://www.enmoretheatre.com.au/event/michelle-buteau/",
     "https://www.enmoretheatre.com.au/event/miss-pole-dance-australia-2026/",
+    "https://www.enmoretheatre.com.au/event/nemzzz/",
     "https://www.enmoretheatre.com.au/event/nia-archives-2/",
     "https://www.enmoretheatre.com.au/event/northlane-2/",
     "https://www.enmoretheatre.com.au/event/old-mervs-3/",
@@ -1419,6 +1435,7 @@
     "https://www.enmoretheatre.com.au/event/stand-atlantic/",
     "https://www.enmoretheatre.com.au/event/stayc/",
     "https://www.enmoretheatre.com.au/event/swimming-paul/",
+    "https://www.enmoretheatre.com.au/event/tash-sultana/",
     "https://www.enmoretheatre.com.au/event/the-dandy-warhols-2/",
     "https://www.enmoretheatre.com.au/event/the-dollop-live-podcast/",
     "https://www.enmoretheatre.com.au/event/the-hayley-williams-show/",
@@ -1487,5 +1504,5 @@
     "https://www.metrotheatre.com.au/event/underscores-gg2333/",
     "https://www.metrotheatre.com.au/event/vlads/"
   ],
-  "last_real_run_date": "2026-09-22"
+  "last_real_run_date": "2026-09-23"
 }
