@@ -205,6 +205,12 @@
         "https://www.enmoretheatre.com.au/event/holly-humberstone-2/"
       ]
     },
+    "inspiral carpets uk": {
+      "last_alerted": "2026-09-24",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/inspiral-carpets-uk/"
+      ]
+    },
     "isaiah rashad": {
       "last_alerted": "2026-09-08",
       "urls": [
@@ -1499,6 +1505,7 @@
     "https://www.metrotheatre.com.au/event/gilsons/",
     "https://www.metrotheatre.com.au/event/glare/",
     "https://www.metrotheatre.com.au/event/harrykirby/",
+    "https://www.metrotheatre.com.au/event/inspiral-carpets-uk/",
     "https://www.metrotheatre.com.au/event/jarahn-young-davie-more/",
     "https://www.metrotheatre.com.au/event/knockout-afterparty/",
     "https://www.metrotheatre.com.au/event/kukaramakara/",
@@ -1533,5 +1540,5 @@
     "https://www.metrotheatre.com.au/event/underscores-gg2333/",
     "https://www.metrotheatre.com.au/event/vlads/"
   ],
-  "last_real_run_date": "2026-09-24"
+  "last_real_run_date": "2026-09-25"
 }
