@@ -229,6 +229,12 @@
         "https://www.enmoretheatre.com.au/event/john-achkar-2/"
       ]
     },
+    "kennie simon hot chocolate 16 years of classic hits": {
+      "last_alerted": "2026-09-28",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/kennie-simon-hot-chocolate-16-years-of-classic-hits-2/"
+      ]
+    },
     "knockout afterparty": {
       "last_alerted": "2026-09-02",
       "urls": [
@@ -757,6 +763,13 @@
       "australie",
       "australien"
     ],
+    "eric church": [
+      "country",
+      "country rock",
+      "country pop",
+      "heartland rock",
+      "contemporary country"
+    ],
     "evanescence": [
       "rock",
       "alternative rock",
@@ -1279,6 +1292,7 @@
     "https://afterpayarena.com.au/event/daniel-caesar",
     "https://afterpayarena.com.au/event/electric-callboy",
     "https://afterpayarena.com.au/event/empire-of-the-sun",
+    "https://afterpayarena.com.au/event/eric-church",
     "https://afterpayarena.com.au/event/evanescence",
     "https://afterpayarena.com.au/event/fortuna-one-summit",
     "https://afterpayarena.com.au/event/gabriel-iglesias",
@@ -1508,6 +1522,7 @@
     "https://www.metrotheatre.com.au/event/harrykirby/",
     "https://www.metrotheatre.com.au/event/inspiral-carpets-uk/",
     "https://www.metrotheatre.com.au/event/jarahn-young-davie-more/",
+    "https://www.metrotheatre.com.au/event/kennie-simon-hot-chocolate-16-years-of-classic-hits-2/",
     "https://www.metrotheatre.com.au/event/knockout-afterparty/",
     "https://www.metrotheatre.com.au/event/kukaramakara/",
     "https://www.metrotheatre.com.au/event/liberti-concert/",
@@ -1541,5 +1556,5 @@
     "https://www.metrotheatre.com.au/event/underscores-gg2333/",
     "https://www.metrotheatre.com.au/event/vlads/"
   ],
-  "last_real_run_date": "2026-09-28"
+  "last_real_run_date": "2026-09-29"
 }
