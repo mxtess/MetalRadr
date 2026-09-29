@@ -30,6 +30,12 @@
         "https://www.metrotheatre.com.au/event/airline/"
       ]
     },
+    "an evening with lee asher": {
+      "last_alerted": "2026-09-29",
+      "urls": [
+        "https://www.enmoretheatre.com.au/event/an-evening-with-lee-asher/"
+      ]
+    },
     "apollo the party 2027": {
       "last_alerted": "2026-09-21",
       "urls": [
@@ -1241,6 +1247,7 @@
       "children's music"
     ],
     "touring nowpresale on nowsold out": [],
+    "ufc fight night": [],
     "westlife": [
       "pop",
       "irish",
@@ -1325,6 +1332,7 @@
     "https://afterpayarena.com.au/event/tame-impala",
     "https://afterpayarena.com.au/event/the-script",
     "https://afterpayarena.com.au/event/the-wiggles-2",
+    "https://afterpayarena.com.au/event/ufc-fight-night",
     "https://afterpayarena.com.au/event/westlife",
     "https://afterpayarena.com.au/event/xg",
     "https://afterpayarena.com.au/event/zara-larsson",
@@ -1424,6 +1432,7 @@
     "https://www.destroyalllines.com/tours/simple-minds",
     "https://www.destroyalllines.com/tours/skindred-2026",
     "https://www.destroyalllines.com/tours/sleep-theory",
+    "https://www.destroyalllines.com/tours/sleeping-with-sirens-2027",
     "https://www.destroyalllines.com/tours/slenderbodies---postponed",
     "https://www.destroyalllines.com/tours/soul-asylum-ugly-kid-joe",
     "https://www.destroyalllines.com/tours/sound-collective",
@@ -1450,6 +1459,7 @@
     "https://www.enmoretheatre.com.au/event/a-nostalgic-night-with-macaulay-culkin/",
     "https://www.enmoretheatre.com.au/event/a-very-furnace-christmas-3/",
     "https://www.enmoretheatre.com.au/event/abc/",
+    "https://www.enmoretheatre.com.au/event/an-evening-with-lee-asher/",
     "https://www.enmoretheatre.com.au/event/annandale-public-2026/",
     "https://www.enmoretheatre.com.au/event/arthur-hill/",
     "https://www.enmoretheatre.com.au/event/bachman-turner-overdrive/",
@@ -1556,5 +1566,5 @@
     "https://www.metrotheatre.com.au/event/underscores-gg2333/",
     "https://www.metrotheatre.com.au/event/vlads/"
   ],
-  "last_real_run_date": "2026-09-29"
+  "last_real_run_date": "2026-09-30"
 }
