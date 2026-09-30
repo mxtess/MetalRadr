@@ -72,6 +72,12 @@
         "https://www.enmoretheatre.com.au/event/benjamin-clementine/"
       ]
     },
+    "bikes bulls": {
+      "last_alerted": "2026-09-30",
+      "urls": [
+        "https://afterpayarena.com.au/event/bikes-bulls"
+      ]
+    },
     "bingo loco 18": {
       "last_alerted": "2026-08-29",
       "urls": [
@@ -650,6 +656,13 @@
       "contemporary singer/songwriter",
       "2020s",
       "gen z"
+    ],
+    "bikes & bulls": [
+      "alternative rock",
+      "metal",
+      "hard rock",
+      "nu metal",
+      "alternative metal"
     ],
     "bingo loco": [
       "house",
@@ -1290,6 +1303,7 @@
     "https://afterpayarena.com.au/event/babymonster",
     "https://afterpayarena.com.au/event/beabadoobee",
     "https://afterpayarena.com.au/event/benson-boone",
+    "https://afterpayarena.com.au/event/bikes-bulls",
     "https://afterpayarena.com.au/event/boyz-ii-men",
     "https://afterpayarena.com.au/event/bryan-adams",
     "https://afterpayarena.com.au/event/bryson-tiller",
@@ -1566,5 +1580,5 @@
     "https://www.metrotheatre.com.au/event/underscores-gg2333/",
     "https://www.metrotheatre.com.au/event/vlads/"
   ],
-  "last_real_run_date": "2026-09-30"
+  "last_real_run_date": "2026-10-01"
 }
