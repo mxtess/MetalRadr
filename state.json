@@ -138,6 +138,12 @@
         "https://www.metrotheatre.com.au/event/d-a-d/"
       ]
     },
+    "dani enli": {
+      "last_alerted": "2026-10-01",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/dani-enli/"
+      ]
+    },
     "domi jd beck": {
       "last_alerted": "2026-08-04",
       "urls": [
@@ -402,6 +408,12 @@
       "last_alerted": "2026-08-17",
       "urls": [
         "https://www.arc.unsw.edu.au/roundhouse/events/portugal-the-man-18and"
+      ]
+    },
+    "portugal the man us": {
+      "last_alerted": "2026-10-01",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/portugal-the-man-us/"
       ]
     },
     "propagandhi": {
@@ -1401,6 +1413,7 @@
     "https://www.destroyalllines.com/tours/evening-elephants",
     "https://www.destroyalllines.com/tours/fishbone",
     "https://www.destroyalllines.com/tours/fleshwater-2026",
+    "https://www.destroyalllines.com/tours/free-throw-2027",
     "https://www.destroyalllines.com/tours/from-ashes-to-new-2026",
     "https://www.destroyalllines.com/tours/geordie-kieffer",
     "https://www.destroyalllines.com/tours/go-west",
@@ -1535,6 +1548,7 @@
     "https://www.metrotheatre.com.au/event/crasher-x-metro-air/",
     "https://www.metrotheatre.com.au/event/d-a-d/",
     "https://www.metrotheatre.com.au/event/daine/",
+    "https://www.metrotheatre.com.au/event/dani-enli/",
     "https://www.metrotheatre.com.au/event/domi-jd-beck-2/",
     "https://www.metrotheatre.com.au/event/drain/",
     "https://www.metrotheatre.com.au/event/fat-dog/",
@@ -1562,6 +1576,7 @@
     "https://www.metrotheatre.com.au/event/patrick-watson/",
     "https://www.metrotheatre.com.au/event/periphery/",
     "https://www.metrotheatre.com.au/event/pond/",
+    "https://www.metrotheatre.com.au/event/portugal-the-man-us/",
     "https://www.metrotheatre.com.au/event/propagandhi/",
     "https://www.metrotheatre.com.au/event/pun/",
     "https://www.metrotheatre.com.au/event/realyungphil-gud-woesum-stacey/",
@@ -1580,5 +1595,5 @@
     "https://www.metrotheatre.com.au/event/underscores-gg2333/",
     "https://www.metrotheatre.com.au/event/vlads/"
   ],
-  "last_real_run_date": "2026-10-01"
+  "last_real_run_date": "2026-10-02"
 }
