@@ -349,6 +349,12 @@
         "https://afterpayarena.com.au/event/monster-truck-mania-live"
       ]
     },
+    "n sidr": {
+      "last_alerted": "2026-10-02",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/n-sidr-2/"
+      ]
+    },
     "nemzzz": {
       "last_alerted": "2026-09-22",
       "urls": [
@@ -372,6 +378,12 @@
       "last_alerted": "2026-09-10",
       "urls": [
         "https://www.metrotheatre.com.au/event/not-one-dollar-short/"
+      ]
+    },
+    "on cinema": {
+      "last_alerted": "2026-10-02",
+      "urls": [
+        "https://www.enmoretheatre.com.au/event/on-cinema-live/"
       ]
     },
     "oskar med k": {
@@ -450,6 +462,12 @@
       "last_alerted": "2026-08-19",
       "urls": [
         "https://www.enmoretheatre.com.au/event/rodrigo-y-gabriela-2/"
+      ]
+    },
+    "safs x aaa friday": {
+      "last_alerted": "2026-10-02",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/safs-x-aaa-friday%e2%98%85/"
       ]
     },
     "sarah kinsley": {
@@ -1512,6 +1530,7 @@
     "https://www.enmoretheatre.com.au/event/nia-archives-2/",
     "https://www.enmoretheatre.com.au/event/northlane-2/",
     "https://www.enmoretheatre.com.au/event/old-mervs-3/",
+    "https://www.enmoretheatre.com.au/event/on-cinema-live/",
     "https://www.enmoretheatre.com.au/event/oskar-med-k/",
     "https://www.enmoretheatre.com.au/event/rachel-chinouriri/",
     "https://www.enmoretheatre.com.au/event/rodrigo-y-gabriela-2/",
@@ -1571,6 +1590,7 @@
     "https://www.metrotheatre.com.au/event/metro-a-i-r-x-friends-of-friends-lara-buchanan-tilly-fenton-the-favourite/",
     "https://www.metrotheatre.com.au/event/metro-a-i-r-x-friends-of-friends-san-cisco-djs-sesame-girl-jade-yee-smith/",
     "https://www.metrotheatre.com.au/event/metro-aaa-x-axekick/",
+    "https://www.metrotheatre.com.au/event/n-sidr-2/",
     "https://www.metrotheatre.com.au/event/nia-archives-2/",
     "https://www.metrotheatre.com.au/event/not-one-dollar-short/",
     "https://www.metrotheatre.com.au/event/patrick-watson/",
@@ -1580,6 +1600,7 @@
     "https://www.metrotheatre.com.au/event/propagandhi/",
     "https://www.metrotheatre.com.au/event/pun/",
     "https://www.metrotheatre.com.au/event/realyungphil-gud-woesum-stacey/",
+    "https://www.metrotheatre.com.au/event/safs-x-aaa-friday%e2%98%85/",
     "https://www.metrotheatre.com.au/event/sarah-kinsley/",
     "https://www.metrotheatre.com.au/event/sarkodie/",
     "https://www.metrotheatre.com.au/event/shred-fest-sydney-moved-from-manning-bar-feat-obscura-ger-fallujah-guests/",
@@ -1595,5 +1616,5 @@
     "https://www.metrotheatre.com.au/event/underscores-gg2333/",
     "https://www.metrotheatre.com.au/event/vlads/"
   ],
-  "last_real_run_date": "2026-10-02"
+  "last_real_run_date": "2026-10-03"
 }
