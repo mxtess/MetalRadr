@@ -715,6 +715,12 @@
       "r&b",
       "contemporary r&b"
     ],
+    "brooks & dunn": [
+      "singer-songwriter",
+      "country",
+      "country rock",
+      "contemporary country"
+    ],
     "bryan adams": [
       "rock",
       "british",
@@ -1335,6 +1341,7 @@
     "https://afterpayarena.com.au/event/benson-boone",
     "https://afterpayarena.com.au/event/bikes-bulls",
     "https://afterpayarena.com.au/event/boyz-ii-men",
+    "https://afterpayarena.com.au/event/brooks-dunn",
     "https://afterpayarena.com.au/event/bryan-adams",
     "https://afterpayarena.com.au/event/bryson-tiller",
     "https://afterpayarena.com.au/event/charlie-puth",
@@ -1616,5 +1623,5 @@
     "https://www.metrotheatre.com.au/event/underscores-gg2333/",
     "https://www.metrotheatre.com.au/event/vlads/"
   ],
-  "last_real_run_date": "2026-10-05"
+  "last_real_run_date": "2026-10-06"
 }
