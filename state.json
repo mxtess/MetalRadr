@@ -132,6 +132,12 @@
         "https://www.enmoretheatre.com.au/event/crash-test-dummies/"
       ]
     },
+    "cuuhraig usa": {
+      "last_alerted": "2026-10-07",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/cuuhraig-usa/"
+      ]
+    },
     "d a d": {
       "last_alerted": "2026-08-12",
       "urls": [
@@ -1572,6 +1578,7 @@
     "https://www.metrotheatre.com.au/event/crasher-x-metro-air-4/",
     "https://www.metrotheatre.com.au/event/crasher-x-metro-air-5/",
     "https://www.metrotheatre.com.au/event/crasher-x-metro-air/",
+    "https://www.metrotheatre.com.au/event/cuuhraig-usa/",
     "https://www.metrotheatre.com.au/event/d-a-d/",
     "https://www.metrotheatre.com.au/event/daine/",
     "https://www.metrotheatre.com.au/event/dani-enli/",
@@ -1623,5 +1630,5 @@
     "https://www.metrotheatre.com.au/event/underscores-gg2333/",
     "https://www.metrotheatre.com.au/event/vlads/"
   ],
-  "last_real_run_date": "2026-10-07"
+  "last_real_run_date": "2026-10-08"
 }
