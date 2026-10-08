@@ -162,6 +162,18 @@
         "https://www.metrotheatre.com.au/event/drain/"
       ]
     },
+    "drama 18": {
+      "last_alerted": "2026-10-08",
+      "urls": [
+        "https://www.arc.unsw.edu.au/roundhouse/events/drama-18and"
+      ]
+    },
+    "echoes of pink floyd": {
+      "last_alerted": "2026-10-08",
+      "urls": [
+        "https://www.enmoretheatre.com.au/event/echoes-of-pink-floyd/"
+      ]
+    },
     "edge band laure vyoma 18": {
       "last_alerted": "2026-09-21",
       "urls": [
@@ -404,6 +416,12 @@
         "https://www.metrotheatre.com.au/event/patrick-watson/"
       ]
     },
+    "peaches": {
+      "last_alerted": "2026-10-08",
+      "urls": [
+        "https://www.enmoretheatre.com.au/event/peaches/"
+      ]
+    },
     "peking duk 18": {
       "last_alerted": "2026-08-10",
       "urls": [
@@ -572,6 +590,12 @@
         "https://www.metrotheatre.com.au/event/the-lost-backpackers-2/"
       ]
     },
+    "the mary wallopers": {
+      "last_alerted": "2026-10-08",
+      "urls": [
+        "https://www.enmoretheatre.com.au/event/the-mary-wallopers-2/"
+      ]
+    },
     "the psychology of cults": {
       "last_alerted": "2026-08-10",
       "urls": [
@@ -618,6 +642,12 @@
       "last_alerted": "2026-08-14",
       "urls": [
         "https://www.metrotheatre.com.au/event/vlads/"
+      ]
+    },
+    "winterbourne": {
+      "last_alerted": "2026-10-08",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/winterbourne-2/"
       ]
     },
     "yeahmad unhinged": {
@@ -798,6 +828,20 @@
       "caesar"
     ],
     "dior\u5927\u7a4e | 18+": [],
+    "drama": [
+      "electronic",
+      "pop",
+      "indie",
+      "soul",
+      "r&b",
+      "contemporary r&b",
+      "eurobeat",
+      "darkness",
+      "nihilism",
+      "death worship",
+      "cold",
+      "black metal"
+    ],
     "edge band, laure & vyoma": [
       "rock",
       "singer-songwriter",
@@ -1401,6 +1445,7 @@
     "https://www.arc.unsw.edu.au/roundhouse/events/bingo-loco-aug-8",
     "https://www.arc.unsw.edu.au/roundhouse/events/club-angel-18and",
     "https://www.arc.unsw.edu.au/roundhouse/events/dior-da-ying-18and",
+    "https://www.arc.unsw.edu.au/roundhouse/events/drama-18and",
     "https://www.arc.unsw.edu.au/roundhouse/events/edge-band-laure-and-vyoma-18and",
     "https://www.arc.unsw.edu.au/roundhouse/events/health-australia-2-0-2-6-18and",
     "https://www.arc.unsw.edu.au/roundhouse/events/klangkuenstler-18and",
@@ -1426,6 +1471,7 @@
     "https://www.destroyalllines.com/tours/bury-tomorrow-2026",
     "https://www.destroyalllines.com/tours/bush-shinedown",
     "https://www.destroyalllines.com/tours/cake",
+    "https://www.destroyalllines.com/tours/cancer-bats-2027",
     "https://www.destroyalllines.com/tours/cane-hill",
     "https://www.destroyalllines.com/tours/carpenter-brut",
     "https://www.destroyalllines.com/tours/chapterhouse-2027",
@@ -1497,6 +1543,7 @@
     "https://www.destroyalllines.com/tours/south-arcade-2026",
     "https://www.destroyalllines.com/tours/squeeze",
     "https://www.destroyalllines.com/tours/stand-atlantic-2026",
+    "https://www.destroyalllines.com/tours/survive-said-the-prophet-2027",
     "https://www.destroyalllines.com/tours/the-butterfly-effect",
     "https://www.destroyalllines.com/tours/the-cribs",
     "https://www.destroyalllines.com/tours/the-early-november-hellogoodbye",
@@ -1527,6 +1574,7 @@
     "https://www.enmoretheatre.com.au/event/countess-luann-cabaret-love-tour/",
     "https://www.enmoretheatre.com.au/event/crash-test-dummies/",
     "https://www.enmoretheatre.com.au/event/del-amitri/",
+    "https://www.enmoretheatre.com.au/event/echoes-of-pink-floyd/",
     "https://www.enmoretheatre.com.au/event/enmore-comedy-club-2026-4/",
     "https://www.enmoretheatre.com.au/event/enmore-comedy-club-2026-5/",
     "https://www.enmoretheatre.com.au/event/greentea-peng-2/",
@@ -1545,6 +1593,7 @@
     "https://www.enmoretheatre.com.au/event/old-mervs-3/",
     "https://www.enmoretheatre.com.au/event/on-cinema-live/",
     "https://www.enmoretheatre.com.au/event/oskar-med-k/",
+    "https://www.enmoretheatre.com.au/event/peaches/",
     "https://www.enmoretheatre.com.au/event/rachel-chinouriri/",
     "https://www.enmoretheatre.com.au/event/rodrigo-y-gabriela-2/",
     "https://www.enmoretheatre.com.au/event/sleep-theory-2/",
@@ -1557,6 +1606,7 @@
     "https://www.enmoretheatre.com.au/event/the-dandy-warhols-2/",
     "https://www.enmoretheatre.com.au/event/the-dollop-live-podcast/",
     "https://www.enmoretheatre.com.au/event/the-hayley-williams-show/",
+    "https://www.enmoretheatre.com.au/event/the-mary-wallopers-2/",
     "https://www.enmoretheatre.com.au/event/the-psychology-of-cults/",
     "https://www.enmoretheatre.com.au/event/tom-gleeson/",
     "https://www.enmoretheatre.com.au/event/toni-and-ryan-live-podcast-recording/",
@@ -1628,7 +1678,8 @@
     "https://www.metrotheatre.com.au/event/the-smyths-2/",
     "https://www.metrotheatre.com.au/event/trophy-eyes-3/",
     "https://www.metrotheatre.com.au/event/underscores-gg2333/",
-    "https://www.metrotheatre.com.au/event/vlads/"
+    "https://www.metrotheatre.com.au/event/vlads/",
+    "https://www.metrotheatre.com.au/event/winterbourne-2/"
   ],
-  "last_real_run_date": "2026-10-08"
+  "last_real_run_date": "2026-10-09"
 }
