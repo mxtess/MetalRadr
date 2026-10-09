@@ -235,6 +235,12 @@
         "https://www.metrotheatre.com.au/event/harrykirby/"
       ]
     },
+    "hindley street country club": {
+      "last_alerted": "2026-10-09",
+      "urls": [
+        "https://www.enmoretheatre.com.au/event/hindley-street-country-club-5/"
+      ]
+    },
     "holly humberstone": {
       "last_alerted": "2026-08-21",
       "urls": [
@@ -480,6 +486,12 @@
       "last_alerted": "2026-08-17",
       "urls": [
         "https://www.metrotheatre.com.au/event/realyungphil-gud-woesum-stacey/"
+      ]
+    },
+    "remi wolf": {
+      "last_alerted": "2026-10-09",
+      "urls": [
+        "https://www.enmoretheatre.com.au/event/remi-wolf-2/"
       ]
     },
     "rodrigo y gabriela": {
@@ -1578,6 +1590,7 @@
     "https://www.enmoretheatre.com.au/event/enmore-comedy-club-2026-4/",
     "https://www.enmoretheatre.com.au/event/enmore-comedy-club-2026-5/",
     "https://www.enmoretheatre.com.au/event/greentea-peng-2/",
+    "https://www.enmoretheatre.com.au/event/hindley-street-country-club-5/",
     "https://www.enmoretheatre.com.au/event/holly-humberstone-2/",
     "https://www.enmoretheatre.com.au/event/isaiah-rashad/",
     "https://www.enmoretheatre.com.au/event/john-achkar-2/",
@@ -1595,6 +1608,7 @@
     "https://www.enmoretheatre.com.au/event/oskar-med-k/",
     "https://www.enmoretheatre.com.au/event/peaches/",
     "https://www.enmoretheatre.com.au/event/rachel-chinouriri/",
+    "https://www.enmoretheatre.com.au/event/remi-wolf-2/",
     "https://www.enmoretheatre.com.au/event/rodrigo-y-gabriela-2/",
     "https://www.enmoretheatre.com.au/event/sleep-theory-2/",
     "https://www.enmoretheatre.com.au/event/squeeze/",
@@ -1681,5 +1695,5 @@
     "https://www.metrotheatre.com.au/event/vlads/",
     "https://www.metrotheatre.com.au/event/winterbourne-2/"
   ],
-  "last_real_run_date": "2026-10-09"
+  "last_real_run_date": "2026-10-10"
 }
