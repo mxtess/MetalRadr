@@ -6,6 +6,12 @@
         "https://www.metrotheatre.com.au/event/19-twenty/"
       ]
     },
+    "a ap rocky": {
+      "last_alerted": "2026-10-12",
+      "urls": [
+        "https://afterpayarena.com.au/event/aap-rocky"
+      ]
+    },
     "a nostalgic night with macaulay culkin": {
       "last_alerted": "2026-09-06",
       "urls": [
@@ -379,6 +385,12 @@
         "https://www.metrotheatre.com.au/event/n-sidr-2/"
       ]
     },
+    "naethan apollo": {
+      "last_alerted": "2026-10-12",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/naethan-apollo/"
+      ]
+    },
     "nemzzz": {
       "last_alerted": "2026-09-22",
       "urls": [
@@ -390,6 +402,12 @@
       "urls": [
         "https://www.enmoretheatre.com.au/event/nia-archives-2/",
         "https://www.metrotheatre.com.au/event/nia-archives-2/"
+      ]
+    },
+    "nickelback": {
+      "last_alerted": "2026-10-12",
+      "urls": [
+        "https://afterpayarena.com.au/event/nickelback"
       ]
     },
     "northlane": {
@@ -540,6 +558,12 @@
       "last_alerted": "2026-08-14",
       "urls": [
         "https://www.enmoretheatre.com.au/event/stand-atlantic/"
+      ]
+    },
+    "story of the year silverstein": {
+      "last_alerted": "2026-10-12",
+      "urls": [
+        "https://www.enmoretheatre.com.au/event/story-of-the-year-silverstein/"
       ]
     },
     "swimming paul": {
@@ -1009,6 +1033,7 @@
       "alternative r&b",
       "lo-fi hip hop"
     ],
+    "josh baker": [],
     "jungle": [
       "electronic",
       "funk",
@@ -1102,6 +1127,21 @@
     "niall horan": [
       "pop",
       "lflores077@gmail.com"
+    ],
+    "nickelback": [
+      "rock",
+      "alternative rock",
+      "death metal",
+      "grunge",
+      "canadian",
+      "hard rock",
+      "funk rock",
+      "electropop",
+      "post-grunge",
+      "alternative metal",
+      "pop rock",
+      "pop and chart",
+      "music_for_people_who_dislike_music"
     ],
     "noah kahan": [
       "pop",
@@ -1396,6 +1436,7 @@
   "known_urls": [
     "https://afterpayarena.com.au/event-calendar",
     "https://afterpayarena.com.au/event/5-seconds-of-summer",
+    "https://afterpayarena.com.au/event/aap-rocky",
     "https://afterpayarena.com.au/event/alex-warren",
     "https://afterpayarena.com.au/event/avenged-sevenfold",
     "https://afterpayarena.com.au/event/babymonster",
@@ -1432,6 +1473,7 @@
     "https://afterpayarena.com.au/event/megan-moroney",
     "https://afterpayarena.com.au/event/monster-truck-mania-live",
     "https://afterpayarena.com.au/event/niall-horan",
+    "https://afterpayarena.com.au/event/nickelback",
     "https://afterpayarena.com.au/event/noah-kahan",
     "https://afterpayarena.com.au/event/olivia-dean",
     "https://afterpayarena.com.au/event/paul-smith",
@@ -1460,6 +1502,7 @@
     "https://www.arc.unsw.edu.au/roundhouse/events/drama-18and",
     "https://www.arc.unsw.edu.au/roundhouse/events/edge-band-laure-and-vyoma-18and",
     "https://www.arc.unsw.edu.au/roundhouse/events/health-australia-2-0-2-6-18and",
+    "https://www.arc.unsw.edu.au/roundhouse/events/josh-baker-18and",
     "https://www.arc.unsw.edu.au/roundhouse/events/klangkuenstler-18and",
     "https://www.arc.unsw.edu.au/roundhouse/events/mico-18and",
     "https://www.arc.unsw.edu.au/roundhouse/events/odd-mob-18and",
@@ -1483,6 +1526,7 @@
     "https://www.destroyalllines.com/tours/bury-tomorrow-2026",
     "https://www.destroyalllines.com/tours/bush-shinedown",
     "https://www.destroyalllines.com/tours/cake",
+    "https://www.destroyalllines.com/tours/camp-screamo",
     "https://www.destroyalllines.com/tours/cancer-bats-2027",
     "https://www.destroyalllines.com/tours/cane-hill",
     "https://www.destroyalllines.com/tours/carpenter-brut",
@@ -1525,11 +1569,13 @@
     "https://www.destroyalllines.com/tours/loose-bricks",
     "https://www.destroyalllines.com/tours/lorna-shore-2026",
     "https://www.destroyalllines.com/tours/loudon-wainwright-iii",
+    "https://www.destroyalllines.com/tours/lucidity-2027",
     "https://www.destroyalllines.com/tours/luke-severeid-2026",
     "https://www.destroyalllines.com/tours/macaulay-culkin-2026",
     "https://www.destroyalllines.com/tours/masood-boomgaard",
     "https://www.destroyalllines.com/tours/midge-ure",
     "https://www.destroyalllines.com/tours/mike-e-winfield",
+    "https://www.destroyalllines.com/tours/naethan-apollo-2027",
     "https://www.destroyalllines.com/tours/nathan-evans",
     "https://www.destroyalllines.com/tours/northlane-album-tour-2026",
     "https://www.destroyalllines.com/tours/ocean-grove-2026",
@@ -1614,6 +1660,7 @@
     "https://www.enmoretheatre.com.au/event/squeeze/",
     "https://www.enmoretheatre.com.au/event/stand-atlantic/",
     "https://www.enmoretheatre.com.au/event/stayc/",
+    "https://www.enmoretheatre.com.au/event/story-of-the-year-silverstein/",
     "https://www.enmoretheatre.com.au/event/swimming-paul/",
     "https://www.enmoretheatre.com.au/event/sydney-wearable-arts-gala-2026/",
     "https://www.enmoretheatre.com.au/event/tash-sultana/",
@@ -1669,6 +1716,7 @@
     "https://www.metrotheatre.com.au/event/metro-a-i-r-x-friends-of-friends-san-cisco-djs-sesame-girl-jade-yee-smith/",
     "https://www.metrotheatre.com.au/event/metro-aaa-x-axekick/",
     "https://www.metrotheatre.com.au/event/n-sidr-2/",
+    "https://www.metrotheatre.com.au/event/naethan-apollo/",
     "https://www.metrotheatre.com.au/event/nia-archives-2/",
     "https://www.metrotheatre.com.au/event/not-one-dollar-short/",
     "https://www.metrotheatre.com.au/event/patrick-watson/",
@@ -1695,5 +1743,5 @@
     "https://www.metrotheatre.com.au/event/vlads/",
     "https://www.metrotheatre.com.au/event/winterbourne-2/"
   ],
-  "last_real_run_date": "2026-10-12"
+  "last_real_run_date": "2026-10-13"
 }
