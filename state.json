@@ -156,6 +156,12 @@
         "https://www.metrotheatre.com.au/event/dani-enli/"
       ]
     },
+    "daniel muggleton enmore theatre": {
+      "last_alerted": "2026-10-14",
+      "urls": [
+        "https://www.enmoretheatre.com.au/event/daniel-muggleton-enmore-theatre/"
+      ]
+    },
     "domi jd beck": {
       "last_alerted": "2026-08-04",
       "urls": [
@@ -271,6 +277,12 @@
         "https://www.metrotheatre.com.au/event/jarahn-young-davie-more/"
       ]
     },
+    "jimeoin ballyhoo": {
+      "last_alerted": "2026-10-14",
+      "urls": [
+        "https://www.enmoretheatre.com.au/event/jimeoin/"
+      ]
+    },
     "john achkar": {
       "last_alerted": "2026-08-29",
       "urls": [
@@ -329,6 +341,12 @@
       "last_alerted": "2026-09-15",
       "urls": [
         "https://www.metrotheatre.com.au/event/medium-build/"
+      ]
+    },
+    "memphis lk": {
+      "last_alerted": "2026-10-14",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/memphis-lk/"
       ]
     },
     "metro a i r x friends of friends chick scatter light djs": {
@@ -570,6 +588,12 @@
       "last_alerted": "2026-08-07",
       "urls": [
         "https://www.enmoretheatre.com.au/event/swimming-paul/"
+      ]
+    },
+    "sydney comedy festival gala the enmore theatre": {
+      "last_alerted": "2026-10-14",
+      "urls": [
+        "https://www.enmoretheatre.com.au/event/sydney-comedy-festival-gala-the-enmore-theatre-2/"
       ]
     },
     "sydney wearable arts gala 2026": {
@@ -1632,6 +1656,7 @@
     "https://www.enmoretheatre.com.au/event/clutch/",
     "https://www.enmoretheatre.com.au/event/countess-luann-cabaret-love-tour/",
     "https://www.enmoretheatre.com.au/event/crash-test-dummies/",
+    "https://www.enmoretheatre.com.au/event/daniel-muggleton-enmore-theatre/",
     "https://www.enmoretheatre.com.au/event/del-amitri/",
     "https://www.enmoretheatre.com.au/event/echoes-of-pink-floyd/",
     "https://www.enmoretheatre.com.au/event/enmore-comedy-club-2026-4/",
@@ -1640,6 +1665,7 @@
     "https://www.enmoretheatre.com.au/event/hindley-street-country-club-5/",
     "https://www.enmoretheatre.com.au/event/holly-humberstone-2/",
     "https://www.enmoretheatre.com.au/event/isaiah-rashad/",
+    "https://www.enmoretheatre.com.au/event/jimeoin/",
     "https://www.enmoretheatre.com.au/event/john-achkar-2/",
     "https://www.enmoretheatre.com.au/event/jonah-marais/",
     "https://www.enmoretheatre.com.au/event/loudon-wainwright-iii/",
@@ -1663,6 +1689,7 @@
     "https://www.enmoretheatre.com.au/event/stayc/",
     "https://www.enmoretheatre.com.au/event/story-of-the-year-silverstein/",
     "https://www.enmoretheatre.com.au/event/swimming-paul/",
+    "https://www.enmoretheatre.com.au/event/sydney-comedy-festival-gala-the-enmore-theatre-2/",
     "https://www.enmoretheatre.com.au/event/sydney-wearable-arts-gala-2026/",
     "https://www.enmoretheatre.com.au/event/tash-sultana/",
     "https://www.enmoretheatre.com.au/event/the-dandy-warhols-2/",
@@ -1711,6 +1738,7 @@
     "https://www.metrotheatre.com.au/event/liberti-concert/",
     "https://www.metrotheatre.com.au/event/mass-of-the-fermenting-dregs-crowbar-upgrade/",
     "https://www.metrotheatre.com.au/event/medium-build/",
+    "https://www.metrotheatre.com.au/event/memphis-lk/",
     "https://www.metrotheatre.com.au/event/metro-a-i-r-x-friends-of-friends-chick-scatter-light-djs/",
     "https://www.metrotheatre.com.au/event/metro-a-i-r-x-friends-of-friends-fathers-favourite-chuck-sics-ali-kerr-djs/",
     "https://www.metrotheatre.com.au/event/metro-a-i-r-x-friends-of-friends-lara-buchanan-tilly-fenton-the-favourite/",
@@ -1744,5 +1772,5 @@
     "https://www.metrotheatre.com.au/event/vlads/",
     "https://www.metrotheatre.com.au/event/winterbourne-2/"
   ],
-  "last_real_run_date": "2026-10-14"
+  "last_real_run_date": "2026-10-15"
 }
