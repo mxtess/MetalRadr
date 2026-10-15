@@ -572,6 +572,12 @@
         "https://www.arc.unsw.edu.au/roundhouse/events/soul-asylum-and-ugly-kid-joe"
       ]
     },
+    "st paul and the broken bones usa": {
+      "last_alerted": "2026-10-15",
+      "urls": [
+        "https://www.enmoretheatre.com.au/event/st-paul-and-the-broken-bones-usa/"
+      ]
+    },
     "stand atlantic": {
       "last_alerted": "2026-08-14",
       "urls": [
@@ -1586,6 +1592,7 @@
     "https://www.destroyalllines.com/tours/istream",
     "https://www.destroyalllines.com/tours/james",
     "https://www.destroyalllines.com/tours/joe-jackson",
+    "https://www.destroyalllines.com/tours/kasabian-2027",
     "https://www.destroyalllines.com/tours/king-yosef",
     "https://www.destroyalllines.com/tours/knox-2027",
     "https://www.destroyalllines.com/tours/lamb-of-god-and-trivium",
@@ -1625,6 +1632,7 @@
     "https://www.destroyalllines.com/tours/sound-collective",
     "https://www.destroyalllines.com/tours/south-arcade-2026",
     "https://www.destroyalllines.com/tours/squeeze",
+    "https://www.destroyalllines.com/tours/st-paul",
     "https://www.destroyalllines.com/tours/stand-atlantic-2026",
     "https://www.destroyalllines.com/tours/survive-said-the-prophet-2027",
     "https://www.destroyalllines.com/tours/the-butterfly-effect",
@@ -1685,6 +1693,7 @@
     "https://www.enmoretheatre.com.au/event/rodrigo-y-gabriela-2/",
     "https://www.enmoretheatre.com.au/event/sleep-theory-2/",
     "https://www.enmoretheatre.com.au/event/squeeze/",
+    "https://www.enmoretheatre.com.au/event/st-paul-and-the-broken-bones-usa/",
     "https://www.enmoretheatre.com.au/event/stand-atlantic/",
     "https://www.enmoretheatre.com.au/event/stayc/",
     "https://www.enmoretheatre.com.au/event/story-of-the-year-silverstein/",
@@ -1772,5 +1781,5 @@
     "https://www.metrotheatre.com.au/event/vlads/",
     "https://www.metrotheatre.com.au/event/winterbourne-2/"
   ],
-  "last_real_run_date": "2026-10-15"
+  "last_real_run_date": "2026-10-16"
 }
