@@ -102,6 +102,12 @@
         "https://www.metrotheatre.com.au/event/blue-whale-band/"
       ]
     },
+    "budjerah sings donny hathaway": {
+      "last_alerted": "2026-10-18",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/budjerah-sings-donny-hathaway/"
+      ]
+    },
     "carlos vives la provincia tribute": {
       "last_alerted": "2026-08-29",
       "urls": [
@@ -391,6 +397,12 @@
         "https://www.enmoretheatre.com.au/event/miss-pole-dance-australia-2026/"
       ]
     },
+    "mo ju sings bill withers": {
+      "last_alerted": "2026-10-18",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/moju-sings-bill-withers/"
+      ]
+    },
     "monster truck mania live": {
       "last_alerted": "2026-09-23",
       "urls": [
@@ -558,6 +570,12 @@
       "last_alerted": "2026-08-20",
       "urls": [
         "https://www.enmoretheatre.com.au/event/sleep-theory-2/"
+      ]
+    },
+    "solchld sings etta james": {
+      "last_alerted": "2026-10-18",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/solchld-sings-etta-james/"
       ]
     },
     "sombr": {
@@ -1718,6 +1736,7 @@
     "https://www.metrotheatre.com.au/event/bayker-blankenship/",
     "https://www.metrotheatre.com.au/event/blacken-festival-fundraiser/",
     "https://www.metrotheatre.com.au/event/blue-whale-band/",
+    "https://www.metrotheatre.com.au/event/budjerah-sings-donny-hathaway/",
     "https://www.metrotheatre.com.au/event/carlos-vives-la-provincia-tribute/",
     "https://www.metrotheatre.com.au/event/chiodos/",
     "https://www.metrotheatre.com.au/event/civic-video/",
@@ -1753,6 +1772,7 @@
     "https://www.metrotheatre.com.au/event/metro-a-i-r-x-friends-of-friends-lara-buchanan-tilly-fenton-the-favourite/",
     "https://www.metrotheatre.com.au/event/metro-a-i-r-x-friends-of-friends-san-cisco-djs-sesame-girl-jade-yee-smith/",
     "https://www.metrotheatre.com.au/event/metro-aaa-x-axekick/",
+    "https://www.metrotheatre.com.au/event/moju-sings-bill-withers/",
     "https://www.metrotheatre.com.au/event/n-sidr-2/",
     "https://www.metrotheatre.com.au/event/naethan-apollo/",
     "https://www.metrotheatre.com.au/event/nia-archives-2/",
@@ -1769,6 +1789,7 @@
     "https://www.metrotheatre.com.au/event/sarkodie/",
     "https://www.metrotheatre.com.au/event/shred-fest-sydney-moved-from-manning-bar-feat-obscura-ger-fallujah-guests/",
     "https://www.metrotheatre.com.au/event/sleep-theory/",
+    "https://www.metrotheatre.com.au/event/solchld-sings-etta-james/",
     "https://www.metrotheatre.com.au/event/teenage-bottlerocket-brendan-kelly/",
     "https://www.metrotheatre.com.au/event/tekno/",
     "https://www.metrotheatre.com.au/event/the-belair-lip-bombs/",
@@ -1781,5 +1802,5 @@
     "https://www.metrotheatre.com.au/event/vlads/",
     "https://www.metrotheatre.com.au/event/winterbourne-2/"
   ],
-  "last_real_run_date": "2026-10-18"
+  "last_real_run_date": "2026-10-19"
 }
