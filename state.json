@@ -36,6 +36,12 @@
         "https://www.metrotheatre.com.au/event/airline/"
       ]
     },
+    "altin g n ams": {
+      "last_alerted": "2026-10-19",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/altin-gun-ams/"
+      ]
+    },
     "an evening with lee asher": {
       "last_alerted": "2026-09-29",
       "urls": [
@@ -205,10 +211,9 @@
       ]
     },
     "enmore comedy club 2026": {
-      "last_alerted": "2026-08-20",
+      "last_alerted": "2026-10-19",
       "urls": [
-        "https://www.enmoretheatre.com.au/event/enmore-comedy-club-2026-4/",
-        "https://www.enmoretheatre.com.au/event/enmore-comedy-club-2026-5/"
+        "https://www.enmoretheatre.com.au/event/enmore-comedy-club-2026-6/"
       ]
     },
     "fat dog": {
@@ -1405,6 +1410,7 @@
     ],
     "subversion 21": [],
     "sunset bros present: dimension | 18+": [],
+    "sydney contender charity fight night": [],
     "sydney kings 26/27 season": [
       "electronic",
       "80s",
@@ -1561,6 +1567,8 @@
     "https://www.arc.unsw.edu.au/roundhouse/events/soul-asylum-and-ugly-kid-joe",
     "https://www.arc.unsw.edu.au/roundhouse/events/subversion-21-18and",
     "https://www.arc.unsw.edu.au/roundhouse/events/sunset-bros-present-dimension-18and",
+    "https://www.arc.unsw.edu.au/roundhouse/events/sydney-contender-charity-fight-night-all-ages",
+    "https://www.arc.unsw.edu.au/roundhouse/events/sydney-contender-charity-fight-night-all-ages-1",
     "https://www.arc.unsw.edu.au/roundhouse/events/the-gilsons",
     "https://www.destroyalllines.com/tours/abc",
     "https://www.destroyalllines.com/tours/against-the-current-2027",
@@ -1687,6 +1695,7 @@
     "https://www.enmoretheatre.com.au/event/echoes-of-pink-floyd/",
     "https://www.enmoretheatre.com.au/event/enmore-comedy-club-2026-4/",
     "https://www.enmoretheatre.com.au/event/enmore-comedy-club-2026-5/",
+    "https://www.enmoretheatre.com.au/event/enmore-comedy-club-2026-6/",
     "https://www.enmoretheatre.com.au/event/greentea-peng-2/",
     "https://www.enmoretheatre.com.au/event/hindley-street-country-club-5/",
     "https://www.enmoretheatre.com.au/event/holly-humberstone-2/",
@@ -1732,6 +1741,7 @@
     "https://www.metrotheatre.com.au/event/19-twenty/",
     "https://www.metrotheatre.com.au/event/aaradhna/",
     "https://www.metrotheatre.com.au/event/airline/",
+    "https://www.metrotheatre.com.au/event/altin-gun-ams/",
     "https://www.metrotheatre.com.au/event/apollo-the-party-2027/",
     "https://www.metrotheatre.com.au/event/bayker-blankenship/",
     "https://www.metrotheatre.com.au/event/blacken-festival-fundraiser/",
@@ -1802,5 +1812,5 @@
     "https://www.metrotheatre.com.au/event/vlads/",
     "https://www.metrotheatre.com.au/event/winterbourne-2/"
   ],
-  "last_real_run_date": "2026-10-19"
+  "last_real_run_date": "2026-10-20"
 }
