@@ -126,6 +126,12 @@
         "https://www.metrotheatre.com.au/event/budjerah-sings-donny-hathaway/"
       ]
     },
+    "buena vista all stars": {
+      "last_alerted": "2026-10-22",
+      "urls": [
+        "https://www.enmoretheatre.com.au/event/buena-vista-all-stars/"
+      ]
+    },
     "carlos vives la provincia tribute": {
       "last_alerted": "2026-08-29",
       "urls": [
@@ -1746,6 +1752,7 @@
     "https://www.enmoretheatre.com.au/event/arthur-hill/",
     "https://www.enmoretheatre.com.au/event/bachman-turner-overdrive/",
     "https://www.enmoretheatre.com.au/event/benjamin-clementine/",
+    "https://www.enmoretheatre.com.au/event/buena-vista-all-stars/",
     "https://www.enmoretheatre.com.au/event/che-durena/",
     "https://www.enmoretheatre.com.au/event/clutch/",
     "https://www.enmoretheatre.com.au/event/countess-luann-cabaret-love-tour/",
@@ -1881,5 +1888,5 @@
     "https://www.metrotheatre.com.au/event/westside-cowboy/",
     "https://www.metrotheatre.com.au/event/winterbourne-2/"
   ],
-  "last_real_run_date": "2026-10-22"
+  "last_real_run_date": "2026-10-23"
 }
