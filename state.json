@@ -198,6 +198,12 @@
         "https://www.enmoretheatre.com.au/event/daniel-muggleton-enmore-theatre/"
       ]
     },
+    "deca joins": {
+      "last_alerted": "2026-10-23",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/deca-joins/"
+      ]
+    },
     "domi jd beck": {
       "last_alerted": "2026-08-04",
       "urls": [
@@ -1832,6 +1838,7 @@
     "https://www.metrotheatre.com.au/event/d-a-d/",
     "https://www.metrotheatre.com.au/event/daine/",
     "https://www.metrotheatre.com.au/event/dani-enli/",
+    "https://www.metrotheatre.com.au/event/deca-joins/",
     "https://www.metrotheatre.com.au/event/domi-jd-beck-2/",
     "https://www.metrotheatre.com.au/event/drain/",
     "https://www.metrotheatre.com.au/event/fat-dog/",
@@ -1888,5 +1895,5 @@
     "https://www.metrotheatre.com.au/event/westside-cowboy/",
     "https://www.metrotheatre.com.au/event/winterbourne-2/"
   ],
-  "last_real_run_date": "2026-10-23"
+  "last_real_run_date": "2026-10-24"
 }
