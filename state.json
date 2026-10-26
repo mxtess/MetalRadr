@@ -1244,6 +1244,7 @@
       "hard rock",
       "blues rock"
     ],
+    "netball world cup": [],
     "niall horan": [
       "pop",
       "lflores077@gmail.com"
@@ -1594,6 +1595,7 @@
     "https://afterpayarena.com.au/event/massive-attack",
     "https://afterpayarena.com.au/event/megan-moroney",
     "https://afterpayarena.com.au/event/monster-truck-mania-live",
+    "https://afterpayarena.com.au/event/netball-world-cup",
     "https://afterpayarena.com.au/event/niall-horan",
     "https://afterpayarena.com.au/event/nickelback",
     "https://afterpayarena.com.au/event/noah-kahan",
@@ -1895,5 +1897,5 @@
     "https://www.metrotheatre.com.au/event/westside-cowboy/",
     "https://www.metrotheatre.com.au/event/winterbourne-2/"
   ],
-  "last_real_run_date": "2026-10-26"
+  "last_real_run_date": "2026-10-27"
 }
