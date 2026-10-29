@@ -348,10 +348,22 @@
         "https://www.metrotheatre.com.au/event/john-splithoff/"
       ]
     },
+    "katseye": {
+      "last_alerted": "2026-10-29",
+      "urls": [
+        "https://afterpayarena.com.au/event/katseye"
+      ]
+    },
     "kennie simon hot chocolate 16 years of classic hits": {
       "last_alerted": "2026-09-28",
       "urls": [
         "https://www.metrotheatre.com.au/event/kennie-simon-hot-chocolate-16-years-of-classic-hits-2/"
+      ]
+    },
+    "key k": {
+      "last_alerted": "2026-10-29",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/key-k/"
       ]
     },
     "knockout afterparty": {
@@ -1245,6 +1257,20 @@
     "karan aujla": [
       "karanaujal"
     ],
+    "katseye": [
+      "electronic",
+      "pop",
+      "hip hop",
+      "girl group",
+      "female vocals",
+      "dance-pop",
+      "new jack swing",
+      "k-pop",
+      "hip hop soul",
+      "post-disco",
+      "hyperpop",
+      "2020s"
+    ],
     "kehlani": [],
     "khalid": [
       "singer-songwriter",
@@ -1698,6 +1724,7 @@
     "https://afterpayarena.com.au/event/joji",
     "https://afterpayarena.com.au/event/jungle",
     "https://afterpayarena.com.au/event/karan-aujla",
+    "https://afterpayarena.com.au/event/katseye",
     "https://afterpayarena.com.au/event/kehlani",
     "https://afterpayarena.com.au/event/khalid",
     "https://afterpayarena.com.au/event/laufey",
@@ -1778,6 +1805,7 @@
     "https://www.destroyalllines.com/tours/daya-2026",
     "https://www.destroyalllines.com/tours/dayseeker-2027",
     "https://www.destroyalllines.com/tours/dear-seattle-2026",
+    "https://www.destroyalllines.com/tours/deez-nuts",
     "https://www.destroyalllines.com/tours/del-amitri",
     "https://www.destroyalllines.com/tours/delilahbon",
     "https://www.destroyalllines.com/tours/dice",
@@ -1972,6 +2000,7 @@
     "https://www.metrotheatre.com.au/event/jarahn-young-davie-more/",
     "https://www.metrotheatre.com.au/event/john-splithoff/",
     "https://www.metrotheatre.com.au/event/kennie-simon-hot-chocolate-16-years-of-classic-hits-2/",
+    "https://www.metrotheatre.com.au/event/key-k/",
     "https://www.metrotheatre.com.au/event/knockout-afterparty/",
     "https://www.metrotheatre.com.au/event/kukaramakara/",
     "https://www.metrotheatre.com.au/event/liberti-concert/",
@@ -2019,5 +2048,5 @@
     "https://www.metrotheatre.com.au/event/westside-cowboy/",
     "https://www.metrotheatre.com.au/event/winterbourne-2/"
   ],
-  "last_real_run_date": "2026-10-29"
+  "last_real_run_date": "2026-10-30"
 }
