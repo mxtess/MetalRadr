@@ -138,6 +138,12 @@
         "https://www.metrotheatre.com.au/event/carlos-vives-la-provincia-tribute/"
       ]
     },
+    "charles wesley godwin": {
+      "last_alerted": "2026-10-30",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/charles-wesley-godwin/"
+      ]
+    },
     "che durena": {
       "last_alerted": "2026-08-31",
       "urls": [
@@ -286,6 +292,12 @@
       "last_alerted": "2026-08-21",
       "urls": [
         "https://www.metrotheatre.com.au/event/glare/"
+      ]
+    },
+    "gretta ray": {
+      "last_alerted": "2026-10-30",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/gretta-ray-2/"
       ]
     },
     "harrykirby": {
@@ -1973,6 +1985,7 @@
     "https://www.metrotheatre.com.au/event/blue-whale-band/",
     "https://www.metrotheatre.com.au/event/budjerah-sings-donny-hathaway/",
     "https://www.metrotheatre.com.au/event/carlos-vives-la-provincia-tribute/",
+    "https://www.metrotheatre.com.au/event/charles-wesley-godwin/",
     "https://www.metrotheatre.com.au/event/chiodos/",
     "https://www.metrotheatre.com.au/event/civic-video/",
     "https://www.metrotheatre.com.au/event/crasher-x-metro-air-2/",
@@ -1994,6 +2007,7 @@
     "https://www.metrotheatre.com.au/event/ghetto-kumbe/",
     "https://www.metrotheatre.com.au/event/gilsons/",
     "https://www.metrotheatre.com.au/event/glare/",
+    "https://www.metrotheatre.com.au/event/gretta-ray-2/",
     "https://www.metrotheatre.com.au/event/harrykirby/",
     "https://www.metrotheatre.com.au/event/haute-freddy/",
     "https://www.metrotheatre.com.au/event/inspiral-carpets-uk/",
@@ -2048,5 +2062,5 @@
     "https://www.metrotheatre.com.au/event/westside-cowboy/",
     "https://www.metrotheatre.com.au/event/winterbourne-2/"
   ],
-  "last_real_run_date": "2026-10-30"
+  "last_real_run_date": "2026-10-31"
 }
