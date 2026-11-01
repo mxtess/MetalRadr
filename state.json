@@ -36,6 +36,12 @@
         "https://www.metrotheatre.com.au/event/airline/"
       ]
     },
+    "almost monday": {
+      "last_alerted": "2026-11-01",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/almost-monday/"
+      ]
+    },
     "altin g n ams": {
       "last_alerted": "2026-10-19",
       "urls": [
@@ -1977,6 +1983,7 @@
     "https://www.metrotheatre.com.au/event/19-twenty/",
     "https://www.metrotheatre.com.au/event/aaradhna/",
     "https://www.metrotheatre.com.au/event/airline/",
+    "https://www.metrotheatre.com.au/event/almost-monday/",
     "https://www.metrotheatre.com.au/event/altin-gun-ams/",
     "https://www.metrotheatre.com.au/event/apollo-the-party-2027/",
     "https://www.metrotheatre.com.au/event/bayker-blankenship/",
@@ -2062,5 +2069,5 @@
     "https://www.metrotheatre.com.au/event/westside-cowboy/",
     "https://www.metrotheatre.com.au/event/winterbourne-2/"
   ],
-  "last_real_run_date": "2026-11-01"
+  "last_real_run_date": "2026-11-02"
 }
