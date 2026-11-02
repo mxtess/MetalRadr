@@ -366,6 +366,18 @@
         "https://www.metrotheatre.com.au/event/john-splithoff/"
       ]
     },
+    "jonah kagen": {
+      "last_alerted": "2026-11-02",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/jonah-kagen/"
+      ]
+    },
+    "josh pyke": {
+      "last_alerted": "2026-11-02",
+      "urls": [
+        "https://www.enmoretheatre.com.au/event/josh-pyke/"
+      ]
+    },
     "katseye": {
       "last_alerted": "2026-10-29",
       "urls": [
@@ -828,6 +840,12 @@
       "last_alerted": "2026-08-31",
       "urls": [
         "https://www.metrotheatre.com.au/event/the-smyths-2/"
+      ]
+    },
+    "tom allen totally": {
+      "last_alerted": "2026-11-02",
+      "urls": [
+        "https://www.enmoretheatre.com.au/event/tom-allen-totally-2/"
       ]
     },
     "tom gleeson": {
@@ -1896,9 +1914,11 @@
     "https://www.destroyalllines.com/tours/the-cribs",
     "https://www.destroyalllines.com/tours/the-early-november-hellogoodbye",
     "https://www.destroyalllines.com/tours/the-longest-johns",
+    "https://www.destroyalllines.com/tours/the-lottery-winners",
     "https://www.destroyalllines.com/tours/the-reytons",
     "https://www.destroyalllines.com/tours/the-vaccines",
     "https://www.destroyalllines.com/tours/thehumanleague",
+    "https://www.destroyalllines.com/tours/thornhill-surfs-up",
     "https://www.destroyalllines.com/tours/thrown-2027",
     "https://www.destroyalllines.com/tours/tigers-jaw-2026",
     "https://www.destroyalllines.com/tours/to-the-grave-2026",
@@ -1939,6 +1959,7 @@
     "https://www.enmoretheatre.com.au/event/jimeoin/",
     "https://www.enmoretheatre.com.au/event/john-achkar-2/",
     "https://www.enmoretheatre.com.au/event/jonah-marais/",
+    "https://www.enmoretheatre.com.au/event/josh-pyke/",
     "https://www.enmoretheatre.com.au/event/loudon-wainwright-iii/",
     "https://www.enmoretheatre.com.au/event/luka-sulic/",
     "https://www.enmoretheatre.com.au/event/marcus-miller/",
@@ -1973,6 +1994,7 @@
     "https://www.enmoretheatre.com.au/event/the-hayley-williams-show/",
     "https://www.enmoretheatre.com.au/event/the-mary-wallopers-2/",
     "https://www.enmoretheatre.com.au/event/the-psychology-of-cults/",
+    "https://www.enmoretheatre.com.au/event/tom-allen-totally-2/",
     "https://www.enmoretheatre.com.au/event/tom-gleeson/",
     "https://www.enmoretheatre.com.au/event/toni-and-ryan-live-podcast-recording/",
     "https://www.enmoretheatre.com.au/event/vince-staples/",
@@ -2020,6 +2042,7 @@
     "https://www.metrotheatre.com.au/event/inspiral-carpets-uk/",
     "https://www.metrotheatre.com.au/event/jarahn-young-davie-more/",
     "https://www.metrotheatre.com.au/event/john-splithoff/",
+    "https://www.metrotheatre.com.au/event/jonah-kagen/",
     "https://www.metrotheatre.com.au/event/kennie-simon-hot-chocolate-16-years-of-classic-hits-2/",
     "https://www.metrotheatre.com.au/event/key-k/",
     "https://www.metrotheatre.com.au/event/knockout-afterparty/",
@@ -2069,5 +2092,5 @@
     "https://www.metrotheatre.com.au/event/westside-cowboy/",
     "https://www.metrotheatre.com.au/event/winterbourne-2/"
   ],
-  "last_real_run_date": "2026-11-02"
+  "last_real_run_date": "2026-11-03"
 }
