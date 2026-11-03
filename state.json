@@ -30,6 +30,12 @@
         "https://www.metrotheatre.com.au/event/aaradhna/"
       ]
     },
+    "ad la": {
+      "last_alerted": "2026-11-03",
+      "urls": [
+        "https://www.enmoretheatre.com.au/event/adela/"
+      ]
+    },
     "airline": {
       "last_alerted": "2026-08-07",
       "urls": [
@@ -210,6 +216,12 @@
         "https://www.enmoretheatre.com.au/event/daniel-muggleton-enmore-theatre/"
       ]
     },
+    "danny l harle": {
+      "last_alerted": "2026-11-03",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/danny-l-harle/"
+      ]
+    },
     "deca joins": {
       "last_alerted": "2026-10-23",
       "urls": [
@@ -274,6 +286,12 @@
       "last_alerted": "2026-08-20",
       "urls": [
         "https://www.metrotheatre.com.au/event/fcukers/"
+      ]
+    },
+    "florence road": {
+      "last_alerted": "2026-11-03",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/florence-road/"
       ]
     },
     "fool nelson": {
@@ -342,6 +360,12 @@
         "https://www.enmoretheatre.com.au/event/isaiah-rashad/"
       ]
     },
+    "jane remover": {
+      "last_alerted": "2026-11-03",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/jane-remover/"
+      ]
+    },
     "jarahn young davie more": {
       "last_alerted": "2026-08-18",
       "urls": [
@@ -394,6 +418,12 @@
       "last_alerted": "2026-10-29",
       "urls": [
         "https://www.metrotheatre.com.au/event/key-k/"
+      ]
+    },
+    "kim petras": {
+      "last_alerted": "2026-11-03",
+      "urls": [
+        "https://www.enmoretheatre.com.au/event/kim-petras/"
       ]
     },
     "knockout afterparty": {
@@ -673,6 +703,12 @@
         "https://www.enmoretheatre.com.au/event/remi-wolf-2/"
       ]
     },
+    "rico nasty": {
+      "last_alerted": "2026-11-03",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/rico-nasty/"
+      ]
+    },
     "rodrigo y gabriela": {
       "last_alerted": "2026-08-19",
       "urls": [
@@ -689,6 +725,12 @@
       "last_alerted": "2026-09-07",
       "urls": [
         "https://www.metrotheatre.com.au/event/sarah-kinsley/"
+      ]
+    },
+    "sevendust": {
+      "last_alerted": "2026-11-03",
+      "urls": [
+        "https://www.enmoretheatre.com.au/event/sevendust/"
       ]
     },
     "shred fest sydney moved from manning bar feat obscura ger fallujah guests": {
@@ -840,6 +882,12 @@
       "last_alerted": "2026-08-31",
       "urls": [
         "https://www.metrotheatre.com.au/event/the-smyths-2/"
+      ]
+    },
+    "tiffany day": {
+      "last_alerted": "2026-11-03",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/tiffany-day/"
       ]
     },
     "tom allen totally": {
@@ -1897,6 +1945,7 @@
     "https://www.destroyalllines.com/tours/saint-etienne",
     "https://www.destroyalllines.com/tours/seahaven-2026",
     "https://www.destroyalllines.com/tours/selfish-sons",
+    "https://www.destroyalllines.com/tours/sevendust",
     "https://www.destroyalllines.com/tours/silversun-pickups",
     "https://www.destroyalllines.com/tours/simple-minds",
     "https://www.destroyalllines.com/tours/skindred-2026",
@@ -1935,6 +1984,7 @@
     "https://www.enmoretheatre.com.au/event/a-nostalgic-night-with-macaulay-culkin/",
     "https://www.enmoretheatre.com.au/event/a-very-furnace-christmas-3/",
     "https://www.enmoretheatre.com.au/event/abc/",
+    "https://www.enmoretheatre.com.au/event/adela/",
     "https://www.enmoretheatre.com.au/event/an-evening-with-lee-asher/",
     "https://www.enmoretheatre.com.au/event/angine-de-poitrine/",
     "https://www.enmoretheatre.com.au/event/annandale-public-2026/",
@@ -1960,6 +2010,7 @@
     "https://www.enmoretheatre.com.au/event/john-achkar-2/",
     "https://www.enmoretheatre.com.au/event/jonah-marais/",
     "https://www.enmoretheatre.com.au/event/josh-pyke/",
+    "https://www.enmoretheatre.com.au/event/kim-petras/",
     "https://www.enmoretheatre.com.au/event/loudon-wainwright-iii/",
     "https://www.enmoretheatre.com.au/event/luka-sulic/",
     "https://www.enmoretheatre.com.au/event/marcus-miller/",
@@ -1977,6 +2028,7 @@
     "https://www.enmoretheatre.com.au/event/rachel-chinouriri/",
     "https://www.enmoretheatre.com.au/event/remi-wolf-2/",
     "https://www.enmoretheatre.com.au/event/rodrigo-y-gabriela-2/",
+    "https://www.enmoretheatre.com.au/event/sevendust/",
     "https://www.enmoretheatre.com.au/event/sleep-theory-2/",
     "https://www.enmoretheatre.com.au/event/squeeze/",
     "https://www.enmoretheatre.com.au/event/st-paul-and-the-broken-bones-usa/",
@@ -2027,11 +2079,13 @@
     "https://www.metrotheatre.com.au/event/d-a-d/",
     "https://www.metrotheatre.com.au/event/daine/",
     "https://www.metrotheatre.com.au/event/dani-enli/",
+    "https://www.metrotheatre.com.au/event/danny-l-harle/",
     "https://www.metrotheatre.com.au/event/deca-joins/",
     "https://www.metrotheatre.com.au/event/domi-jd-beck-2/",
     "https://www.metrotheatre.com.au/event/drain/",
     "https://www.metrotheatre.com.au/event/fat-dog/",
     "https://www.metrotheatre.com.au/event/fcukers/",
+    "https://www.metrotheatre.com.au/event/florence-road/",
     "https://www.metrotheatre.com.au/event/fool-nelson/",
     "https://www.metrotheatre.com.au/event/ghetto-kumbe/",
     "https://www.metrotheatre.com.au/event/gilsons/",
@@ -2040,6 +2094,7 @@
     "https://www.metrotheatre.com.au/event/harrykirby/",
     "https://www.metrotheatre.com.au/event/haute-freddy/",
     "https://www.metrotheatre.com.au/event/inspiral-carpets-uk/",
+    "https://www.metrotheatre.com.au/event/jane-remover/",
     "https://www.metrotheatre.com.au/event/jarahn-young-davie-more/",
     "https://www.metrotheatre.com.au/event/john-splithoff/",
     "https://www.metrotheatre.com.au/event/jonah-kagen/",
@@ -2072,6 +2127,7 @@
     "https://www.metrotheatre.com.au/event/propagandhi/",
     "https://www.metrotheatre.com.au/event/pun/",
     "https://www.metrotheatre.com.au/event/realyungphil-gud-woesum-stacey/",
+    "https://www.metrotheatre.com.au/event/rico-nasty/",
     "https://www.metrotheatre.com.au/event/safs-x-aaa-friday%e2%98%85/",
     "https://www.metrotheatre.com.au/event/sarah-kinsley/",
     "https://www.metrotheatre.com.au/event/sarkodie/",
@@ -2086,11 +2142,12 @@
     "https://www.metrotheatre.com.au/event/the-lost-backpackers-2/",
     "https://www.metrotheatre.com.au/event/the-saints-73-78/",
     "https://www.metrotheatre.com.au/event/the-smyths-2/",
+    "https://www.metrotheatre.com.au/event/tiffany-day/",
     "https://www.metrotheatre.com.au/event/trophy-eyes-3/",
     "https://www.metrotheatre.com.au/event/underscores-gg2333/",
     "https://www.metrotheatre.com.au/event/vlads/",
     "https://www.metrotheatre.com.au/event/westside-cowboy/",
     "https://www.metrotheatre.com.au/event/winterbourne-2/"
   ],
-  "last_real_run_date": "2026-11-03"
+  "last_real_run_date": "2026-11-04"
 }
