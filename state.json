@@ -324,6 +324,12 @@
         "https://www.metrotheatre.com.au/event/glare/"
       ]
     },
+    "greentea peng uk": {
+      "last_alerted": "2026-11-05",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/greentea-peng-uk/"
+      ]
+    },
     "gretta ray": {
       "last_alerted": "2026-10-30",
       "urls": [
@@ -2125,6 +2131,7 @@
     "https://www.metrotheatre.com.au/event/ghetto-kumbe/",
     "https://www.metrotheatre.com.au/event/gilsons/",
     "https://www.metrotheatre.com.au/event/glare/",
+    "https://www.metrotheatre.com.au/event/greentea-peng-uk/",
     "https://www.metrotheatre.com.au/event/gretta-ray-2/",
     "https://www.metrotheatre.com.au/event/harrykirby/",
     "https://www.metrotheatre.com.au/event/haute-freddy/",
@@ -2186,5 +2193,5 @@
     "https://www.metrotheatre.com.au/event/westside-cowboy/",
     "https://www.metrotheatre.com.au/event/winterbourne-2/"
   ],
-  "last_real_run_date": "2026-11-05"
+  "last_real_run_date": "2026-11-06"
 }
