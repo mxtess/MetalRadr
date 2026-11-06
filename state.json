@@ -138,6 +138,12 @@
         "https://www.metrotheatre.com.au/event/blue-whale-band/"
       ]
     },
+    "bron lewis": {
+      "last_alerted": "2026-11-06",
+      "urls": [
+        "https://www.enmoretheatre.com.au/event/bron-lewis/"
+      ]
+    },
     "budjerah sings donny hathaway": {
       "last_alerted": "2026-10-18",
       "urls": [
@@ -1332,6 +1338,13 @@
       "y2k",
       "crash"
     ],
+    "horsegiirl": [
+      "german",
+      "happy hardcore",
+      "hyperpop",
+      "happy trance",
+      "german happy hardcore"
+    ],
     "j cole": [
       "rap",
       "hip-hop",
@@ -1885,6 +1898,7 @@
     "https://www.arc.unsw.edu.au/roundhouse/events/drama-18and",
     "https://www.arc.unsw.edu.au/roundhouse/events/edge-band-laure-and-vyoma-18and",
     "https://www.arc.unsw.edu.au/roundhouse/events/health-australia-2-0-2-6-18and",
+    "https://www.arc.unsw.edu.au/roundhouse/events/horsegiirl",
     "https://www.arc.unsw.edu.au/roundhouse/events/josh-baker-18and",
     "https://www.arc.unsw.edu.au/roundhouse/events/klangkuenstler-18and",
     "https://www.arc.unsw.edu.au/roundhouse/events/mico-18and",
@@ -2030,6 +2044,7 @@
     "https://www.enmoretheatre.com.au/event/bachman-turner-overdrive/",
     "https://www.enmoretheatre.com.au/event/benjamin-clementine/",
     "https://www.enmoretheatre.com.au/event/bhad-bhabie/",
+    "https://www.enmoretheatre.com.au/event/bron-lewis/",
     "https://www.enmoretheatre.com.au/event/buena-vista-all-stars/",
     "https://www.enmoretheatre.com.au/event/che-durena/",
     "https://www.enmoretheatre.com.au/event/clutch/",
@@ -2193,5 +2208,5 @@
     "https://www.metrotheatre.com.au/event/westside-cowboy/",
     "https://www.metrotheatre.com.au/event/winterbourne-2/"
   ],
-  "last_real_run_date": "2026-11-06"
+  "last_real_run_date": "2026-11-07"
 }
