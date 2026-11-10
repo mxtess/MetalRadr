@@ -318,6 +318,12 @@
         "https://www.metrotheatre.com.au/event/fool-nelson/"
       ]
     },
+    "future static": {
+      "last_alerted": "2026-11-10",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/future-static/"
+      ]
+    },
     "ghetto kumb": {
       "last_alerted": "2026-08-12",
       "urls": [
@@ -725,6 +731,12 @@
       "last_alerted": "2026-08-29",
       "urls": [
         "https://www.metrotheatre.com.au/event/pun/"
+      ]
+    },
+    "ra ra viper": {
+      "last_alerted": "2026-11-10",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/ra-ra-viper/"
       ]
     },
     "rachel chinouriri": {
@@ -2192,6 +2204,7 @@
     "https://www.metrotheatre.com.au/event/fcukers/",
     "https://www.metrotheatre.com.au/event/florence-road/",
     "https://www.metrotheatre.com.au/event/fool-nelson/",
+    "https://www.metrotheatre.com.au/event/future-static/",
     "https://www.metrotheatre.com.au/event/ghetto-kumbe/",
     "https://www.metrotheatre.com.au/event/gilsons/",
     "https://www.metrotheatre.com.au/event/glare/",
@@ -2233,6 +2246,7 @@
     "https://www.metrotheatre.com.au/event/portugal-the-man-us/",
     "https://www.metrotheatre.com.au/event/propagandhi/",
     "https://www.metrotheatre.com.au/event/pun/",
+    "https://www.metrotheatre.com.au/event/ra-ra-viper/",
     "https://www.metrotheatre.com.au/event/rageflower/",
     "https://www.metrotheatre.com.au/event/realyungphil-gud-woesum-stacey/",
     "https://www.metrotheatre.com.au/event/rico-nasty/",
@@ -2257,5 +2271,5 @@
     "https://www.metrotheatre.com.au/event/westside-cowboy/",
     "https://www.metrotheatre.com.au/event/winterbourne-2/"
   ],
-  "last_real_run_date": "2026-11-10"
+  "last_real_run_date": "2026-11-11"
 }
