@@ -246,6 +246,12 @@
         "https://afterpayarena.com.au/event/disturbed"
       ]
     },
+    "dj shadow 18": {
+      "last_alerted": "2026-11-10",
+      "urls": [
+        "https://www.arc.unsw.edu.au/roundhouse/events/dj-shadow-18and"
+      ]
+    },
     "domi jd beck": {
       "last_alerted": "2026-08-04",
       "urls": [
@@ -604,6 +610,12 @@
       "last_alerted": "2026-10-12",
       "urls": [
         "https://www.metrotheatre.com.au/event/naethan-apollo/"
+      ]
+    },
+    "nazeem hussain i am being calm the enmore theatre": {
+      "last_alerted": "2026-11-10",
+      "urls": [
+        "https://www.enmoretheatre.com.au/event/nazeem-hussain-i-am-being-calm-the-enmore-theatre/"
       ]
     },
     "nemzzz": {
@@ -1200,6 +1212,29 @@
       "hard alternative",
       "punk"
     ],
+    "dj shadow": [
+      "trip-hop",
+      "electronic",
+      "downtempo",
+      "american",
+      "hip-hop",
+      "experimental",
+      "hip hop",
+      "usa",
+      "electronica",
+      "composer",
+      "am\u00e9ricain",
+      "turntablism",
+      "trip hop",
+      "compositeur",
+      "rock and indie",
+      "experimental hip hop",
+      "ambient breakbeat",
+      "instrumental hip hop",
+      "bay area rap",
+      "2008 universal fire victim",
+      "left-field rap"
+    ],
     "drama": [
       "electronic",
       "pop",
@@ -1284,6 +1319,9 @@
       "comic",
       "comico",
       "comedia"
+    ],
+    "gavin adcock": [
+      "country"
     ],
     "hans zimmer": [
       "soundtrack",
@@ -1807,6 +1845,12 @@
       "k-pop",
       "contemporary r&b"
     ],
+    "yoasobi": [
+      "pop",
+      "j-pop",
+      "j-rock",
+      "yakousei"
+    ],
     "zara larsson": [
       "pop",
       "dance",
@@ -1886,6 +1930,7 @@
     "https://afterpayarena.com.au/event/weezer",
     "https://afterpayarena.com.au/event/westlife",
     "https://afterpayarena.com.au/event/xg",
+    "https://afterpayarena.com.au/event/yoasobi",
     "https://afterpayarena.com.au/event/zara-larsson",
     "https://qudosbankarena.com.au/event-calendar",
     "https://www.arc.unsw.edu.au/roundhouse/events/albatross-ibtidaa-18and",
@@ -1895,8 +1940,10 @@
     "https://www.arc.unsw.edu.au/roundhouse/events/bingo-loco-aug-8",
     "https://www.arc.unsw.edu.au/roundhouse/events/club-angel-18and",
     "https://www.arc.unsw.edu.au/roundhouse/events/dior-da-ying-18and",
+    "https://www.arc.unsw.edu.au/roundhouse/events/dj-shadow-18and",
     "https://www.arc.unsw.edu.au/roundhouse/events/drama-18and",
     "https://www.arc.unsw.edu.au/roundhouse/events/edge-band-laure-and-vyoma-18and",
+    "https://www.arc.unsw.edu.au/roundhouse/events/gavin-adcock-18and",
     "https://www.arc.unsw.edu.au/roundhouse/events/health-australia-2-0-2-6-18and",
     "https://www.arc.unsw.edu.au/roundhouse/events/horsegiirl",
     "https://www.arc.unsw.edu.au/roundhouse/events/josh-baker-18and",
@@ -1917,6 +1964,7 @@
     "https://www.destroyalllines.com/tours/abc",
     "https://www.destroyalllines.com/tours/against-the-current-2027",
     "https://www.destroyalllines.com/tours/anamanaguchi",
+    "https://www.destroyalllines.com/tours/as-december-falls",
     "https://www.destroyalllines.com/tours/ashanti",
     "https://www.destroyalllines.com/tours/august-burns-red",
     "https://www.destroyalllines.com/tours/bachman-turner-overdrive",
@@ -2073,6 +2121,7 @@
     "https://www.enmoretheatre.com.au/event/marilyn-manson/",
     "https://www.enmoretheatre.com.au/event/michelle-buteau/",
     "https://www.enmoretheatre.com.au/event/miss-pole-dance-australia-2026/",
+    "https://www.enmoretheatre.com.au/event/nazeem-hussain-i-am-being-calm-the-enmore-theatre/",
     "https://www.enmoretheatre.com.au/event/nemzzz/",
     "https://www.enmoretheatre.com.au/event/nia-archives-2/",
     "https://www.enmoretheatre.com.au/event/northlane-2/",
@@ -2208,5 +2257,5 @@
     "https://www.metrotheatre.com.au/event/westside-cowboy/",
     "https://www.metrotheatre.com.au/event/winterbourne-2/"
   ],
-  "last_real_run_date": "2026-11-09"
+  "last_real_run_date": "2026-11-10"
 }
