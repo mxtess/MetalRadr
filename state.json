@@ -486,6 +486,12 @@
         "https://www.metrotheatre.com.au/event/kukaramakara/"
       ]
     },
+    "laugh out proud": {
+      "last_alerted": "2026-11-12",
+      "urls": [
+        "https://www.enmoretheatre.com.au/event/laugh-out-proud-3/"
+      ]
+    },
     "liberti concert": {
       "last_alerted": "2026-08-14",
       "urls": [
@@ -2137,6 +2143,7 @@
     "https://www.enmoretheatre.com.au/event/jonathan-pie/",
     "https://www.enmoretheatre.com.au/event/josh-pyke/",
     "https://www.enmoretheatre.com.au/event/kim-petras/",
+    "https://www.enmoretheatre.com.au/event/laugh-out-proud-3/",
     "https://www.enmoretheatre.com.au/event/loudon-wainwright-iii/",
     "https://www.enmoretheatre.com.au/event/luka-sulic/",
     "https://www.enmoretheatre.com.au/event/marcus-miller/",
@@ -2281,5 +2288,5 @@
     "https://www.metrotheatre.com.au/event/westside-cowboy/",
     "https://www.metrotheatre.com.au/event/winterbourne-2/"
   ],
-  "last_real_run_date": "2026-11-12"
+  "last_real_run_date": "2026-11-13"
 }
