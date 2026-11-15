@@ -1383,6 +1383,16 @@
     "gavin adcock": [
       "country"
     ],
+    "gracie abrams": [
+      "pop",
+      "singer-songwriter",
+      "female vocals",
+      "folk pop",
+      "bedroom pop",
+      "2020s",
+      "gen z",
+      "nepo baby"
+    ],
     "hans zimmer": [
       "soundtrack",
       "classical",
@@ -1954,6 +1964,7 @@
     "https://afterpayarena.com.au/event/evanescence",
     "https://afterpayarena.com.au/event/fortuna-one-summit",
     "https://afterpayarena.com.au/event/gabriel-iglesias",
+    "https://afterpayarena.com.au/event/gracie-abrams",
     "https://afterpayarena.com.au/event/hans-zimmer",
     "https://afterpayarena.com.au/event/hilary-duff",
     "https://afterpayarena.com.au/event/j-cole",
@@ -2330,5 +2341,5 @@
     "https://www.metrotheatre.com.au/event/westside-cowboy/",
     "https://www.metrotheatre.com.au/event/winterbourne-2/"
   ],
-  "last_real_run_date": "2026-11-15"
+  "last_real_run_date": "2026-11-16"
 }
