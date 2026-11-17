@@ -769,6 +769,12 @@
         "https://www.metrotheatre.com.au/event/periphery/"
       ]
     },
+    "pitbull": {
+      "last_alerted": "2026-11-17",
+      "urls": [
+        "https://afterpayarena.com.au/event/pitbull"
+      ]
+    },
     "pond": {
       "last_alerted": "2026-09-23",
       "urls": [
@@ -1673,6 +1679,25 @@
       "alternative dance",
       "electro house"
     ],
+    "pitbull": [
+      "dance",
+      "hip hop",
+      "hiphop",
+      "electropop",
+      "eurodance",
+      "southern hip hop",
+      "2000s",
+      "dance-pop",
+      "pop rap",
+      "latin pop",
+      "latin",
+      "hip house",
+      "electro house",
+      "maltido",
+      "pitbull",
+      "2010s",
+      "global warming meltdown"
+    ],
     "portugal. the man": [
       "pop",
       "experimental",
@@ -2011,6 +2036,7 @@
     "https://afterpayarena.com.au/event/noah-kahan",
     "https://afterpayarena.com.au/event/olivia-dean",
     "https://afterpayarena.com.au/event/paul-smith",
+    "https://afterpayarena.com.au/event/pitbull",
     "https://afterpayarena.com.au/event/queens-of-the-stone-age",
     "https://afterpayarena.com.au/event/radiohead",
     "https://afterpayarena.com.au/event/robyn",
@@ -2136,6 +2162,7 @@
     "https://www.destroyalllines.com/tours/periphery",
     "https://www.destroyalllines.com/tours/psycroptic-rivers",
     "https://www.destroyalllines.com/tours/razorlight",
+    "https://www.destroyalllines.com/tours/reliqa",
     "https://www.destroyalllines.com/tours/renegades-of-wrestling",
     "https://www.destroyalllines.com/tours/renegades-of-wrestling-indestructible",
     "https://www.destroyalllines.com/tours/rodrigo-y-gabriela",
@@ -2372,5 +2399,5 @@
     "https://www.metrotheatre.com.au/event/westside-cowboy/",
     "https://www.metrotheatre.com.au/event/winterbourne-2/"
   ],
-  "last_real_run_date": "2026-11-17"
+  "last_real_run_date": "2026-11-18"
 }
