@@ -252,6 +252,12 @@
         "https://www.metrotheatre.com.au/event/danny-l-harle/"
       ]
     },
+    "david cross fake joy": {
+      "last_alerted": "2026-11-17",
+      "urls": [
+        "https://www.enmoretheatre.com.au/event/david-cross-fake-joy/"
+      ]
+    },
     "deca joins": {
       "last_alerted": "2026-10-23",
       "urls": [
@@ -322,6 +328,12 @@
       "last_alerted": "2026-08-20",
       "urls": [
         "https://www.metrotheatre.com.au/event/fcukers/"
+      ]
+    },
+    "fin taylor": {
+      "last_alerted": "2026-11-17",
+      "urls": [
+        "https://www.enmoretheatre.com.au/event/fin-taylor/"
       ]
     },
     "florence road": {
@@ -496,6 +508,12 @@
       "last_alerted": "2026-11-03",
       "urls": [
         "https://www.enmoretheatre.com.au/event/kim-petras/"
+      ]
+    },
+    "knocked loose usa": {
+      "last_alerted": "2026-11-17",
+      "urls": [
+        "https://www.enmoretheatre.com.au/event/knocked-loose-usa/"
       ]
     },
     "knockout afterparty": {
@@ -960,6 +978,12 @@
       "last_alerted": "2026-09-18",
       "urls": [
         "https://www.enmoretheatre.com.au/event/the-hayley-williams-show/"
+      ]
+    },
+    "the hu": {
+      "last_alerted": "2026-11-17",
+      "urls": [
+        "https://www.enmoretheatre.com.au/event/the-hu/"
       ]
     },
     "the longest johns uk": {
@@ -2050,6 +2074,7 @@
     "https://www.destroyalllines.com/tours/cancer-bats-2027",
     "https://www.destroyalllines.com/tours/cane-hill",
     "https://www.destroyalllines.com/tours/carpenter-brut",
+    "https://www.destroyalllines.com/tours/casey",
     "https://www.destroyalllines.com/tours/chapterhouse-2027",
     "https://www.destroyalllines.com/tours/chiodos-2026",
     "https://www.destroyalllines.com/tours/citizen-2027",
@@ -2087,6 +2112,7 @@
     "https://www.destroyalllines.com/tours/joe-jackson",
     "https://www.destroyalllines.com/tours/kasabian-2027",
     "https://www.destroyalllines.com/tours/king-yosef",
+    "https://www.destroyalllines.com/tours/knocked-loose-2027",
     "https://www.destroyalllines.com/tours/knox-2027",
     "https://www.destroyalllines.com/tours/lamb-of-god-and-trivium",
     "https://www.destroyalllines.com/tours/larry-fleet",
@@ -2140,6 +2166,7 @@
     "https://www.destroyalllines.com/tours/the-reytons",
     "https://www.destroyalllines.com/tours/the-vaccines",
     "https://www.destroyalllines.com/tours/thehumanleague",
+    "https://www.destroyalllines.com/tours/thornhill-summer-slam",
     "https://www.destroyalllines.com/tours/thornhill-surfs-up",
     "https://www.destroyalllines.com/tours/thrown-2027",
     "https://www.destroyalllines.com/tours/tigers-jaw-2026",
@@ -2176,11 +2203,13 @@
     "https://www.enmoretheatre.com.au/event/countess-luann-cabaret-love-tour/",
     "https://www.enmoretheatre.com.au/event/crash-test-dummies/",
     "https://www.enmoretheatre.com.au/event/daniel-muggleton-enmore-theatre/",
+    "https://www.enmoretheatre.com.au/event/david-cross-fake-joy/",
     "https://www.enmoretheatre.com.au/event/del-amitri/",
     "https://www.enmoretheatre.com.au/event/echoes-of-pink-floyd/",
     "https://www.enmoretheatre.com.au/event/enmore-comedy-club-2026-4/",
     "https://www.enmoretheatre.com.au/event/enmore-comedy-club-2026-5/",
     "https://www.enmoretheatre.com.au/event/enmore-comedy-club-2026-6/",
+    "https://www.enmoretheatre.com.au/event/fin-taylor/",
     "https://www.enmoretheatre.com.au/event/frocking-hilarious-3/",
     "https://www.enmoretheatre.com.au/event/greentea-peng-2/",
     "https://www.enmoretheatre.com.au/event/hindley-street-country-club-5/",
@@ -2194,6 +2223,7 @@
     "https://www.enmoretheatre.com.au/event/jonathan-pie/",
     "https://www.enmoretheatre.com.au/event/josh-pyke/",
     "https://www.enmoretheatre.com.au/event/kim-petras/",
+    "https://www.enmoretheatre.com.au/event/knocked-loose-usa/",
     "https://www.enmoretheatre.com.au/event/laugh-out-proud-3/",
     "https://www.enmoretheatre.com.au/event/loudon-wainwright-iii/",
     "https://www.enmoretheatre.com.au/event/luka-sulic/",
@@ -2230,6 +2260,7 @@
     "https://www.enmoretheatre.com.au/event/the-dandy-warhols-2/",
     "https://www.enmoretheatre.com.au/event/the-dollop-live-podcast/",
     "https://www.enmoretheatre.com.au/event/the-hayley-williams-show/",
+    "https://www.enmoretheatre.com.au/event/the-hu/",
     "https://www.enmoretheatre.com.au/event/the-mary-wallopers-2/",
     "https://www.enmoretheatre.com.au/event/the-psychology-of-cults/",
     "https://www.enmoretheatre.com.au/event/tom-allen-totally-2/",
@@ -2341,5 +2372,5 @@
     "https://www.metrotheatre.com.au/event/westside-cowboy/",
     "https://www.metrotheatre.com.au/event/winterbourne-2/"
   ],
-  "last_real_run_date": "2026-11-16"
+  "last_real_run_date": "2026-11-17"
 }
