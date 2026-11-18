@@ -72,6 +72,12 @@
         "https://www.enmoretheatre.com.au/event/an-evening-with-lee-asher/"
       ]
     },
+    "anand raman sundeep fernandes": {
+      "last_alerted": "2026-11-18",
+      "urls": [
+        "https://www.enmoretheatre.com.au/event/anand-raman-sundeep-fernandes/"
+      ]
+    },
     "angine de poitrine": {
       "last_alerted": "2026-10-21",
       "urls": [
@@ -2162,6 +2168,7 @@
     "https://www.destroyalllines.com/tours/periphery",
     "https://www.destroyalllines.com/tours/psycroptic-rivers",
     "https://www.destroyalllines.com/tours/razorlight",
+    "https://www.destroyalllines.com/tours/red-leather",
     "https://www.destroyalllines.com/tours/reliqa",
     "https://www.destroyalllines.com/tours/renegades-of-wrestling",
     "https://www.destroyalllines.com/tours/renegades-of-wrestling-indestructible",
@@ -2216,6 +2223,7 @@
     "https://www.enmoretheatre.com.au/event/adela/",
     "https://www.enmoretheatre.com.au/event/all-the-feelings-tour-with-metric-broken-social-scene-stars/",
     "https://www.enmoretheatre.com.au/event/an-evening-with-lee-asher/",
+    "https://www.enmoretheatre.com.au/event/anand-raman-sundeep-fernandes/",
     "https://www.enmoretheatre.com.au/event/angine-de-poitrine/",
     "https://www.enmoretheatre.com.au/event/annandale-public-2026/",
     "https://www.enmoretheatre.com.au/event/arthur-hill/",
@@ -2399,5 +2407,5 @@
     "https://www.metrotheatre.com.au/event/westside-cowboy/",
     "https://www.metrotheatre.com.au/event/winterbourne-2/"
   ],
-  "last_real_run_date": "2026-11-18"
+  "last_real_run_date": "2026-11-19"
 }
