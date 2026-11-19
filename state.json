@@ -96,6 +96,12 @@
         "https://www.enmoretheatre.com.au/event/arthur-hill/"
       ]
     },
+    "baby lasagna": {
+      "last_alerted": "2026-11-19",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/baby-lasagna/"
+      ]
+    },
     "bachman turner overdrive": {
       "last_alerted": "2026-09-16",
       "urls": [
@@ -532,6 +538,12 @@
       "last_alerted": "2026-09-03",
       "urls": [
         "https://www.metrotheatre.com.au/event/kukaramakara/"
+      ]
+    },
+    "l7 usa": {
+      "last_alerted": "2026-11-19",
+      "urls": [
+        "https://www.enmoretheatre.com.au/event/l7-usa/"
       ]
     },
     "laugh out proud": {
@@ -1032,6 +1044,12 @@
       "last_alerted": "2026-08-31",
       "urls": [
         "https://www.metrotheatre.com.au/event/the-smyths-2/"
+      ]
+    },
+    "this is lorelei": {
+      "last_alerted": "2026-11-19",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/this-is-lorelei/"
       ]
     },
     "tiffany day": {
@@ -2088,12 +2106,14 @@
     "https://www.arc.unsw.edu.au/roundhouse/events/sydney-contender-charity-fight-night-all-ages",
     "https://www.arc.unsw.edu.au/roundhouse/events/sydney-contender-charity-fight-night-all-ages-1",
     "https://www.arc.unsw.edu.au/roundhouse/events/the-gilsons",
+    "https://www.destroyalllines.com/tours/156-silence",
     "https://www.destroyalllines.com/tours/abc",
     "https://www.destroyalllines.com/tours/against-the-current-2027",
     "https://www.destroyalllines.com/tours/anamanaguchi",
     "https://www.destroyalllines.com/tours/as-december-falls",
     "https://www.destroyalllines.com/tours/ashanti",
     "https://www.destroyalllines.com/tours/august-burns-red",
+    "https://www.destroyalllines.com/tours/baby-lasagna",
     "https://www.destroyalllines.com/tours/bachman-turner-overdrive",
     "https://www.destroyalllines.com/tours/beartooth",
     "https://www.destroyalllines.com/tours/belleandsebastian",
@@ -2259,6 +2279,7 @@
     "https://www.enmoretheatre.com.au/event/josh-pyke/",
     "https://www.enmoretheatre.com.au/event/kim-petras/",
     "https://www.enmoretheatre.com.au/event/knocked-loose-usa/",
+    "https://www.enmoretheatre.com.au/event/l7-usa/",
     "https://www.enmoretheatre.com.au/event/laugh-out-proud-3/",
     "https://www.enmoretheatre.com.au/event/loudon-wainwright-iii/",
     "https://www.enmoretheatre.com.au/event/luka-sulic/",
@@ -2312,6 +2333,7 @@
     "https://www.metrotheatre.com.au/event/almost-monday/",
     "https://www.metrotheatre.com.au/event/altin-gun-ams/",
     "https://www.metrotheatre.com.au/event/apollo-the-party-2027/",
+    "https://www.metrotheatre.com.au/event/baby-lasagna/",
     "https://www.metrotheatre.com.au/event/bayker-blankenship/",
     "https://www.metrotheatre.com.au/event/big-ass/",
     "https://www.metrotheatre.com.au/event/blacken-festival-fundraiser/",
@@ -2400,6 +2422,7 @@
     "https://www.metrotheatre.com.au/event/the-lost-backpackers-2/",
     "https://www.metrotheatre.com.au/event/the-saints-73-78/",
     "https://www.metrotheatre.com.au/event/the-smyths-2/",
+    "https://www.metrotheatre.com.au/event/this-is-lorelei/",
     "https://www.metrotheatre.com.au/event/tiffany-day/",
     "https://www.metrotheatre.com.au/event/trophy-eyes-3/",
     "https://www.metrotheatre.com.au/event/underscores-gg2333/",
@@ -2407,5 +2430,5 @@
     "https://www.metrotheatre.com.au/event/westside-cowboy/",
     "https://www.metrotheatre.com.au/event/winterbourne-2/"
   ],
-  "last_real_run_date": "2026-11-19"
+  "last_real_run_date": "2026-11-20"
 }
