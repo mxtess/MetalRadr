@@ -325,9 +325,9 @@
       ]
     },
     "enmore comedy club 2026": {
-      "last_alerted": "2026-10-19",
+      "last_alerted": "2026-11-24",
       "urls": [
-        "https://www.enmoretheatre.com.au/event/enmore-comedy-club-2026-6/"
+        "https://www.enmoretheatre.com.au/event/enmore-comedy-club-2026-7/"
       ]
     },
     "fat dog": {
@@ -550,6 +550,12 @@
       "last_alerted": "2026-11-12",
       "urls": [
         "https://www.enmoretheatre.com.au/event/laugh-out-proud-3/"
+      ]
+    },
+    "letz zep uk perform led zeppelin iv in full": {
+      "last_alerted": "2026-11-24",
+      "urls": [
+        "https://www.enmoretheatre.com.au/event/letz-zep/"
       ]
     },
     "liberti concert": {
@@ -923,6 +929,12 @@
       "last_alerted": "2026-08-25",
       "urls": [
         "https://www.arc.unsw.edu.au/roundhouse/events/soul-asylum-and-ugly-kid-joe"
+      ]
+    },
+    "spacey jane": {
+      "last_alerted": "2026-11-24",
+      "urls": [
+        "https://www.enmoretheatre.com.au/event/spacey-jane/"
       ]
     },
     "st paul and the broken bones usa": {
@@ -2266,6 +2278,7 @@
     "https://www.enmoretheatre.com.au/event/enmore-comedy-club-2026-4/",
     "https://www.enmoretheatre.com.au/event/enmore-comedy-club-2026-5/",
     "https://www.enmoretheatre.com.au/event/enmore-comedy-club-2026-6/",
+    "https://www.enmoretheatre.com.au/event/enmore-comedy-club-2026-7/",
     "https://www.enmoretheatre.com.au/event/fin-taylor/",
     "https://www.enmoretheatre.com.au/event/frocking-hilarious-3/",
     "https://www.enmoretheatre.com.au/event/greentea-peng-2/",
@@ -2283,6 +2296,7 @@
     "https://www.enmoretheatre.com.au/event/knocked-loose-usa/",
     "https://www.enmoretheatre.com.au/event/l7-usa/",
     "https://www.enmoretheatre.com.au/event/laugh-out-proud-3/",
+    "https://www.enmoretheatre.com.au/event/letz-zep/",
     "https://www.enmoretheatre.com.au/event/loudon-wainwright-iii/",
     "https://www.enmoretheatre.com.au/event/luka-sulic/",
     "https://www.enmoretheatre.com.au/event/marcus-miller/",
@@ -2304,6 +2318,7 @@
     "https://www.enmoretheatre.com.au/event/rodrigo-y-gabriela-2/",
     "https://www.enmoretheatre.com.au/event/sevendust/",
     "https://www.enmoretheatre.com.au/event/sleep-theory-2/",
+    "https://www.enmoretheatre.com.au/event/spacey-jane/",
     "https://www.enmoretheatre.com.au/event/squeeze/",
     "https://www.enmoretheatre.com.au/event/st-paul-and-the-broken-bones-usa/",
     "https://www.enmoretheatre.com.au/event/stand-atlantic/",
@@ -2432,5 +2447,5 @@
     "https://www.metrotheatre.com.au/event/westside-cowboy/",
     "https://www.metrotheatre.com.au/event/winterbourne-2/"
   ],
-  "last_real_run_date": "2026-11-23"
+  "last_real_run_date": "2026-11-24"
 }
