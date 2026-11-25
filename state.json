@@ -48,6 +48,12 @@
         "https://www.metrotheatre.com.au/event/airline/"
       ]
     },
+    "alestorm": {
+      "last_alerted": "2026-11-25",
+      "urls": [
+        "https://www.enmoretheatre.com.au/event/alestorm/"
+      ]
+    },
     "all the feelings tour with metric broken social scene stars": {
       "last_alerted": "2026-11-11",
       "urls": [
@@ -328,6 +334,12 @@
       "last_alerted": "2026-11-24",
       "urls": [
         "https://www.enmoretheatre.com.au/event/enmore-comedy-club-2026-7/"
+      ]
+    },
+    "faster pussycat gilby clarke sunset strip oz rock tour": {
+      "last_alerted": "2026-11-25",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/faster-pussycat-gilby-clarke-sunset-strip-oz-rock-tour/"
       ]
     },
     "fat dog": {
@@ -2218,6 +2230,7 @@
     "https://www.destroyalllines.com/tours/sleep-theory",
     "https://www.destroyalllines.com/tours/sleeping-with-sirens-2027",
     "https://www.destroyalllines.com/tours/slenderbodies---postponed",
+    "https://www.destroyalllines.com/tours/soja",
     "https://www.destroyalllines.com/tours/soul-asylum-ugly-kid-joe",
     "https://www.destroyalllines.com/tours/sound-collective",
     "https://www.destroyalllines.com/tours/south-arcade-2026",
@@ -2255,6 +2268,7 @@
     "https://www.enmoretheatre.com.au/event/abc/",
     "https://www.enmoretheatre.com.au/event/abijit-ganguly/",
     "https://www.enmoretheatre.com.au/event/adela/",
+    "https://www.enmoretheatre.com.au/event/alestorm/",
     "https://www.enmoretheatre.com.au/event/all-the-feelings-tour-with-metric-broken-social-scene-stars/",
     "https://www.enmoretheatre.com.au/event/an-evening-with-lee-asher/",
     "https://www.enmoretheatre.com.au/event/anand-raman-sundeep-fernandes/",
@@ -2374,6 +2388,7 @@
     "https://www.metrotheatre.com.au/event/deca-joins/",
     "https://www.metrotheatre.com.au/event/domi-jd-beck-2/",
     "https://www.metrotheatre.com.au/event/drain/",
+    "https://www.metrotheatre.com.au/event/faster-pussycat-gilby-clarke-sunset-strip-oz-rock-tour/",
     "https://www.metrotheatre.com.au/event/fat-dog/",
     "https://www.metrotheatre.com.au/event/fcukers/",
     "https://www.metrotheatre.com.au/event/florence-road/",
@@ -2447,5 +2462,5 @@
     "https://www.metrotheatre.com.au/event/westside-cowboy/",
     "https://www.metrotheatre.com.au/event/winterbourne-2/"
   ],
-  "last_real_run_date": "2026-11-24"
+  "last_real_run_date": "2026-11-25"
 }
