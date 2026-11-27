@@ -558,6 +558,12 @@
         "https://www.enmoretheatre.com.au/event/l7-usa/"
       ]
     },
+    "la roux": {
+      "last_alerted": "2026-11-27",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/la-roux/"
+      ]
+    },
     "laugh out proud": {
       "last_alerted": "2026-11-12",
       "urls": [
@@ -1082,6 +1088,12 @@
         "https://www.metrotheatre.com.au/event/tiffany-day/"
       ]
     },
+    "tilly fenton all ages": {
+      "last_alerted": "2026-11-27",
+      "urls": [
+        "https://www.metrotheatre.com.au/event/tilly-fenton-all-ages/"
+      ]
+    },
     "tom allen totally": {
       "last_alerted": "2026-11-02",
       "urls": [
@@ -1110,6 +1122,12 @@
       "last_alerted": "2026-08-25",
       "urls": [
         "https://www.enmoretheatre.com.au/event/vince-staples/"
+      ]
+    },
+    "viva elvis the king lives chris connor": {
+      "last_alerted": "2026-11-27",
+      "urls": [
+        "https://www.enmoretheatre.com.au/event/viva-elvis-the-king-lives-chris-connor/"
       ]
     },
     "vlads": {
@@ -2354,6 +2372,7 @@
     "https://www.enmoretheatre.com.au/event/tom-gleeson/",
     "https://www.enmoretheatre.com.au/event/toni-and-ryan-live-podcast-recording/",
     "https://www.enmoretheatre.com.au/event/vince-staples/",
+    "https://www.enmoretheatre.com.au/event/viva-elvis-the-king-lives-chris-connor/",
     "https://www.enmoretheatre.com.au/event/viva-la-dirt-league-moved-to-factory-theatre/",
     "https://www.enmoretheatre.com.au/event/waterparks-2/",
     "https://www.enmoretheatre.com.au/event/whos-bad-2/",
@@ -2410,6 +2429,7 @@
     "https://www.metrotheatre.com.au/event/key-k/",
     "https://www.metrotheatre.com.au/event/knockout-afterparty/",
     "https://www.metrotheatre.com.au/event/kukaramakara/",
+    "https://www.metrotheatre.com.au/event/la-roux/",
     "https://www.metrotheatre.com.au/event/liberti-concert/",
     "https://www.metrotheatre.com.au/event/mass-of-the-fermenting-dregs-crowbar-upgrade/",
     "https://www.metrotheatre.com.au/event/medium-build/",
@@ -2456,11 +2476,12 @@
     "https://www.metrotheatre.com.au/event/the-smyths-2/",
     "https://www.metrotheatre.com.au/event/this-is-lorelei/",
     "https://www.metrotheatre.com.au/event/tiffany-day/",
+    "https://www.metrotheatre.com.au/event/tilly-fenton-all-ages/",
     "https://www.metrotheatre.com.au/event/trophy-eyes-3/",
     "https://www.metrotheatre.com.au/event/underscores-gg2333/",
     "https://www.metrotheatre.com.au/event/vlads/",
     "https://www.metrotheatre.com.au/event/westside-cowboy/",
     "https://www.metrotheatre.com.au/event/winterbourne-2/"
   ],
-  "last_real_run_date": "2026-11-26"
+  "last_real_run_date": "2026-11-27"
 }
