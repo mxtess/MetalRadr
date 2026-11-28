@@ -1312,6 +1312,11 @@
       "soft pop",
       "social media pop"
     ],
+    "cloudy": [
+      "ambient",
+      "new age",
+      "visual kei"
+    ],
     "club angel": [],
     "club angel | 18+": [],
     "conan gray": [
@@ -2125,6 +2130,7 @@
     "https://www.arc.unsw.edu.au/roundhouse/events/bingo-loco-18and-10",
     "https://www.arc.unsw.edu.au/roundhouse/events/bingo-loco-18and-11",
     "https://www.arc.unsw.edu.au/roundhouse/events/bingo-loco-aug-8",
+    "https://www.arc.unsw.edu.au/roundhouse/events/cloudy-18and",
     "https://www.arc.unsw.edu.au/roundhouse/events/club-angel-18and",
     "https://www.arc.unsw.edu.au/roundhouse/events/dior-da-ying-18and",
     "https://www.arc.unsw.edu.au/roundhouse/events/dj-shadow-18and",
@@ -2483,5 +2489,5 @@
     "https://www.metrotheatre.com.au/event/westside-cowboy/",
     "https://www.metrotheatre.com.au/event/winterbourne-2/"
   ],
-  "last_real_run_date": "2026-11-27"
+  "last_real_run_date": "2026-11-28"
 }
